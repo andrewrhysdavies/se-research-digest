@@ -1,0 +1,9 @@
+{
+  "name": "se-research-digest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Weekly shoulder & elbow research digest generator for shoulderandelbowclub.com",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node generate-digest.mjs" }
+}
