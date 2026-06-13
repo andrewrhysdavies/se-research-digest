@@ -1,10 +1,14 @@
+name: Weekly research digest
+
+# Runs every Monday at 07:00 UTC, and can also be run on demand from the
+# Actions tab (the "Run workflow" button) so you can test it immediately.
 on:
   schedule:
     - cron: '0 7 * * 1'
   workflow_dispatch: {}
 
 permissions:
-  contents: write
+  contents: write   # lets the job commit the refreshed digest.json back to the repo
 
 concurrency:
   group: weekly-digest
@@ -25,6 +29,7 @@ jobs:
       - name: Generate digest.json
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # The next two are optional. Leave the secrets unset if you do not have them.
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
           WINDOW_DAYS: '7'
@@ -34,7 +39,7 @@ jobs:
         run: |
           git config user.name  "digest-bot"
           git config user.email "digest-bot@users.noreply.github.com"
-          git add docs/digest.json
+          git add docs/*.json
           if git diff --staged --quiet; then
             echo "No change in digest.json this week. Nothing to commit."
           else
