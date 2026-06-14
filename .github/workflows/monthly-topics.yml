@@ -1,0 +1,48 @@
+name: Monthly topic digests
+ 
+# Runs at 08:00 UTC on the 1st of each month, and on demand from the Actions tab.
+on:
+  schedule:
+    - cron: '0 8 1 * *'
+  workflow_dispatch: {}
+ 
+permissions:
+  contents: write
+ 
+concurrency:
+  group: monthly-topics
+  cancel-in-progress: false
+ 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+ 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+ 
+      - name: Generate topic digests
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+          TOPIC_YEARS: '10'
+          TOP_N: '25'
+        run: node generate-topics.mjs
+ 
+      - name: Commit the updated topic files
+        run: |
+          git config user.name  "digest-bot"
+          git config user.email "digest-bot@users.noreply.github.com"
+          git add docs/topic-*.json
+          if git diff --staged --quiet; then
+            echo "No topic changes this month. Nothing to commit."
+          else
+            git commit -m "Monthly topic digest: $(date -u +%Y-%m-%d)"
+            git push
+          fi
+ 
