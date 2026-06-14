@@ -56,15 +56,24 @@ const EVIDENCE_PT = [
   'Practice Guideline', 'Guideline', 'Multicenter Study', 'Observational Study',
 ];
 
+// Relevance screen applied to EVERY topic: drop non-clinical work (cadaveric,
+// biomechanical, in-vitro), study protocols (no results yet) and retracted papers.
+const GLOBAL_EXCLUDE =
+  'cadaver*[tiab] OR biomechanic*[tiab] OR "in vitro"[tiab] OR ' +
+  '"study protocol"[ti] OR "rationale and design"[ti] OR "Clinical Trial Protocol"[pt] OR ' +
+  '"Retracted Publication"[pt] OR "Expression of Concern"[pt]';
+
 const TOPICS = [
   {
     key: 'rotator-cuff',
     name: 'Rotator cuff',
     out: 'docs/topic-rotator-cuff.json',
-    // Topic filter (title/abstract + MeSH). Edit freely to widen or narrow.
-    filter: '("rotator cuff"[tiab] OR "Rotator Cuff"[Mesh] OR "Rotator Cuff Injuries"[Mesh] OR ' +
-            'supraspinatus[tiab] OR infraspinatus[tiab] OR subscapularis[tiab] OR ' +
-            '"cuff repair"[tiab] OR "cuff tear"[tiab] OR "cuff tendinopathy"[tiab])',
+    // Topic filter: the cuff must be a MeSH MAJOR topic or appear in the title, so the
+    // paper is genuinely ABOUT the cuff, not merely mentioning it. Title terms also catch
+    // very recent papers that PubMed has not finished MeSH-indexing yet.
+    filter: '("Rotator Cuff"[Majr] OR "Rotator Cuff Injuries"[Majr] OR "rotator cuff"[ti] OR ' +
+            'supraspinatus[ti] OR infraspinatus[ti] OR subscapularis[ti] OR ' +
+            '"cuff repair"[ti] OR "cuff tear"[ti] OR "cuff tendinopathy"[ti])',
     // Keep this to native-shoulder cuff disease: exclude papers focused on shoulder
     // replacement / arthroplasty and on cuff tear arthropathy (the end-stage arthritic
     // shoulder treated with reverse replacement). Arthroplasty terms are matched in the
@@ -74,6 +83,12 @@ const TOPICS = [
              '"reverse total shoulder"[ti] OR hemiarthroplasty[ti] OR ' +
              '"cuff tear arthropathy"[tiab] OR "rotator cuff arthropathy"[tiab] OR ' +
              '"cuff arthropathy"[tiab] OR "Arthroplasty, Replacement, Shoulder"[Mesh]',
+    // Plain-English relevance scope, applied per paper by the AI relevance gate. Edit freely.
+    scope: 'Clinical research on the assessment, non-operative treatment, surgical repair or outcomes ' +
+           'of rotator cuff tears, cuff tendinopathy or related cuff disease in the native (non-replaced) ' +
+           'shoulder. Out of scope: studies primarily about shoulder replacement or cuff tear arthropathy; ' +
+           'pure imaging or diagnostic-test development without clinical management or outcomes; basic ' +
+           'science, anatomy or biomechanics; and studies where the rotator cuff is only incidental.',
   },
 ];
 
@@ -123,11 +138,33 @@ function withKeys(params) {
   if (CONFIG.email) params.set('email', CONFIG.email);
   return params;
 }
+
+// NIH iCite citation metrics by PMID. Free, no key, up to 1000 ids per call.
+// Returns Map(pmid -> {rcr, citations, nih_percentile}). Failures degrade to empty.
+async function fetchICite(pmids) {
+  const out = new Map();
+  for (let k = 0; k < pmids.length; k += 600) {
+    const chunk = pmids.slice(k, k + 600);
+    try {
+      const r = await fetchRetry('https://icite.od.nih.gov/api/pubs?pmids=' + chunk.join(','));
+      const j = await r.json();
+      (j.data || []).forEach((d) => out.set(String(d.pmid), {
+        rcr: (d.relative_citation_ratio == null ? null : Number(d.relative_citation_ratio)),
+        citations: (d.citation_count == null ? null : Number(d.citation_count)),
+        nih_percentile: (d.nih_percentile == null ? null : Number(d.nih_percentile)),
+      }));
+    } catch (e) {
+      console.warn(`    ! iCite fetch failed for a chunk: ${e.message}`);
+    }
+    await sleep(150);
+  }
+  return out;
+}
 async function esearchTopic(topic) {
   const journalsOr = '(' + JOURNALS.map((j) => `"${j.ta}"[ta]`).join(' OR ') + ')';
   const evidenceOr = '(' + EVIDENCE_PT.map((p) => `"${p}"[pt]`).join(' OR ') + ')';
   const term = `${journalsOr} AND ${topic.filter} AND ${evidenceOr}` +
-               (topic.exclude ? ` NOT (${topic.exclude})` : '');
+               ` NOT (${[GLOBAL_EXCLUDE, topic.exclude].filter(Boolean).join(' OR ')})`;
   const params = withKeys(new URLSearchParams({
     db: 'pubmed', term, retmode: 'json', retmax: '300',
     datetype: 'pdat', reldate: String(CONFIG.years * 365), sort: 'date',
@@ -181,15 +218,100 @@ function journalDisplay(f) {
   return hit ? hit.display : (ta || 'Journal');
 }
 
+// Trial / review registration, read from the MEDLINE SI field (verified metadata).
+function parseRegistration(f) {
+  for (const v of (f.SI || [])) {
+    const m = v.match(/^\s*([^/]+)\/(\S+)/);
+    if (!m) continue;
+    const registry = m[1].trim();
+    const id = m[2].trim();
+    const rl = registry.toLowerCase();
+    let url = '';
+    if (rl.includes('clinicaltrials')) url = 'https://clinicaltrials.gov/study/' + id;
+    else if (rl.includes('isrctn')) url = 'https://www.isrctn.com/' + id;
+    else if (rl.includes('prospero')) url = 'https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=' + id.replace(/\D/g, '');
+    return { registry, id, url };
+  }
+  return null;
+}
+
+// AI relevance gate. Classifies each candidate against the topic's editable scope as
+// core / related / off, judging only from title + abstract. This is a comprehension
+// task (not a quality judgement); on any error it defaults to "related" so nothing
+// on-topic is silently dropped. Off-topic papers are removed before ranking.
+async function classifyRelevance(topic, batch) {
+  const system =
+    'You decide whether each study fits a clinical evidence digest topic. Reply with ONLY a JSON ' +
+    'array, one object per study in the same order, each with keys i (the bracketed index), ' +
+    'relevance and reason. relevance is "core" (the study is primarily about the topic as defined), ' +
+    '"related" (it touches the topic but that is not its main focus), or "off" (not about the topic). ' +
+    'Judge only from the title and abstract. If unsure, use "related", never "off". reason is a short ' +
+    'phrase. No em dashes.';
+  const items = batch.map((r, i) => `[${i}] Title: ${r.title}\nAbstract: ${(r.abstract || '').slice(0, 700)}`).join('\n\n');
+  const user = `Topic scope:\n${topic.scope}\n\nClassify each study below.\n\n${items}`;
+  const body = { model: CONFIG.model, max_tokens: 700, system, messages: [{ role: 'user', content: user }] };
+  try {
+    const r = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'x-api-key': CONFIG.anthropicKey, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const data = await r.json();
+    const text = (data.content || []).filter((b) => b.type === 'text').map((b) => b.text).join('').trim();
+    const arr = JSON.parse(text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, ''));
+    const out = {};
+    (Array.isArray(arr) ? arr : []).forEach((o, idx) => {
+      const i = Number.isInteger(o.i) ? o.i : idx;
+      out[i] = { relevance: o.relevance, reason: o.reason };
+    });
+    return out;
+  } catch (e) {
+    console.warn(`    ! relevance batch failed (kept as related): ${e.message}`);
+    return {};
+  }
+}
+
+async function relevanceGate(topic, pool, existing) {
+  if (!topic.scope) { pool.forEach((r) => { r.relevance = 'core'; r.relevance_reason = ''; }); return; }
+  const todo = [];
+  for (const r of pool) {
+    const prev = existing.get('pmid-' + r.pmid);
+    if (prev && prev.relevance) { r.relevance = prev.relevance; r.relevance_reason = prev.relevance_reason || ''; }
+    else todo.push(r);
+  }
+  let gated = 0;
+  for (let k = 0; k < todo.length; k += 8) {
+    const batch = todo.slice(k, k + 8);
+    const res = await classifyRelevance(topic, batch);
+    batch.forEach((r, i) => {
+      const c = res[i] || {};
+      r.relevance = (c.relevance === 'core' || c.relevance === 'off') ? c.relevance : 'related';
+      r.relevance_reason = clean(c.reason || '');
+      gated++;
+    });
+    await sleep(250);
+  }
+  console.log(`  relevance: ${pool.length - todo.length} reused, ${gated} newly classified`);
+}
+
 async function summarise(rec) {
   const system =
-    'You summarise an orthopaedic research abstract for a patient-education topic page. ' +
-    'Reply with ONLY a JSON object: keys population, sample_size, outcomes, take_home. ' +
-    'UK English, NHS-style plain English, no em dashes. Each value a short string; use "" ' +
-    'if the abstract does not state it. take_home is one or two sentences on what this study ' +
-    'actually found, in plain English. Do not invent numbers or findings not in the abstract.';
+    'You read an orthopaedic research abstract for a clinical evidence digest. Reply with ONLY a JSON ' +
+    'object with keys: population, sample_size, outcomes, take_home, appraisal. population, sample_size ' +
+    'and outcomes are short strings; take_home is one or two plain-English sentences on what the study ' +
+    'found. appraisal is an object with keys n, followup, included_studies, participants, i2. Fill an ' +
+    'appraisal field ONLY if the abstract explicitly states it, otherwise use null; never infer, ' +
+    'estimate or calculate. n = total patients enrolled (integer). followup = the longest follow-up ' +
+    'stated (short string e.g. "2 years"). For systematic reviews and meta-analyses only: ' +
+    'included_studies = number of studies included (integer), participants = total participants pooled ' +
+    '(integer), i2 = the I-squared heterogeneity percentage (number 0 to 100). UK English, no em dashes. ' +
+    'Use "" for empty strings and null for empty appraisal fields.';
   const user = `Title: ${rec.title}\nStudy type: ${rec.study_type}\nAbstract: ${rec.abstract}`;
-  const body = { model: CONFIG.model, max_tokens: 700, system, messages: [{ role: 'user', content: user }] };
+  const body = { model: CONFIG.model, max_tokens: 800, system, messages: [{ role: 'user', content: user }] };
+  const intOrNull = (v, max) => { const n = Number(v); return (Number.isInteger(n) && n > 0 && n <= max) ? n : null; };
+  const numRange = (v, lo, hi) => { const n = Number(v); return (Number.isFinite(n) && n >= lo && n <= hi) ? n : null; };
+  const emptyAppraisal = { n: null, followup: null, included_studies: null, participants: null, i2: null };
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
       const r = await fetch('https://api.anthropic.com/v1/messages', {
@@ -201,14 +323,23 @@ async function summarise(rec) {
       const data = await r.json();
       const text = (data.content || []).filter((b) => b.type === 'text').map((b) => b.text).join('').trim();
       const parsed = JSON.parse(text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, ''));
+      const ap = parsed.appraisal || {};
+      const fu = ap.followup;
       return {
         population:  clean(parsed.population || ''),
         sample_size: clean(parsed.sample_size || ''),
         outcomes:    clean(parsed.outcomes || ''),
         take_home:   clean(parsed.take_home || ''),
+        appraisal: {
+          n: intOrNull(ap.n, 1000000),
+          followup: (typeof fu === 'string' && fu.trim() && fu.length <= 40) ? clean(fu) : null,
+          included_studies: intOrNull(ap.included_studies, 10000),
+          participants: intOrNull(ap.participants, 10000000),
+          i2: numRange(ap.i2, 0, 100),
+        },
       };
     } catch (e) {
-      if (attempt === 1) { console.warn(`    ! summary failed for PMID ${rec.pmid}: ${e.message}`); return { population:'', sample_size:'', outcomes:'', take_home:'' }; }
+      if (attempt === 1) { console.warn(`    ! summary failed for PMID ${rec.pmid}: ${e.message}`); return { population:'', sample_size:'', outcomes:'', take_home:'', appraisal: emptyAppraisal }; }
       await sleep(1200);
     }
   }
@@ -246,32 +377,82 @@ async function runTopic(topic) {
         pmid, title, abstract, study_type,
         authors: formatAuthors(f.AU || []), date: resolveDate(f), journal: journalDisplay(f),
         url: doi ? `https://doi.org/${doi}` : `https://pubmed.ncbi.nlm.nih.gov/${pmid}/`,
+        registration: parseRegistration(f),
+        multicentre: pts.includes('Multicenter Study'),
       });
     }
     await sleep(CONFIG.ncbiKey ? 120 : 350);
   }
-  // Dedupe, rank by evidence tier then recency, keep top N.
+  // Dedupe.
   const seen = new Set();
   records = records.filter((r) => (seen.has(r.pmid) ? false : seen.add(r.pmid)));
-  records.sort((a, b) => (tierOf(a.study_type) - tierOf(b.study_type)) || (b.date || '').localeCompare(a.date || ''));
-  records = records.slice(0, CONFIG.topN);
-  console.log(`  keeping top ${records.length} by evidence tier then date`);
 
-  // Reuse existing summaries; only summarise genuinely new entries.
+  // Citation impact (NIH iCite): factual, field- and time-normalised. Attach RCR,
+  // citation count and NIH percentile to each candidate.
+  const icite = await fetchICite(records.map((r) => r.pmid));
+  records.forEach((r) => {
+    const m = icite.get(String(r.pmid)) || {};
+    r.rcr = (m.rcr == null ? null : m.rcr);
+    r.citations = (m.citations == null ? null : m.citations);
+    r.nih_percentile = (m.nih_percentile == null ? null : m.nih_percentile);
+  });
+
+  // Rank: evidence tier first (hierarchy), then citation impact within tier, then recency.
+  // RCR needs roughly two years of citations to stabilise, so very recent papers (or any
+  // with no RCR yet) are scored at the field median (1.0) rather than penalised, then
+  // ordered by date so genuinely new work is not buried.
+  const now = Date.now();
+  const ageMonths = (d) => (!d ? 999 : (now - new Date(d).getTime()) / (1000 * 60 * 60 * 24 * 30.4));
+  const effRcr = (r) => (r.rcr != null && ageMonths(r.date) >= 24) ? r.rcr : 1.0;
+  records.sort((a, b) =>
+    (tierOf(a.study_type) - tierOf(b.study_type)) ||
+    (effRcr(b) - effRcr(a)) ||
+    (b.date || '').localeCompare(a.date || ''));
+
+  // Load any previous run (reused summaries + relevance classifications).
   const existing = await loadExisting(topic.out);
+
+  // Relevance gate on a generous pre-ranked pool: classify against the topic scope,
+  // drop off-topic, then re-rank preferring on-topic ("core") studies within each tier.
+  const POOL = Math.max(CONFIG.topN * 2, 40);
+  let pool = records.slice(0, POOL);
+  await relevanceGate(topic, pool, existing);
+  const before = pool.length;
+  pool = pool.filter((r) => r.relevance !== 'off');
+  console.log(`  dropped ${before - pool.length} off-topic; ${pool.length} remain`);
+  const relRank = (r) => (r.relevance === 'core' ? 0 : 1);
+  pool.sort((a, b) =>
+    (tierOf(a.study_type) - tierOf(b.study_type)) ||
+    (relRank(a) - relRank(b)) ||
+    (effRcr(b) - effRcr(a)) ||
+    (b.date || '').localeCompare(a.date || ''));
+  records = pool.slice(0, CONFIG.topN);
+  console.log(`  keeping top ${records.length} by tier, relevance, citation impact, then date`);
+
+  // Reuse existing summaries; re-summarise if missing or lacking the appraisal block.
   let reused = 0, fresh = 0;
   const articles = [];
   for (const rec of records) {
     const id = 'pmid-' + rec.pmid;
     const prev = existing.get(id);
     let s;
-    if (prev && (prev.take_home || prev.outcomes)) { s = prev; reused++; }
-    else { const out = await summarise(rec); fresh++; await sleep(250);
-           s = { population: out.population, sample_size: out.sample_size, outcomes: out.outcomes, take_home: out.take_home }; }
+    if (prev && prev.take_home && prev.appraisal) { s = prev; reused++; }
+    else {
+      const out = await summarise(rec); fresh++; await sleep(250);
+      s = { population: out.population, sample_size: out.sample_size, outcomes: out.outcomes, take_home: out.take_home, appraisal: out.appraisal };
+    }
     articles.push({
       id, title: rec.title, journal: rec.journal, authors: clean(rec.authors), date: rec.date,
       study_type: rec.study_type, population: s.population || '', sample_size: s.sample_size || '',
       outcomes: s.outcomes || '', take_home: s.take_home || '', url: rec.url,
+      rcr: (rec.rcr == null ? null : rec.rcr),
+      citations: (rec.citations == null ? null : rec.citations),
+      nih_percentile: (rec.nih_percentile == null ? null : rec.nih_percentile),
+      registration: rec.registration || null,
+      multicentre: !!rec.multicentre,
+      appraisal: s.appraisal || null,
+      relevance: rec.relevance || null,
+      relevance_reason: rec.relevance_reason || '',
     });
   }
   console.log(`  summaries: ${reused} reused, ${fresh} newly written`);
