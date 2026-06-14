@@ -68,12 +68,12 @@ const TOPICS = [
     key: 'rotator-cuff',
     name: 'Rotator cuff',
     out: 'docs/topic-rotator-cuff.json',
-    // Topic filter: the cuff must be a MeSH MAJOR topic or appear in the title, so the
-    // paper is genuinely ABOUT the cuff, not merely mentioning it. Title terms also catch
-    // very recent papers that PubMed has not finished MeSH-indexing yet.
-    filter: '("Rotator Cuff"[Majr] OR "Rotator Cuff Injuries"[Majr] OR "rotator cuff"[ti] OR ' +
-            'supraspinatus[ti] OR infraspinatus[ti] OR subscapularis[ti] OR ' +
-            '"cuff repair"[ti] OR "cuff tear"[ti] OR "cuff tendinopathy"[ti])',
+    // Recall filter: cuff as a MeSH term/major topic OR anywhere in title/abstract, so
+    // relevant papers that frame the topic differently (e.g. "subacromial pain") are still
+    // found. Precision is handled afterwards by the AI relevance gate, not by this filter.
+    filter: '("Rotator Cuff"[Majr] OR "Rotator Cuff"[Mesh] OR "Rotator Cuff Injuries"[Mesh] OR ' +
+            '"rotator cuff"[tiab] OR supraspinatus[tiab] OR infraspinatus[tiab] OR subscapularis[tiab] OR ' +
+            '"cuff repair"[tiab] OR "cuff tear"[tiab] OR "cuff tendinopathy"[tiab])',
     // Keep this to native-shoulder cuff disease: exclude papers focused on shoulder
     // replacement / arthroplasty and on cuff tear arthropathy (the end-stage arthritic
     // shoulder treated with reverse replacement). Arthroplasty terms are matched in the
@@ -387,6 +387,13 @@ async function runTopic(topic) {
   const seen = new Set();
   records = records.filter((r) => (seen.has(r.pmid) ? false : seen.add(r.pmid)));
 
+  // Visibility: how many candidates each configured journal returned (before ranking).
+  const candByJournal = {};
+  records.forEach((r) => { candByJournal[r.journal] = (candByJournal[r.journal] || 0) + 1; });
+  JOURNALS.forEach((j) => { if (!(j.display in candByJournal)) candByJournal[j.display] = 0; });
+  console.log('  candidates by journal: ' +
+    Object.entries(candByJournal).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k}=${v}`).join(', '));
+
   // Citation impact (NIH iCite): factual, field- and time-normalised. Attach RCR,
   // citation count and NIH percentile to each candidate.
   const icite = await fetchICite(records.map((r) => r.pmid));
@@ -456,15 +463,21 @@ async function runTopic(topic) {
     });
   }
   console.log(`  summaries: ${reused} reused, ${fresh} newly written`);
-  await writeTopic(topic, articles);
+  const finalByJournal = {};
+  articles.forEach((a) => { finalByJournal[a.journal] = (finalByJournal[a.journal] || 0) + 1; });
+  console.log('  final selection by journal: ' +
+    Object.entries(finalByJournal).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k}=${v}`).join(', '));
+  await writeTopic(topic, articles, finalByJournal);
 }
 
-async function writeTopic(topic, articles) {
+async function writeTopic(topic, articles, journalBreakdown) {
   const out = {
     generated_at: new Date().toISOString(), is_seed: false,
     topic_key: topic.key, topic_name: topic.name,
     count: articles.length, years: CONFIG.years, top_n: CONFIG.topN,
-    journals: JOURNALS.map((j) => j.display), articles,
+    journals: JOURNALS.map((j) => j.display),
+    journal_breakdown: journalBreakdown || {},
+    articles,
   };
   const json = JSON.stringify(out, null, 2);
   if (json.includes('\u2014')) throw new Error(`Refusing to write ${topic.out}: contains an em dash.`);
