@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T18:49:18.003Z",
+  "generated_at": "2026-06-14T19:21:17.096Z",
   "is_seed": false,
   "topic_key": "rotator-cuff",
   "topic_name": "Rotator cuff",
@@ -17,7 +17,67 @@
     "BMJ",
     "NEJM"
   ],
+  "journal_breakdown": {
+    "Acta Orthopaedica": 2,
+    "JSES": 21,
+    "BMJ": 1,
+    "BJJ": 1
+  },
   "articles": [
+    {
+      "id": "pmid-41718641",
+      "title": "Update of guideline for diagnosis and treatment of subacromial pain syndrome: a multidisciplinary review by the Dutch Orthopedic Association Part 2: Operative considerations and treatment of various conditions related to subacromial pain syndrome.",
+      "journal": "Acta Orthopaedica",
+      "authors": "Lambers Heerspink FO, Veen EJD, Dorrestijn O, Visser CPJ, Leijs MJC, Van Poppel D, et al.",
+      "date": "2026-02-16",
+      "study_type": "Clinical guideline",
+      "population": "Patients with subacromial pain syndrome, including supraspinatus tears, biceps tendon pathology, and calcific tendinosis",
+      "sample_size": "",
+      "outcomes": "Recommendations for operative management of supraspinatus tears, biceps tendon pathology, and calcific tendinosis",
+      "take_home": "Exercise-based therapy with corticosteroid injection should be the initial treatment for isolated symptomatic non-traumatic supraspinatus tears, with cuff repair considered if no improvement after 3-6 months. Barbotage is recommended for calcific tendinosis with surgery reserved for persistent large calcifications.",
+      "url": "https://doi.org/10.2340/17453674.2026.45410",
+      "rcr": null,
+      "citations": 1,
+      "nih_percentile": null,
+      "registration": null,
+      "multicentre": false,
+      "appraisal": {
+        "n": null,
+        "followup": null,
+        "included_studies": null,
+        "participants": null,
+        "i2": 0
+      },
+      "relevance": "core",
+      "relevance_reason": "Guidelines on surgical treatment of supraspinatus tears and rotator cuff tendinopathy"
+    },
+    {
+      "id": "pmid-41718640",
+      "title": "Update of guideline for diagnosis and treatment of subacromial pain syndrome: a multidisciplinary review by the Dutch Orthopedic Association Part 1: preventive measures, diagnostics, and non-surgical treatment of subacromial pain syndrome.",
+      "journal": "Acta Orthopaedica",
+      "authors": "Lambers Heerspink FO, Veen EJD, Dorrestijn O, Visser CPJ, Leijs MJC, Van Poppel D, et al.",
+      "date": "2026-02-16",
+      "study_type": "Clinical guideline",
+      "population": "Patients with subacromial pain syndrome (SAPS): non-traumatic, non-rheumatologic shoulder complaints painful during arm elevation",
+      "sample_size": "",
+      "outcomes": "Recommendations for prevention, diagnosis, imaging, and non-surgical treatment of SAPS",
+      "take_home": "The updated Dutch guideline recommends using a cluster of physical diagnostic tests for diagnosis, ultrasonography for suspected supraspinatus rupture, and conservative management including exercise therapy, corticosteroid injections, and suprascapular nerve block for therapy-resistant cases. Patient education about healthy lifestyle and gradual exercise is emphasised for prevention.",
+      "url": "https://doi.org/10.2340/17453674.2026.45365",
+      "rcr": null,
+      "citations": 1,
+      "nih_percentile": null,
+      "registration": null,
+      "multicentre": false,
+      "appraisal": {
+        "n": null,
+        "followup": null,
+        "included_studies": null,
+        "participants": null,
+        "i2": 0
+      },
+      "relevance": "core",
+      "relevance_reason": "Guidelines on non-surgical treatment and diagnosis of rotator cuff tendinopathy"
+    },
     {
       "id": "pmid-34089878",
       "title": "Risk factors affecting rotator cuff retear after arthroscopic repair: a meta-analysis and systematic review.",
@@ -44,6 +104,33 @@
       },
       "relevance": "core",
       "relevance_reason": "Systematic review of risk factors for retear after arthroscopic rotator cuff repair"
+    },
+    {
+      "id": "pmid-34233885",
+      "title": "Common elective orthopaedic procedures and their clinical effectiveness: umbrella review of level 1 evidence.",
+      "journal": "BMJ",
+      "authors": "Blom AW, Donovan RL, Beswick AD, Whitehouse MR, Kunutsor SK",
+      "date": "2021-07-07",
+      "study_type": "Meta-analysis",
+      "population": "Patients undergoing 10 common elective orthopaedic procedures (ACL reconstruction, meniscal repair, meniscectomy, rotator cuff repair, subacromial decompression, carpal tunnel decompression, lumbar spine decompression, lumbar spine fusion, total hip replacement, total knee replacement)",
+      "sample_size": "",
+      "outcomes": "Clinical effectiveness of orthopaedic procedures compared with no treatment, placebo, or non-operative care",
+      "take_home": "Randomised controlled trial evidence supports only carpal tunnel decompression and total knee replacement over non-operative care. Trial evidence for six other procedures showed no benefit over non-operative care, despite these procedures being recommended in national guidelines.",
+      "url": "https://doi.org/10.1136/bmj.n1511",
+      "rcr": 13.091726621733564,
+      "citations": 126,
+      "nih_percentile": 98.4,
+      "registration": null,
+      "multicentre": false,
+      "appraisal": {
+        "n": null,
+        "followup": null,
+        "included_studies": null,
+        "participants": null,
+        "i2": 0
+      },
+      "relevance": "core",
+      "relevance_reason": "Includes arthroscopic rotator cuff repair and subacromial decompression effectiveness"
     },
     {
       "id": "pmid-34906681",
@@ -611,87 +698,6 @@
       },
       "relevance": "core",
       "relevance_reason": "Systematic review comparing surgical adjunct to rotator cuff repair outcomes"
-    },
-    {
-      "id": "pmid-33373685",
-      "title": "Biceps tenodesis versus tenotomy: a systematic review and meta-analysis of level I randomized controlled trials.",
-      "journal": "JSES",
-      "authors": "Belk JW, Kraeutler MJ, Houck DA, Chrisman AN, Scillia AJ, McCarty EC",
-      "date": "2020-12-26",
-      "study_type": "Meta-analysis",
-      "population": "Patients with long head of biceps tendon pathology or superior labrum anterior-to-posterior tears undergoing arthroscopic surgery",
-      "sample_size": "468 patients (236 tenodesis, 232 tenotomy)",
-      "outcomes": "American Shoulder and Elbow Surgeons score, visual analog scale pain score, Constant-Murley score, range of motion, strength, and cosmetic deformity",
-      "take_home": "Biceps tenodesis and tenotomy produce similar improvements in patient-reported and functional outcomes. Tenodesis results in significantly lower rates of cosmetic deformity (6.8% versus 23.3%) compared with tenotomy.",
-      "url": "https://doi.org/10.1016/j.jse.2020.11.012",
-      "rcr": 7.689761622120988,
-      "citations": 57,
-      "nih_percentile": 96.1,
-      "registration": null,
-      "multicentre": false,
-      "appraisal": {
-        "n": null,
-        "followup": "23.0 months mean",
-        "included_studies": 5,
-        "participants": 468,
-        "i2": 0
-      },
-      "relevance": "related",
-      "relevance_reason": "Focuses on biceps tenodesis versus tenotomy; biceps is separate structure though may be treated concomitantly with cuff tears"
-    },
-    {
-      "id": "pmid-33607334",
-      "title": "A meta-analysis of level I evidence comparing tenotomy vs tenodesis in the management of long head of biceps pathology.",
-      "journal": "JSES",
-      "authors": "Zhu XM, Leroux T, Ben-David E, Dennis B, Gohal C, Kirsch JM, et al.",
-      "date": "2021-02-16",
-      "study_type": "Meta-analysis",
-      "population": "Patients undergoing surgical treatment for long head of biceps pathology",
-      "sample_size": "454 patients (227 tenotomy and 227 tenodesis)",
-      "outcomes": "Constant-Murley Shoulder Outcome Score, ASES shoulder score, pain on visual analog scale, postoperative strength, and Popeye deformity",
-      "take_home": "Tenotomy and tenodesis produce comparable clinical and functional outcomes for long head of biceps pathology. Tenodesis is superior to tenotomy in preventing Popeye deformity.",
-      "url": "https://doi.org/10.1016/j.jse.2021.02.002",
-      "rcr": 4.476418051576206,
-      "citations": 31,
-      "nih_percentile": 90.9,
-      "registration": null,
-      "multicentre": false,
-      "appraisal": {
-        "n": null,
-        "followup": null,
-        "included_studies": 5,
-        "participants": 454,
-        "i2": 0
-      },
-      "relevance": "related",
-      "relevance_reason": "Biceps pathology management is related but distinct from primary rotator cuff tear management"
-    },
-    {
-      "id": "pmid-35032677",
-      "title": "Obesity and sex influence fatty infiltration of the rotator cuff: the Rotator Cuff Outcomes Workgroup (ROW) and Multicenter Orthopaedic Outcomes Network (MOON) cohorts.",
-      "journal": "JSES",
-      "authors": "Giri A, Freeman TH, Kim P, Kuhn JE, Garriga GA, Khazzam M, et al.",
-      "date": "2022-01-13",
-      "study_type": "Meta-analysis",
-      "population": "Patients with rotator cuff tears from two multicenter cohorts (MOON and ROW)",
-      "sample_size": "238 patients (MOON n=80, ROW n=158)",
-      "outcomes": "Fatty infiltration of rotator cuff muscles assessed on magnetic resonance imaging",
-      "take_home": "Obesity and female sex are independently associated with higher odds of fatty infiltration in rotator cuff tears. Obese patients had 3.28-fold increased odds of fatty infiltration compared to patients with BMI less than 25 kg/m², and women were 4.9 times more likely to have fatty infiltration than men.",
-      "url": "https://doi.org/10.1016/j.jse.2021.12.011",
-      "rcr": 2.486606561482132,
-      "citations": 20,
-      "nih_percentile": 79.5,
-      "registration": null,
-      "multicentre": false,
-      "appraisal": {
-        "n": 238,
-        "followup": null,
-        "included_studies": 2,
-        "participants": 238,
-        "i2": 0
-      },
-      "relevance": "related",
-      "relevance_reason": "Prognostic factor study on fatty infiltration but not focused on management or outcomes"
     }
   ]
 }
