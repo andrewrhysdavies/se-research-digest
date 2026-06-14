@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T16:27:54.319Z",
+  "generated_at": "2026-06-14T17:55:26.547Z",
   "is_seed": false,
   "topic_key": "rotator-cuff",
   "topic_name": "Rotator cuff",
@@ -45,19 +45,6 @@
       "url": "https://doi.org/10.2340/17453674.2026.45365"
     },
     {
-      "id": "pmid-41276069",
-      "title": "Reverse versus anatomic total shoulder arthroplasty in patients over 70 with a competent rotator cuff and glenohumeral osteoarthritis: a meta-analysis.",
-      "journal": "JSES",
-      "authors": "Gupta MS, Krishan A, Rashid A, Lee MH",
-      "date": "2025-11-21",
-      "study_type": "Meta-analysis",
-      "population": "Patients aged 70 years and over with glenohumeral osteoarthritis and a functioning rotator cuff",
-      "sample_size": "1716 patients across 8 studies",
-      "outcomes": "Range of motion (external rotation, internal rotation, forward elevation, abduction), patient-reported function (ASES, Constant, SST scores), revision rates, complication rates, reoperation rates",
-      "take_home": "Anatomic shoulder replacement gives better arm rotation than reverse shoulder replacement in older patients with a good rotator cuff, but reverse replacement has fewer complications and revisions. The choice between them should depend on what matters most to the individual patient.",
-      "url": "https://doi.org/10.1016/j.jse.2025.10.015"
-    },
-    {
       "id": "pmid-40250823",
       "title": "Comparing shoulder surgery outcomes in workers' compensation versus nonworkers' compensation patients: a meta-analysis.",
       "journal": "JSES",
@@ -71,45 +58,6 @@
       "url": "https://doi.org/10.1016/j.jse.2025.03.004"
     },
     {
-      "id": "pmid-40239916",
-      "title": "Why do primary anatomic total shoulder arthroplasties fail today? A systematic review and meta-analysis.",
-      "journal": "JSES",
-      "authors": "Lauck BJ, Cathey JM, Adams NC, Reynolds AW, Trasolini NA, Waterman BR, et al.",
-      "date": "2025-04-15",
-      "study_type": "Meta-analysis",
-      "population": "Patients who underwent primary anatomic total shoulder arthroplasty for glenohumeral osteoarthritis",
-      "sample_size": "35,168 shoulder replacement procedures across 44 studies, with 2,744 failures",
-      "outcomes": "Causes of shoulder replacement failure including implant loosening, rotator cuff insufficiency, infection and instability",
-      "take_home": "Implant loosening, particularly of the glenoid (socket) component, is the most common reason why shoulder replacements fail, accounting for over a quarter of failures. Rotator cuff problems, infection and instability are also important causes of failure.",
-      "url": "https://doi.org/10.1016/j.jse.2025.02.057"
-    },
-    {
-      "id": "pmid-39002882",
-      "title": "Preoperative corticosteroid injections are associated with a higher periprosthetic infection rate following primary total shoulder arthroplasty: a systematic review and meta-analysis.",
-      "journal": "JSES",
-      "authors": "Schoell K, Crabb R, Simpson E, Deshpande V, Gardner V, Quilligan E, et al.",
-      "date": "2024-09-10",
-      "study_type": "Meta-analysis",
-      "population": "Patients undergoing primary total shoulder arthroplasty who received corticosteroid injections before surgery",
-      "sample_size": "136,233 patients across 7 studies",
-      "outcomes": "Periprosthetic joint infection (PJI) rate following shoulder arthroplasty",
-      "take_home": "Patients who had corticosteroid injections before shoulder surgery had a higher risk of infection after their operation, with the risk being higher when injections were given closer to the time of surgery. The overall infection rate was 5.4% for any prior injection, rising to 7.9% if injected within 3 months and 9.0% if injected within 1 month of surgery.",
-      "url": "https://doi.org/10.1016/j.jse.2024.05.025"
-    },
-    {
-      "id": "pmid-39142432",
-      "title": "Reverse versus anatomic total shoulder arthroplasty for glenohumeral osteoarthritis with intact cuff: a meta-analysis of clinical outcomes.",
-      "journal": "JSES",
-      "authors": "Daher M, Boufadel P, Fares MY, Lopez R, Goltz DE, Khan AZ, et al.",
-      "date": "2024-08-12",
-      "study_type": "Meta-analysis",
-      "population": "Patients with glenohumeral osteoarthritis and an intact rotator cuff",
-      "sample_size": "14 studies included in the meta-analysis",
-      "outcomes": "Complications, reoperations, pain and disability scores, shoulder function scores, and range of motion",
-      "take_home": "Reverse shoulder replacement had fewer complications and reoperations than anatomic shoulder replacement for osteoarthritis with an intact rotator cuff, and patients reported better pain and function scores. However, reverse shoulder replacement resulted in reduced external rotation (outward arm movement).",
-      "url": "https://doi.org/10.1016/j.jse.2024.06.026"
-    },
-    {
       "id": "pmid-38942225",
       "title": "Bioinductive patch as an augmentation for rotator cuff repair, a systematic review and meta-analysis.",
       "journal": "JSES",
@@ -121,19 +69,6 @@
       "outcomes": "Retear rate, pain, shoulder function scores, tendon thickness, complication rates, and patient-reported outcome measures",
       "take_home": "A bioinductive collagen patch used during rotator cuff repair surgery appears safe and may reduce the risk of the repair tearing again compared to standard repair alone, with retear rates of 8.3% for full-thickness and 1.1% for partial-thickness tears. Patient improvements in pain, function and tendon thickness were similar to standard repair, though complication rates were comparable or slightly higher.",
       "url": "https://doi.org/10.1016/j.jse.2024.05.002"
-    },
-    {
-      "id": "pmid-38888103",
-      "title": "International trends in shoulder replacement: a meta-analysis from 11 public joint registers.",
-      "journal": "Acta Orthopaedica",
-      "authors": "Rupani N, Combescure C, Silman A, Lubbeke A, Rees J",
-      "date": "2024-06-18",
-      "study_type": "Meta-analysis",
-      "population": "Patients undergoing shoulder replacement across 11 international public joint registries",
-      "sample_size": "Not specified in abstract",
-      "outcomes": "Annual growth rates of shoulder replacements, trends in use of reverse total shoulder replacement (RTSR) versus anatomical total shoulder replacement (TSR) and hemiarthroplasty across different diagnoses, standardisation of patient-reported outcomes measures",
-      "take_home": "Shoulder replacements are being performed more frequently, with reverse total shoulder replacements almost doubling in use between 2011 and 2019. However, this increase in reverse replacements is happening without strong evidence to support their use for most conditions, except for cuff tear arthropathy where they are now standard.",
-      "url": "https://doi.org/10.2340/17453674.2024.40948"
     },
     {
       "id": "pmid-38642872",
@@ -173,19 +108,6 @@
       "outcomes": "Functional scores (Constant-Murley), retear rates, pain, and reoperation rates",
       "take_home": "Adding bone marrow channeling to arthroscopic rotator cuff repair does not improve how well the shoulder works, reduce pain, lower the chance of the repair failing, or reduce the need for further surgery. The technique appears to offer no additional benefit compared to standard repair alone.",
       "url": "https://doi.org/10.1016/j.jse.2023.08.012"
-    },
-    {
-      "id": "pmid-37473906",
-      "title": "Subscapularis repair for reverse shoulder arthroplasty: a systematic review and meta-analysis.",
-      "journal": "JSES",
-      "authors": "Bethell MA, Hurley ET, Welch J, Cabell G, Levin J, Lassiter TE, et al.",
-      "date": "2023-07-18",
-      "study_type": "Meta-analysis",
-      "population": "Patients undergoing reverse shoulder arthroplasty",
-      "sample_size": "2620 patients across 17 studies",
-      "outcomes": "Shoulder instability, revision rates, complications, shoulder function scores (ASES and Constant scores), pain, and range of motion (forward flexion, internal rotation, external rotation, abduction)",
-      "take_home": "Repairing the subscapularis muscle during reverse shoulder surgery reduces instability compared to not repairing it, though this benefit is less clear when the implant is positioned differently. Function scores and some movements improved with repair, but the practical differences were small and did not reach clinically meaningful levels.",
-      "url": "https://doi.org/10.1016/j.jse.2023.06.011"
     },
     {
       "id": "pmid-37468032",
@@ -292,45 +214,6 @@
       "url": "https://doi.org/10.1016/j.jse.2023.01.014"
     },
     {
-      "id": "pmid-36453050",
-      "title": "Management of glenoid bone loss in primary reverse shoulder arthroplasty : a systematic review and meta-analysis.",
-      "journal": "BJJ",
-      "authors": "Wilcox B, Campbell RJ, Low AK, Yeoh T",
-      "date": "2022-12-01",
-      "study_type": "Meta-analysis",
-      "population": "Patients undergoing primary reverse shoulder arthroplasty with glenoid bone loss, mean age 72.2 years",
-      "sample_size": "919 shoulders across 13 studies (292 with bone graft, 627 with augmented prostheses)",
-      "outcomes": "Range of motion, patient-reported functional outcomes (American Shoulder and Elbow Surgeons Score), complication rates, revision rates",
-      "take_home": "Both bone grafting and augmented glenoid prostheses improve shoulder function and movement in reverse shoulder surgery for bone loss. Augmented prostheses had better functional scores and fewer complications and revisions than bone grafting.",
-      "url": "https://doi.org/10.1302/0301-620X.104B12.BJJ-2022-0819.R1"
-    },
-    {
-      "id": "pmid-36028205",
-      "title": "Total shoulder arthroplasty vs. hemiarthroplasty in patients with primary glenohumeral arthritis with intact rotator cuff: meta-analysis using the ratio of means.",
-      "journal": "JSES",
-      "authors": "Singh Jagdev B, McGrath J, Cole A, Gomaa AR, Chong HH, Singh HP",
-      "date": "2022-08-24",
-      "study_type": "Meta-analysis",
-      "population": "Adults with primary glenohumeral arthritis and an intact rotator cuff",
-      "sample_size": "1317 patients across 10 studies",
-      "outcomes": "Patient-reported outcome measures, revision surgery rates, and complication rates",
-      "take_home": "Total shoulder arthroplasty produced slightly better patient-reported outcomes than hemiarthroplasty and had lower rates of needing further surgery. The combined analysis suggests total shoulder arthroplasty carries a lower overall risk of complications or revision compared to hemiarthroplasty in patients with intact rotator cuffs.",
-      "url": "https://doi.org/10.1016/j.jse.2022.07.012"
-    },
-    {
-      "id": "pmid-35870805",
-      "title": "Outcomes and complications of primary reverse shoulder arthroplasty with minimum of 2 years' follow-up: a systematic review and meta-analysis.",
-      "journal": "JSES",
-      "authors": "Galvin JW, Kim R, Ment A, Durso J, Joslin PMN, Lemos JL, et al.",
-      "date": "2022-07-21",
-      "study_type": "Meta-analysis",
-      "population": "Patients undergoing primary reverse shoulder arthroplasty for rotator cuff tear arthropathy, irreparable rotator cuff tears, glenoid deformity, fracture sequelae, and revision shoulder arthroplasty",
-      "sample_size": "5824 shoulders from 52 studies",
-      "outcomes": "Active flexion improved by 56 degrees, active abduction by 50 degrees, active external rotation by 14 degrees. Constant score improved by 37 points and ASES score by 42 points. Overall complication rate 9.4%, revision rate 2.6%, infection rate 1.2%.",
-      "take_home": "Reverse shoulder replacement is a safe procedure with good outcomes, resulting in meaningful improvements in shoulder movement and function. Complications are relatively uncommon, occurring in about 1 in 10 patients.",
-      "url": "https://doi.org/10.1016/j.jse.2022.06.005"
-    },
-    {
       "id": "pmid-35738544",
       "title": "Does suprascapular nerve release provide additional benefits for rotator cuff repair: a systematic review and meta-analysis.",
       "journal": "JSES",
@@ -342,6 +225,123 @@
       "outcomes": "Shoulder function scores and pain relief (visual analog scale) after surgery",
       "take_home": "Adding suprascapular nerve release to rotator cuff repair did not provide extra benefits for shoulder function or pain relief compared to repair alone. Both groups improved after surgery, but there was no significant difference between them.",
       "url": "https://doi.org/10.1016/j.jse.2022.05.015"
+    },
+    {
+      "id": "pmid-35461979",
+      "title": "Subscapularis management during open Latarjet procedure: does subscapularis split versus tenotomy matter? A systematic review and meta-analysis.",
+      "journal": "JSES",
+      "authors": "Davey MS, Davey MG, Hurley ET, Mullett H",
+      "date": "2022-04-21",
+      "study_type": "Meta-analysis",
+      "population": "Adults undergoing open Latarjet procedure via deltopectoral approach for shoulder instability",
+      "sample_size": "615 shoulders from 5 studies (410 tenotomy, 205 split)",
+      "outcomes": "Rowe score, Constant score, American Shoulder and Elbow Surgeons score, lift-off test results, recurrent instability rates",
+      "take_home": "Splitting the subscapularis muscle during open Latarjet surgery resulted in better shoulder function and lower rates of muscle weakness compared to cutting the tendon, with a trend towards fewer cases of recurrent shoulder instability.",
+      "url": "https://doi.org/10.1016/j.jse.2022.03.008"
+    },
+    {
+      "id": "pmid-35430368",
+      "title": "Efficacy of liposomal bupivacaine for pain control in shoulder surgery: a systematic review and meta-analysis.",
+      "journal": "JSES",
+      "authors": "Li Y, Shen Z, Wang H, Feng T, Xia Y",
+      "date": "2022-04-14",
+      "study_type": "Meta-analysis",
+      "population": "People undergoing total shoulder arthroplasty or rotator cuff repair surgery",
+      "sample_size": "846 subjects across 11 randomised controlled trials",
+      "outcomes": "Pain scores at 24 and 48 hours after surgery, opioid use at 24 and 48 hours, hospital stay duration, and complications within 48 hours",
+      "take_home": "Liposomal bupivacaine was no better than standard pain relief agents for controlling pain or reducing opioid use after shoulder surgery. Hospital stays and complication rates were also similar between the two approaches.",
+      "url": "https://doi.org/10.1016/j.jse.2022.02.037"
+    },
+    {
+      "id": "pmid-35032677",
+      "title": "Obesity and sex influence fatty infiltration of the rotator cuff: the Rotator Cuff Outcomes Workgroup (ROW) and Multicenter Orthopaedic Outcomes Network (MOON) cohorts.",
+      "journal": "JSES",
+      "authors": "Giri A, Freeman TH, Kim P, Kuhn JE, Garriga GA, Khazzam M, et al.",
+      "date": "2022-01-13",
+      "study_type": "Meta-analysis",
+      "population": "Patients with rotator cuff tears",
+      "sample_size": "238 patients (80 from MOON cohort and 158 from ROW cohort)",
+      "outcomes": "Fatty infiltration of the rotator cuff muscle, assessed on magnetic resonance imaging",
+      "take_home": "Obese patients with rotator cuff tears were over three times more likely to have fatty infiltration compared to those with a normal body mass index, and women were nearly five times more likely to have fatty infiltration than men. These findings suggest that obesity and sex may be important factors affecting the quality of rotator cuff muscle and potentially influencing surgical outcomes.",
+      "url": "https://doi.org/10.1016/j.jse.2021.12.011"
+    },
+    {
+      "id": "pmid-34906681",
+      "title": "Treatment of rotator cuff tears: a systematic review and meta-analysis.",
+      "journal": "JSES",
+      "authors": "Lapner P, Henry P, Athwal GS, Moktar J, McNeil D, MacDonald P",
+      "date": "2021-12-11",
+      "study_type": "Meta-analysis",
+      "population": "Adults aged 18 years and over with full-thickness rotator cuff tears",
+      "sample_size": "1096 randomized patients in the main meta-analysis of fixation methods; additional observational studies included in systematic reviews",
+      "outcomes": "Patient-reported function, pain levels, and reoperation (retear) rates",
+      "take_home": "Double-row fixation leads to better healing rates than single-row fixation, although both methods improve function and pain similarly. Latissimus dorsi transfer, partial repair, lower trapezius transfer and superior capsular reconstruction produce similar functional improvements, but more high-quality research is needed to confirm the best treatment approach.",
+      "url": "https://doi.org/10.1016/j.jse.2021.11.002"
+    },
+    {
+      "id": "pmid-34813890",
+      "title": "The effects of smoking on clinical and structural outcomes after rotator cuff repair: a systematic review and meta-analysis.",
+      "journal": "JSES",
+      "authors": "Fan N, Yuan S, Du P, Wu Q, Li J, Kong X, et al.",
+      "date": "2021-11-20",
+      "study_type": "Meta-analysis",
+      "population": "Patients undergoing arthroscopic or open rotator cuff repair",
+      "sample_size": "73,817 participants (8,553 smokers and 65,264 nonsmokers) across 14 studies",
+      "outcomes": "Clinical outcome scores (American Shoulder and Elbow Surgeons, Simple Shoulder Test, University of California-Los Angeles, Constant, visual analog scale), rotator cuff retear, reoperation",
+      "take_home": "Smokers had similar clinical scores to non-smokers after rotator cuff repair, except for slightly lower Constant scores. However, smokers had roughly double the risk of retear and a 29% higher risk of needing another operation.",
+      "url": "https://doi.org/10.1016/j.jse.2021.10.026"
+    },
+    {
+      "id": "pmid-34233885",
+      "title": "Common elective orthopaedic procedures and their clinical effectiveness: umbrella review of level 1 evidence.",
+      "journal": "BMJ",
+      "authors": "Blom AW, Donovan RL, Beswick AD, Whitehouse MR, Kunutsor SK",
+      "date": "2021-07-07",
+      "study_type": "Meta-analysis",
+      "population": "Patients undergoing common elective orthopaedic procedures",
+      "sample_size": "",
+      "outcomes": "Clinical effectiveness of ten common elective orthopaedic procedures (including knee surgery, rotator cuff repair, spinal surgery, and hip and knee replacement) compared with non-operative care or placebo",
+      "take_home": "Only carpal tunnel decompression and total knee replacement have strong evidence that they work better than non-operative care. Most other common elective orthopaedic procedures do not have good evidence showing they are better than non-operative treatment, yet national guidelines still recommend some of them in certain situations.",
+      "url": "https://doi.org/10.1136/bmj.n1511"
+    },
+    {
+      "id": "pmid-34089878",
+      "title": "Risk factors affecting rotator cuff retear after arthroscopic repair: a meta-analysis and systematic review.",
+      "journal": "JSES",
+      "authors": "Zhao J, Luo M, Pan J, Liang G, Feng W, Zeng L, et al.",
+      "date": "2021-06-02",
+      "study_type": "Meta-analysis",
+      "population": "Patients undergoing arthroscopic rotator cuff repair",
+      "sample_size": "5693 patients across 14 studies from 6 countries",
+      "outcomes": "Risk factors for retear after arthroscopic rotator cuff repair, including age, BMI, diabetes, fatty infiltration, tear size, bone mineral density, critical shoulder angle and operative duration",
+      "take_home": "This review found that patients undergoing rotator cuff repair surgery have multiple risk factors that predict whether the repair will fail, including patient factors like age and diabetes, and technical factors like tear size and operative duration. Identifying these risk factors early could help clinicians develop targeted strategies to reduce retear rates.",
+      "url": "https://doi.org/10.1016/j.jse.2021.05.010"
+    },
+    {
+      "id": "pmid-34020002",
+      "title": "Rotator cuff repair vs. nonoperative treatment: a systematic review with meta-analysis.",
+      "journal": "JSES",
+      "authors": "Brindisino F, Salomon M, Giagio S, Pastore C, Innocenti T",
+      "date": "2021-05-19",
+      "study_type": "Meta-analysis",
+      "population": "Patients with rotator cuff tears of any type",
+      "sample_size": "Six randomised controlled trials included in the meta-analysis",
+      "outcomes": "Function and pain at 6, 12 and 24 months after treatment",
+      "take_home": "Surgery for rotator cuff tears did lead to better pain reduction and function compared to non-operative treatment, but these improvements were small and may not have been noticeable to patients in practice. The quality of evidence was low to moderate.",
+      "url": "https://doi.org/10.1016/j.jse.2021.04.040"
+    },
+    {
+      "id": "pmid-33607334",
+      "title": "A meta-analysis of level I evidence comparing tenotomy vs tenodesis in the management of long head of biceps pathology.",
+      "journal": "JSES",
+      "authors": "Zhu XM, Leroux T, Ben-David E, Dennis B, Gohal C, Kirsch JM, et al.",
+      "date": "2021-02-16",
+      "study_type": "Meta-analysis",
+      "population": "Patients undergoing surgery for long head of biceps pathology",
+      "sample_size": "454 patients across 5 studies (227 tenotomy, 227 tenodesis)",
+      "outcomes": "Constant-Murley Shoulder Outcome Score, ASES shoulder score, pain, postoperative strength, Popeye deformity",
+      "take_home": "Both tenotomy and tenodesis surgery improve long head of biceps problems with similar results for shoulder function and pain. Tenodesis is better at preventing Popeye deformity (the visible bulge in the arm) compared to tenotomy.",
+      "url": "https://doi.org/10.1016/j.jse.2021.02.002"
     }
   ]
 }
