@@ -65,6 +65,15 @@ const TOPICS = [
     filter: '("rotator cuff"[tiab] OR "Rotator Cuff"[Mesh] OR "Rotator Cuff Injuries"[Mesh] OR ' +
             'supraspinatus[tiab] OR infraspinatus[tiab] OR subscapularis[tiab] OR ' +
             '"cuff repair"[tiab] OR "cuff tear"[tiab] OR "cuff tendinopathy"[tiab])',
+    // Keep this to native-shoulder cuff disease: exclude papers focused on shoulder
+    // replacement / arthroplasty and on cuff tear arthropathy (the end-stage arthritic
+    // shoulder treated with reverse replacement). Arthroplasty terms are matched in the
+    // title only, so a native-shoulder paper that merely mentions replacement as a
+    // salvage option in its abstract is still kept.
+    exclude: 'arthroplasty[ti] OR "shoulder replacement"[ti] OR "reverse shoulder"[ti] OR ' +
+             '"reverse total shoulder"[ti] OR hemiarthroplasty[ti] OR ' +
+             '"cuff tear arthropathy"[tiab] OR "rotator cuff arthropathy"[tiab] OR ' +
+             '"cuff arthropathy"[tiab] OR "Arthroplasty, Replacement, Shoulder"[Mesh]',
   },
 ];
 
@@ -117,7 +126,8 @@ function withKeys(params) {
 async function esearchTopic(topic) {
   const journalsOr = '(' + JOURNALS.map((j) => `"${j.ta}"[ta]`).join(' OR ') + ')';
   const evidenceOr = '(' + EVIDENCE_PT.map((p) => `"${p}"[pt]`).join(' OR ') + ')';
-  const term = `${journalsOr} AND ${topic.filter} AND ${evidenceOr}`;
+  const term = `${journalsOr} AND ${topic.filter} AND ${evidenceOr}` +
+               (topic.exclude ? ` NOT (${topic.exclude})` : '');
   const params = withKeys(new URLSearchParams({
     db: 'pubmed', term, retmode: 'json', retmax: '300',
     datetype: 'pdat', reldate: String(CONFIG.years * 365), sort: 'date',
