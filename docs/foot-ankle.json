@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T06:51:54.182Z",
+  "generated_at": "2026-06-15T06:03:35.928Z",
   "is_seed": false,
   "subspecialty": "foot-ankle",
   "count": 5,
@@ -22,11 +22,11 @@
       "journal": "Bone & Joint Open",
       "authors": "Teo LS, Xiao L, Yeo BKK, Rayapati R, Lim AKS, Hoipo Hui J, et al.",
       "date": "2026-06-11",
-      "study_type": "Systematic review of classification systems",
+      "study_type": "Systematic review of reliability and clinical utility studies",
       "population": "Paediatric ankle fractures",
       "sample_size": "42 studies covering 11 classification systems",
-      "outcomes": "Inter- and intraobserver reliability of classification systems; clinical utility in guiding treatment and predicting outcomes including premature physeal closure and angular deformity",
-      "take_home": "The Dias-Tachdjian classification was most reliable for paediatric ankle fractures, whilst the Salter-Harris classification was most commonly used and best at predicting physeal closure. Using both anatomical and mechanistic classification systems together may help improve treatment planning and predictions of outcomes.",
+      "outcomes": "Inter- and intraobserver reliability of classification systems; predictive value for premature physeal closure and angular deformity",
+      "take_home": "The Dias-Tachdjian classification system was most reliable for helping doctors agree on how to classify children's ankle fractures, whilst the Salter-Harris system was most commonly used and best at predicting whether the growth plate would close early. Using both types of classification together may help predict outcomes and plan treatment better.",
       "url": "https://doi.org/10.1302/2633-1462.76.BJO-2025-0250.R1"
     },
     {
@@ -35,11 +35,11 @@
       "journal": "Foot & Ankle Int",
       "authors": "Recheis S, Mattausch D, Kuehn N, Kindermann H, Ortmaier R, Bischofreiter M, et al.",
       "date": "2026-06-10",
-      "study_type": "Single-centre exploratory follow-up study",
-      "population": "Patients who underwent isolated first metatarsophalangeal joint arthrodesis",
+      "study_type": "Single-centre follow-up study",
+      "population": "Patients who underwent first metatarsophalangeal joint arthrodesis for painful end-stage degenerative, inflammatory, post-traumatic conditions or severe deformities",
       "sample_size": "77 patients (45 female, 32 male) followed up at mean 106.9 months",
-      "outcomes": "Radiographic osteoarthritis progression in adjacent joints using Kellgren-Lawrence classification; clinical outcomes measured by AOFAS HMI, FAOS, and FFI scores; patient satisfaction; complications",
-      "take_home": "First metatarsophalangeal joint fusion provides excellent long-term satisfaction and function, with over 90% of patients reporting good or excellent outcomes. Whilst arthritis developed in nearby joints over time, particularly in the big toe joint itself, these changes did not affect how well patients actually functioned or felt.",
+      "outcomes": "Radiographic osteoarthritis progression in adjacent joints (interphalangeal, tarsometatarsal, naviculocuneiform, talonavicular); clinical outcomes measured by AOFAS HMI score, FAOS, FFI; patient satisfaction; revision rates",
+      "take_home": "First metatarsophalangeal joint fusion provides excellent long-term satisfaction and function, with 91% of patients reporting good or excellent results. Whilst arthritis can develop in nearby joints over time, particularly in the joint just below the fused area, this did not affect how well patients actually did or their satisfaction with the surgery.",
       "url": "https://doi.org/10.1177/10711007261441611"
     },
     {
@@ -51,8 +51,8 @@
       "study_type": "Cadaveric biomechanical study",
       "population": "Fresh frozen human cadaveric ankle specimens",
       "sample_size": "8 specimens",
-      "outcomes": "Talar shift (lateral translation), valgus tilt, and internal and external rotation under constant axial load measured on fluoroscopic images",
-      "take_home": "Both syndesmotic screw fixation and deltoid ligament repair restore side-to-side stability of the ankle when combined with fibular plate fixation in this fracture model. However, deltoid ligament repair was superior at restoring rotational and tilting stability, suggesting it may provide more comprehensive stabilisation than syndesmotic screw fixation alone.",
+      "outcomes": "Talar shift (lateral translation), valgus tilt, and internal and external rotation stability measured under 45-N axial load",
+      "take_home": "Both syndesmotic screw fixation and deltoid ligament repair restored sideways ankle stability when combined with fibular plate fixation, but deltoid ligament repair alone better restored the ankle's ability to resist tilting and twisting movements.",
       "url": "https://doi.org/10.1177/10711007261445948"
     },
     {
@@ -62,10 +62,10 @@
       "authors": "Lee HJ, Yew KSA, Yeo W, Mohamed Buhary KS, Toh RX, Li Z, et al.",
       "date": "2026-06-08",
       "study_type": "Retrospective cohort study using prospectively collected data",
-      "population": "Patients undergoing hallux valgus (bunion) surgery",
+      "population": "Patients who underwent hallux valgus (bunion) surgery",
       "sample_size": "361 patients (324 female, 37 male) followed for 2 years",
-      "outcomes": "Patient acceptable symptom state (PASS) thresholds for European Foot & Ankle Society (EFAS) Score: 20.5 at 6 months and 23.5 at 2 years. AOFAS PASS thresholds: 84.5 at 6 months and 82.5 at 2 years.",
-      "take_home": "Researchers have identified the score that represents a satisfactory outcome after bunion surgery for the EFAS measure, which can help clinicians and patients understand whether surgery has achieved an acceptable result. The study found these target scores at both 6 months and 2 years after various types of bunion surgery.",
+      "outcomes": "Patient acceptable symptom state (PASS) thresholds for EFAS Score at 6 months (20.5) and 2 years (23.5) postoperatively; AOFAS PASS thresholds at 6 months (84.5) and 2 years (82.5)",
+      "take_home": "Researchers have identified the scores on the EFAS questionnaire that represent acceptable symptom improvement after bunion surgery, which can help evaluate future treatments. The study found that patients typically needed to reach scores of 20.5 at six months and 23.5 at two years to consider their symptoms acceptable.",
       "url": "https://doi.org/10.1177/10711007261444286"
     },
     {
@@ -75,10 +75,10 @@
       "authors": "Richter M, Agren PH, Besse JL, Coester M, Kofoed H, Maffulli N, et al.",
       "date": "2026-06-06",
       "study_type": "Validation study",
-      "population": "Patients with a wide variety of foot and ankle pathologies",
+      "population": "Patients with foot and ankle pathologies undergoing surgery",
       "sample_size": "",
-      "outcomes": "Internal consistency (Cronbach's Alpha 0.86), Standard Error of Measurement (0.31), responsiveness (effect size 1.05), improvement in EFAS score at follow-up",
-      "take_home": "The Norwegian version of the EFAS Score has been successfully validated as a reliable tool for measuring foot and ankle outcomes, with 77% of patients showing improvement after surgery. The score works as well in Norwegian as it does in other languages.",
+      "outcomes": "Internal consistency (Cronbach's Alpha 0.86), Standard Error of Measurement (0.31), responsiveness (effect size 1.05), 77% of patients showed improvement in EFAS score",
+      "take_home": "The Norwegian version of the EFAS Score is a reliable and responsive tool for measuring foot and ankle surgical outcomes. It successfully measured improvement in most patients over 3 to 6 months after surgery.",
       "url": "https://doi.org/10.1016/j.fas.2026.06.001"
     }
   ]

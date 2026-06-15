@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-13T06:49:18.194Z",
+  "generated_at": "2026-06-15T06:00:17.896Z",
   "is_seed": false,
   "subspecialty": "shoulder-elbow",
-  "count": 14,
+  "count": 9,
   "window_days": 7,
   "journals": [
     "JSES",
@@ -25,8 +25,8 @@
       "study_type": "Retrospective case series",
       "population": "Patients with distal biceps tendon ruptures treated conservatively (non-surgically)",
       "sample_size": "30 patients",
-      "outcomes": "Strength deficits (supination and flexion), pain during repetitive activities, DASH and MEPS scores, fatigue",
-      "take_home": "Non-surgical treatment for distal biceps tendon rupture works reasonably well for sedentary patients, with only modest strength loss and good functional scores. However, people doing heavy or repetitive manual work had worse outcomes and more pain, so surgery may be preferable for them.",
+      "outcomes": "Strength deficits (supination and flexion), pain during repetitive activities, DASH and MEPS scores, fatigue measured by dynamometry",
+      "take_home": "Conservative treatment for distal biceps tendon ruptures works reasonably well in sedentary patients with only minor strength loss, but patients doing heavy or repetitive manual work had worse outcomes and more pain, so surgery may be better for them. About one in five conservatively treated patients reported significant pain with repetitive activities.",
       "url": "https://doi.org/10.1016/j.jse.2026.05.041"
     },
     {
@@ -35,11 +35,11 @@
       "journal": "JSES",
       "authors": "Manzi J, Dillon M, Dowling B, Eskew J, Patel S, Kunze K, et al.",
       "date": "2026-06-11",
-      "study_type": "Propensity-matched observational cohort study",
+      "study_type": "Propensity matched observational cohort study",
       "population": "Professional baseball pitchers",
-      "sample_size": "339 pitchers evaluated; 33 with early trunk rotation matched to 132 with late trunk rotation",
-      "outcomes": "Shoulder and elbow distractive forces, ball velocity, trunk rotation velocity, stride length, shoulder external rotation, pelvic position, and prior injury prevalence",
-      "take_home": "Professional pitchers who rotate their trunk early (before foot contact) experience greater forces on their shoulder and elbow compared to those who rotate later, but throw at similar speeds. This suggests early trunk rotation may place unnecessary stress on the throwing arm without performance benefit.",
+      "sample_size": "339 pitchers (33 with early trunk rotation matched to 132 with late trunk rotation, creating 132 matched pairs)",
+      "outcomes": "Shoulder and elbow distractive forces, ball velocity, trunk and pelvis mechanics, prior injury prevalence",
+      "take_home": "Professional pitchers who start trunk rotation before their front foot lands experience greater stress on their shoulder and elbow than those who rotate later, but throw the ball at the same speed. This suggests their arms work harder to compensate for less efficient mechanics, and coaches should encourage pitchers to delay trunk rotation until after foot contact.",
       "url": "https://doi.org/10.1016/j.jse.2026.05.042"
     },
     {
@@ -49,10 +49,10 @@
       "authors": "Gul O, Ayazoglu MA, Yazici A, Durusoy S, Gurun E, Okutan AE",
       "date": "2026-06-09",
       "study_type": "Retrospective comparative study with propensity score matching",
-      "population": "Patients undergoing primary arthroscopic rotator cuff repair with either all-suture anchors or PEEK anchors",
-      "sample_size": "68 patients (34 matched pairs)",
-      "outcomes": "Clinical outcomes (pain, shoulder function, range of motion), tendon healing rates, and perianchor fluid collection on MRI at minimum 2-year follow-up",
-      "take_home": "All-suture anchors and PEEK anchors produced similar clinical results and healing rates, but all-suture anchors had less fluid collection around the anchor. In PEEK anchors, fluid collection was linked to healing problems, but this connection was not seen with all-suture anchors.",
+      "population": "Patients undergoing primary arthroscopic rotator cuff repair",
+      "sample_size": "34 matched pairs (68 patients total)",
+      "outcomes": "Pain (VAS), function (ASES score), range of motion, tendon healing rates (Sugaya classification), and perianchor fluid collection on MRI at minimum 2-year follow-up",
+      "take_home": "Both all-suture and PEEK anchors produced similar clinical improvements and healing rates, but all-suture anchors had less fluid collection around the anchor site. Fluid collection around PEEK anchors was linked to poorer healing, whilst this link was not seen with all-suture anchors.",
       "url": "https://doi.org/10.1016/j.jse.2026.05.033"
     },
     {
@@ -61,11 +61,11 @@
       "journal": "JSES",
       "authors": "Karasuyama M, Ishikawa H, Uchida T, Saka M, Muraki T, Minamikawa T, et al.",
       "date": "2026-06-09",
-      "study_type": "Scoping review of randomised controlled trials",
+      "study_type": "Scoping review of randomized controlled trials",
       "population": "Adults with frozen shoulder or adhesive capsulitis",
-      "sample_size": "310 randomised controlled trials included from 4,426 records identified",
-      "outcomes": "How frozen shoulder has been defined across trials in terms of age criteria, pain characteristics, range of motion limitations, symptom duration, and imaging requirements",
-      "take_home": "Frozen shoulder is defined very differently across research studies, making it hard to compare results between trials. Researchers need to agree on standard definitions covering age, pain levels, movement restrictions, how long symptoms have lasted, and what imaging tests to use.",
+      "sample_size": "310 randomized controlled trials identified from 4,426 records",
+      "outcomes": "How frozen shoulder is defined across trials, including terminology used, age criteria, pain characteristics, range of motion limitations, symptom duration, and imaging requirements",
+      "take_home": "Frozen shoulder is defined very differently across research trials, making it hard to compare results between studies. Researchers need to agree on standard definitions covering age ranges, how much pain patients have, how much movement is lost, and how long symptoms have lasted.",
       "url": "https://doi.org/10.1016/j.jse.2026.05.040"
     },
     {
@@ -74,11 +74,11 @@
       "journal": "Shoulder & Elbow",
       "authors": "Kalva SR, Fucich D, Perry AJ, Lezak B, Torkieh J, Joshi T, et al.",
       "date": "2026-06-09",
-      "study_type": "Retrospective review of institutional trends and radiation risk analysis",
+      "study_type": "Retrospective cohort study",
       "population": "Patients undergoing primary shoulder arthroplasty from 2016 to 2024",
-      "sample_size": "100 patients stratified by sex, age, and cancer type for risk projection",
-      "outcomes": "Annual percentage of patients receiving preoperative CT scans; estimated lifetime attributable risk of cancer by age group and sex",
-      "take_home": "The use of preoperative CT scans for shoulder surgery has increased from 53% to 66% of patients over eight years. These scans carry a small but measurable risk of radiation-related cancer, particularly in younger women, though the overall risk remains low.",
+      "sample_size": "Not specified in abstract",
+      "outcomes": "Annual percentage of patients receiving preoperative CT scans and estimated lifetime attributable cancer risk stratified by age and sex",
+      "take_home": "The use of preoperative CT scans for shoulder surgery has increased from 53% to 66% of patients over nine years. Whilst the cancer risk from these scans is small, younger women may have a slightly higher projected cancer risk than older patients.",
       "url": "https://doi.org/10.1177/17585732261453604"
     },
     {
@@ -88,10 +88,10 @@
       "authors": "Chen NH, Lin CL, Cheng YH, Chiu YS, Hsu TH, Huang SW",
       "date": "2026-06-08",
       "study_type": "Retrospective cohort study",
-      "population": "Patients who developed adhesive capsulitis (shoulder stiffness) after rotator cuff repair surgery and received corticosteroid injection",
+      "population": "Patients who developed adhesive capsulitis (shoulder stiffness) after rotator cuff repair surgery and received corticosteroid injections",
       "sample_size": "Not stated in abstract",
-      "outcomes": "Pain scores and range of motion at 8 weeks; fatty infiltration measured on preoperative MRI using Goutallier fatty degeneration index",
-      "take_home": "Patients with higher levels of fat infiltration in shoulder muscles before surgery (measured on MRI scans) were six times more likely to have corticosteroid injections fail to relieve their stiffness. This finding may help doctors identify which patients are unlikely to benefit from injections so they can consider other treatments earlier.",
+      "outcomes": "Pain scores and range of motion at 8 weeks after corticosteroid injection; prediction of treatment failure based on fatty infiltration in shoulder muscles",
+      "take_home": "Patients with higher amounts of fat in their shoulder muscles before surgery are six times more likely to have corticosteroid injections fail to improve stiffness after rotator cuff repair. This finding may help doctors identify patients who need different treatments sooner.",
       "url": "https://doi.org/10.1016/j.jse.2026.05.039"
     },
     {
@@ -100,77 +100,12 @@
       "journal": "Bone & Joint Open",
       "authors": "Kiyomatsu H, Fujibuchi T, Kutsuna T, Kinoshita T, Tsuda T, Hayashi M, et al.",
       "date": "2026-06-08",
-      "study_type": "Biomechanical simulation study",
+      "study_type": "Computer simulation study using 3D CT planning",
       "population": "Asian female patients with small glenoid anatomy undergoing reverse shoulder arthroplasty",
-      "sample_size": "11 patients with postoperative outcomes; 3D CT planning analysis performed",
-      "outcomes": "Impingement-free range of motion in extension-flexion, abduction-adduction, and external-internal rotation across different glenosphere sizes and inferior overhangs",
-      "take_home": "In patients with small shoulder bones, using a 32 mm glenosphere with adequate overhang provided better predicted movement range than larger options. However, the researchers note that real-world clinical testing is still needed to confirm these findings account for soft tissues and implant stability.",
+      "sample_size": "11 patients (mean age 75.5 years)",
+      "outcomes": "Impingement-free range of motion in extension-flexion, abduction-adduction, and external-internal rotation with different glenosphere sizes (32 mm, 36 mm, 39 mm) and inferior overhang positions",
+      "take_home": "In patients with small shoulder sockets, using a smaller 32 mm glenosphere with adequate positioning gave better predicted movement without bone-to-bone contact than larger sizes. This suggests smaller implants might work better for patients with smaller anatomy, but real-world testing is still needed.",
       "url": "https://doi.org/10.1302/2633-1462.76.BJO-2025-0355.R1"
-    },
-    {
-      "id": "pmid-42248347",
-      "title": "Non-Opioid Pain Management in Younger Patients Undergoing Arthroscopic Glenoid Labrum Surgery: A Randomized Controlled Trial.",
-      "journal": "JSES",
-      "authors": "Tornberg HN, Czachor MK, Gutowski CT, Criscione JX, Kalani CM, Dibato J, et al.",
-      "date": "2026-06-04",
-      "study_type": "Single-centre randomized controlled trial",
-      "population": "Opioid-naive patients aged 15 to 25 years undergoing arthroscopic glenoid labrum repair",
-      "sample_size": "34 patients (17 experimental, 17 control)",
-      "outcomes": "Postoperative opioid consumption (morphine milligram equivalents), pain scores (visual analog scale) over 14 days, and patient satisfaction with pain control",
-      "take_home": "Young patients given a non-opioid pain management plan after shoulder labrum surgery had similar pain relief and satisfaction to those offered opioids, with very few patients in either group actually using opioids. This suggests non-opioid approaches work well for this type of surgery in younger patients.",
-      "url": "https://doi.org/10.1016/j.jse.2026.05.037"
-    },
-    {
-      "id": "pmid-42248346",
-      "title": "Shoulder Arthroplasty Outcomes in Hypertensive Patients: A Propensity Score-Matched Comparison of ARBs and ACE Inhibitors.",
-      "journal": "JSES",
-      "authors": "Lee S, Jayne C, Kim MT, Boufadel P, Cook AE, Uppstrom TJ, et al.",
-      "date": "2026-06-04",
-      "study_type": "Propensity score-matched cohort study using electronic health records",
-      "population": "Hypertensive patients undergoing shoulder arthroplasty who took either angiotensin receptor blockers or ACE inhibitors perioperatively",
-      "sample_size": "11,603 patients (matching 1:1 between ARB and ACEI groups); including 1,559 anatomic total shoulder arthroplasty, 3,734 reverse shoulder arthroplasty, and 412 hemiarthroplasty patients",
-      "outcomes": "Dislocation, periprosthetic fracture, stiffness, revision rates, medical complications, surgical complications, readmission, and emergency department visits at 90 days, 1 year, and 2 years postoperatively",
-      "take_home": "Hypertensive patients taking angiotensin receptor blockers had lower rates of shoulder dislocation, periprosthetic fracture, and stiffness compared to those taking ACE inhibitors after shoulder replacement. These findings suggest angiotensin receptor blockers may offer bone-related benefits, though the advantages were not consistent across all types of shoulder replacement and need further study.",
-      "url": "https://doi.org/10.1016/j.jse.2026.05.038"
-    },
-    {
-      "id": "pmid-42248345",
-      "title": "Image-Based Quantitative Osteotomy Planning for Congenital Proximal Radioulnar Synostosis: Plan-Execution Discrepancy and Postoperative Radiographic Outcomes.",
-      "journal": "JSES",
-      "authors": "Chen YC, Shih HJ, Chang CH, Wang TM, Yang CY, Shih PJ",
-      "date": "2026-06-04",
-      "study_type": "Retrospective case series",
-      "population": "Children with congenital proximal radioulnar synostosis (fused bones in forearm)",
-      "sample_size": "8 unilateral cases",
-      "outcomes": "Rotational range of motion, radial head alignment on X-ray, functional outcomes, plan-execution discrepancy",
-      "take_home": "A new computer-based planning method for forearm surgery showed promise in providing objective surgical guidelines, with all procedures completed safely and seven of eight patients gaining improved rotation. However, the study was small and suggests larger follow-up research is needed to confirm whether this planning approach improves long-term surgical results.",
-      "url": "https://doi.org/10.1016/j.jse.2026.05.034"
-    },
-    {
-      "id": "pmid-42248344",
-      "title": "Stepwise loss of shoulder stabilizers induces humeral head migration and progression of cuff tear arthropathy in a rat model.",
-      "journal": "JSES",
-      "authors": "Uekama K, Iuchi T, Ide T, Shimanoe K, Masuda Y, Takada S, et al.",
-      "date": "2026-06-04",
-      "study_type": "Animal model study in rats",
-      "population": "Adult male Sprague-Dawley rats",
-      "sample_size": "Not stated",
-      "outcomes": "Superior humeral head migration, cartilage degeneration, inflammatory markers, bone remodelling changes",
-      "take_home": "When shoulder stabilizing structures are progressively damaged in this rat model, the humeral head migrates upwards in stages and cartilage degenerates. The superior capsule appears more important than the biceps tendon in preventing this migration, and preservation of shoulder stability may help slow the development of cuff tear arthropathy.",
-      "url": "https://doi.org/10.1016/j.jse.2026.05.036"
-    },
-    {
-      "id": "pmid-42248343",
-      "title": "Operative Timing Predicts Postoperative Complications after Staged Reverse Total Shoulder Arthroplasty.",
-      "journal": "JSES",
-      "authors": "Wier J, Mayfield CK, Mouchawar AC, Barcenas AB, Weber AE, Gamradt SC, et al.",
-      "date": "2026-06-04",
-      "study_type": "Retrospective cohort study using healthcare database",
-      "population": "Patients in the United States undergoing primary reverse total shoulder arthroplasty between 2016-2020",
-      "sample_size": "3,152 staged bilateral procedures matched to 9,456 unilateral procedures",
-      "outcomes": "90-day surgical complications including fracture and infection",
-      "take_home": "Having surgery on the second shoulder within one year of the first reverse shoulder replacement increases the risk of complications compared to having just one shoulder done. Waiting more than 12 months between the two operations reduces this complication risk to levels similar to single-shoulder surgery.",
-      "url": "https://doi.org/10.1016/j.jse.2026.05.035"
     },
     {
       "id": "pmid-42255993",
@@ -181,8 +116,8 @@
       "study_type": "Systematic review and network meta-analysis",
       "population": "Older adults with proximal humerus fractures treated with reverse shoulder arthroplasty",
       "sample_size": "1885 patients across 20 studies",
-      "outcomes": "Constant score (shoulder function measure), shoulder motion (abduction, external rotation, forward flexion)",
-      "take_home": "Repairing the greater tuberosity bone fragment during reverse shoulder replacement for upper arm fractures led to better shoulder function and movement compared to not repairing it, but only when the repair healed successfully. If the repair did not heal, results were similar to not attempting repair at all.",
+      "outcomes": "Constant score, shoulder abduction, external rotation, forward flexion",
+      "take_home": "Repairing the greater tuberosity during reverse shoulder replacement improves shoulder function after fracture, but only if the repair heals successfully. If the repair does not heal, the results are similar to not attempting repair at all.",
       "url": "https://doi.org/10.1177/17585732261445869"
     },
     {
@@ -192,10 +127,10 @@
       "authors": "Baek CH, Kim JG, Kim BT, Lim C",
       "date": "2026-06-03",
       "study_type": "Systematic review and meta-analysis",
-      "population": "Patients with massive irreparable posterosuperior rotator cuff tears treated with arthroscopic lower trapezius tendon transfer",
+      "population": "Patients with massive irreparable rotator cuff tears",
       "sample_size": "433 shoulders across 14 studies",
-      "outcomes": "External rotation improved by 27.9 degrees, forward flexion by 37.0 degrees, pain reduced by 4.2 points on visual analogue scale, ASES score improved by 32.5 points, Constant score improved by 22.7 points, graft healing 89.4%, complications 3.70%, reoperation 3.46%, conversion to reverse shoulder replacement 2.08%",
-      "take_home": "Arthroscopic lower trapezius tendon transfer successfully improved shoulder movement, reduced pain and improved function in patients with massive irreparable rotator cuff tears, with good healing rates and low complication rates.",
+      "outcomes": "External rotation improved by 28 degrees on average, forward flexion by 37 degrees, pain reduced by 4.2 points on pain scale, functional scores improved, graft healing rate 89.4%, complications occurred in 3.7% of cases",
+      "take_home": "Arthroscopic lower trapezius tendon transfer improved shoulder movement, reduced pain, and had good healing rates in patients with massive irreparable rotator cuff tears. Complication rates were low and only 2.08% of patients needed conversion to reverse shoulder replacement.",
       "url": "https://doi.org/10.1177/17585732261455827"
     }
   ]
