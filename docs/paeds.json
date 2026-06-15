@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-15T06:06:34.201Z",
+  "generated_at": "2026-06-15T20:24:46.235Z",
   "is_seed": false,
   "subspecialty": "paeds",
-  "count": 21,
+  "count": 27,
   "window_days": 7,
   "journals": [
     "J Pediatr Orthop",
@@ -18,16 +18,55 @@
   ],
   "articles": [
     {
+      "id": "pmid-42290294",
+      "title": "Does the Location of the Distal Tibial Epiphyseal Fixation Affect Rod Failure in Children With Osteogenesis Imperfecta?",
+      "journal": "J Pediatr Orthop",
+      "authors": "Wang K, Callister J, Wallace M",
+      "date": "2026-06-15",
+      "study_type": "Retrospective cohort study",
+      "population": "Children with osteogenesis imperfecta undergoing tibial fixation",
+      "sample_size": "452 tibial rod placements in 102 patients",
+      "outcomes": "Failure to telescope (primary outcome) and time to failure (secondary outcome)",
+      "take_home": "Central positioning of Fassier-Duval rods had the lowest failure rate, whilst lateral positioning significantly increased the risk of failure. Younger children were more likely to experience rod failure.",
+      "url": "https://doi.org/10.1097/BPO.0000000000003311"
+    },
+    {
+      "id": "pmid-42290291",
+      "title": "Ideal Surgical Age for Distraction-Based Growth Friendly Techniques to Minimize Complications.",
+      "journal": "J Pediatr Orthop",
+      "authors": "Beydemir A, Ibik S, Ramazanov R, Berktas M, Ayvaz M, Demirkiran HG, et al.",
+      "date": "2026-06-15",
+      "study_type": "Retrospective comparative series",
+      "population": "Children with early-onset scoliosis treated with growing rods",
+      "sample_size": "95 patients",
+      "outcomes": "Complication rates and severity, need for reoperation, comparison between age groups (85 months or younger versus older) and rod types (traditional versus magnetically controlled)",
+      "take_home": "Children having growing rod surgery before 85 months of age experienced more overall complications than those aged 85 months or older, but the complications were not more severe. Delaying surgery until 85 months or later may help reduce problems when it is safe to do so.",
+      "url": "https://doi.org/10.1097/BPO.0000000000003371"
+    },
+    {
+      "id": "pmid-42290284",
+      "title": "Minimal Clinically Important Difference (MCID) of the EOSQ-24 Questionnaire.",
+      "journal": "J Pediatr Orthop",
+      "authors": "Park AM, Elfilali MM, Brown MW, Taha O, Weintraub MJ, Garg S, et al.",
+      "date": "2026-06-15",
+      "study_type": "Prospective multicentre study to determine minimal clinically important difference",
+      "population": "Children with early onset scoliosis and/or their parents",
+      "sample_size": "85 patients",
+      "outcomes": "Minimal clinically important difference (MCID) for EOSQ-24 questionnaire scores measuring health-related quality of life",
+      "take_home": "A change of 5 points or more on the EOSQ-24 questionnaire represents a meaningful difference in quality of life for children with early onset scoliosis. This gives doctors a reliable way to measure whether treatment has made a real difference to patients beyond just looking at spine X-rays.",
+      "url": "https://doi.org/10.1097/BPO.0000000000003373"
+    },
+    {
       "id": "pmid-42281429",
       "title": "Tether Breakage Across First-generation and Second-generation Vertebral Body Tethering Devices in Treating Adolescent Idiopathic Scoliosis.",
       "journal": "J Pediatr Orthop",
       "authors": "Coleman TA, Kim A, Desai V, Parent S, Miyanji F, Alanay A, et al.",
       "date": "2026-06-12",
       "study_type": "Retrospective analysis of prospectively collected multicenter registry",
-      "population": "Patients with adolescent idiopathic scoliosis treated with thoracic vertebral body tethering",
-      "sample_size": "231 patients across 12 centres (179 first-generation, 52 second-generation implants)",
-      "outcomes": "Radiographic tether breakage rate, revision surgery rate, conversion to posterior spinal fusion within 2 years",
-      "take_home": "Tether breakage was found in about half of all patients, occurring at similar rates in both older and newer tethering devices (52% versus 44%), despite surgeons reporting fewer breakages with the newer devices. Revision surgery and conversion to spinal fusion rates were low and comparable between both device generations.",
+      "population": "Patients with adolescent idiopathic scoliosis treated with vertebral body tethering",
+      "sample_size": "231 patients (179 first-generation, 52 second-generation implants)",
+      "outcomes": "Rate of radiographic tether breakage, revision surgery, conversion to posterior spinal fusion",
+      "take_home": "Tether breakage occurred in about half of patients overall and remained similarly common with newer devices as with older ones, despite surgeons reporting fewer breakages with the newer systems. The rate of patients needing revision surgery or conversion to fusion was low and similar between the two generations.",
       "url": "https://doi.org/10.1097/BPO.0000000000003368"
     },
     {
@@ -38,9 +77,9 @@
       "date": "2026-06-12",
       "study_type": "Retrospective comparative study",
       "population": "Skeletally immature patients with limb length discrepancy scheduled for epiphysiodesis",
-      "sample_size": "37 patients (16 boys, mean age 13 years)",
-      "outcomes": "Differences in total and segmental limb length measurements between three radiographic measurement methods; agreement analysis using Bland-Altman plots",
-      "take_home": "Three different radiographic methods for measuring limb length differences produced very similar results (differences of less than 2 mm), but doctors should use the same method consistently as small variations can be affected by leg angular deformities.",
+      "sample_size": "37 patients",
+      "outcomes": "Comparison of three radiographic measurement methods for total and segmental limb length; measurement agreement between methods",
+      "take_home": "All three radiographic methods for measuring limb length difference gave very similar results, with differences of less than 2 millimetres between methods. Using the same measurement method consistently is important, especially when patients have curved or angled legs, as this can affect how accurate the measurements are.",
       "url": "https://doi.org/10.1097/BPO.0000000000003372"
     },
     {
@@ -51,10 +90,49 @@
       "date": "2026-06-12",
       "study_type": "Randomised controlled trial",
       "population": "Children aged 3 to 10 years undergoing pin removal after supracondylar humerus fracture fixation",
-      "sample_size": "52 patients (27 in dog group, 25 in control group)",
-      "outcomes": "Patient-reported pain using Wong-Baker FACES Pain Rating Scale, behavioural distress using FLACC scale, heart rate measurements, and parental-reported anxiety",
-      "take_home": "Children who had a certified therapy dog present during pin removal reported significantly lower pain and showed less behavioural distress than those without a dog, with lower heart rates during the procedure. Animal-assisted therapy may help reduce pain and anxiety during this common outpatient orthopaedic procedure.",
+      "sample_size": "52 patients (27 with therapy dog, 25 control)",
+      "outcomes": "Patient-reported pain using Wong-Baker FACES scale, behavioural distress using FLACC scale, heart rate, and parental-reported anxiety",
+      "take_home": "Children who had a certified therapy dog present during pin removal reported significantly lower pain and behavioural distress compared to those without a dog, suggesting animal-assisted therapy could help reduce discomfort during this procedure.",
       "url": "https://doi.org/10.1097/BPO.0000000000003361"
+    },
+    {
+      "id": "pmid-42290091",
+      "title": "Naviculectomy combined with 'a la carte' soft-tissue releases: is it a practical solution for congenital vertical talus in adolescence?",
+      "journal": "J Pediatr Orthop B",
+      "authors": "Khamies MS, Mortada-Mahmoud A, Laklouk M",
+      "date": "2026-06-12",
+      "study_type": "retrospective case series",
+      "population": "adolescent patients with neglected congenital vertical talus",
+      "sample_size": "15 patients (11 boys, 4 girls), average age 10.67 years",
+      "outcomes": "clinical function using Zorer score, pain using visual analogue scale, and radiographic measurements",
+      "take_home": "Removing the navicular bone combined with targeted soft-tissue releases improved foot function, reduced pain and radiographic deformity in adolescents with neglected congenital vertical talus, whilst potentially reducing complications from more extensive surgery.",
+      "url": "https://doi.org/10.1097/BPB.0000000000001364"
+    },
+    {
+      "id": "pmid-42290084",
+      "title": "A mini-review of risk factors for developmental dysplasia of the hip: insights from multiple comparative cohort studies.",
+      "journal": "J Pediatr Orthop B",
+      "authors": "Cho T, Nair A, Stokey P, Kaufmann K, Liu J",
+      "date": "2026-06-12",
+      "study_type": "Meta-analysis of comparative cohort studies",
+      "population": "Infants at risk of developmental dysplasia of the hip",
+      "sample_size": "133,108 participants across 22 studies (3,151 DDH cases)",
+      "outcomes": "Relative risk of developmental dysplasia of the hip associated with breech presentation, family history, oligohydramnios, and female sex",
+      "take_home": "Babies born in breech position, those with a family history of hip dysplasia, those exposed to low amniotic fluid during pregnancy, and female babies all have three to four times higher risk of developing hip dysplasia. These findings support screening infants with these risk factors.",
+      "url": "https://doi.org/10.1097/BPB.0000000000001365"
+    },
+    {
+      "id": "pmid-42290061",
+      "title": "Safety and efficacy of intraoperative vectored cranial traction with Gardner-Wells tongs for pediatric spine deformity surgery.",
+      "journal": "J Pediatr Orthop B",
+      "authors": "Sardesai KS, Georger L, Dumas A, Noe M, Schwend RM",
+      "date": "2026-06-12",
+      "study_type": "Retrospective case series",
+      "population": "Children aged 2-18 years undergoing spine deformity surgery in prone position",
+      "sample_size": "2680 patients",
+      "outcomes": "Pressure-related complications including facial abrasions, pressure sores, ulcers and facial swelling; perioperative vision loss",
+      "take_home": "Using Gardner-Wells tongs with gentle traction during spine surgery reduced pressure-related complications to 1.42%, with no cases of vision loss. All complications that did occur were minor and reversible.",
+      "url": "https://doi.org/10.1097/BPB.0000000000001366"
     },
     {
       "id": "pmid-42283490",
@@ -63,10 +141,10 @@
       "authors": "Laaksonen T, Grahn P, Ahonen M, Ahola JA, Helenius I, Nietosvaara Y",
       "date": "2026-06-12",
       "study_type": "Retrospective registry-based cohort study",
-      "population": "Children with fractures treated at a Level I trauma centre",
+      "population": "Children with fractures treated at a Level I trauma centre in Helsinki",
       "sample_size": "10,144 fractures",
-      "outcomes": "Surgical timing, treatment method, complication rates, unplanned return to surgery, permanent nerve injuries, deep infections",
-      "take_home": "Children's fracture treatment was safe and effective, with most operations starting promptly and permanent nerve injuries or serious infections being very rare. Most forearm fractures were successfully managed without general anaesthetic in the emergency department.",
+      "outcomes": "Surgical timing, treatment method, complication rates, unplanned return to surgery, permanent nerve injuries, and deep infections",
+      "take_home": "Most children's fractures were treated safely with low complication rates. Surgery for serious arm and leg fractures happened quickly, and serious complications like nerve damage or deep infections were very rare.",
       "url": "https://doi.org/10.2340/17453674.2026.46044"
     },
     {
@@ -75,11 +153,11 @@
       "journal": "Lancet",
       "authors": "Coomarasamy A, Sindhu KN, Gallos I, Periyathambi N, Price MJ, Yunas I, et al.",
       "date": "2026-06-12",
-      "study_type": "Systematic review",
-      "population": "Women giving birth globally",
-      "sample_size": "Estimated 27 million women with PPH annually worldwide",
-      "outcomes": "PPH prevalence, mortality, morbidity, economic burden, and risk factors",
-      "take_home": "Postpartum haemorrhage affects millions of women each year and remains a leading cause of maternal death. The WHO has redefined PPH to enable earlier diagnosis and treatment, with recommended prevention strategies including uterotonic drugs for all births and additional measures for high-risk women.",
+      "study_type": "Systematic review and epidemiological analysis",
+      "population": "Women giving birth worldwide",
+      "sample_size": "Approximately 27 million women with postpartum haemorrhage annually",
+      "outcomes": "Mortality (43,000 deaths annually), prevalence (12.6% after vaginal birth, 30.9% after caesarean birth), morbidity (severe anaemia, hysterectomy, organ failure, psychological trauma), economic burden (US$10.4 billion annually)",
+      "take_home": "Postpartum haemorrhage remains a leading cause of maternal death worldwide, occurring in millions of women each year with serious health and economic consequences. The World Health Organisation has updated how postpartum haemorrhage is defined and recommends comprehensive prevention, early diagnosis and prompt treatment to save lives.",
       "url": "https://doi.org/10.1016/S0140-6736(26)00902-5"
     },
     {
@@ -88,11 +166,11 @@
       "journal": "Lancet",
       "authors": "Gallos ID, Sindhu KN, Yunas I, Sobhy S, Mavrides E, Sheikh L, et al.",
       "date": "2026-06-12",
-      "study_type": "Systematic review and Cochrane network meta-analysis",
-      "population": "Women giving birth",
+      "study_type": "Systematic review and network meta-analysis",
+      "population": "Pregnant women and postpartum women",
       "sample_size": "121,931 women across 122 trials",
-      "outcomes": "Effectiveness of different uterotonic drugs for preventing postpartum haemorrhage; side-effect profiles",
-      "take_home": "Oxytocin or carbetocin given at birth are the safest and most effective single drugs to prevent postpartum haemorrhage, with minimal side-effects. Preventing postpartum haemorrhage also requires addressing anaemia, managing risk factors like high BMI and gestational diabetes, and ensuring women give birth in well-resourced hospitals.",
+      "outcomes": "Effectiveness of different uterotonic drugs and combinations for preventing postpartum haemorrhage; side-effects of different prophylaxis strategies",
+      "take_home": "Oxytocin or carbetocin given alone are the safest and most effective drugs for preventing postpartum haemorrhage, though combinations with other drugs can be considered for high-risk women. Prevention also requires good antenatal care, treating anaemia, managing other risk factors, and ensuring births happen in well-resourced hospitals.",
       "url": "https://doi.org/10.1016/S0140-6736(26)00903-7"
     },
     {
@@ -101,11 +179,11 @@
       "journal": "Bone & Joint Open",
       "authors": "Teo LS, Xiao L, Yeo BKK, Rayapati R, Lim AKS, Hoipo Hui J, et al.",
       "date": "2026-06-11",
-      "study_type": "Systematic review",
+      "study_type": "Systematic review of reliability and clinical utility studies",
       "population": "Paediatric ankle fractures",
       "sample_size": "42 studies covering 11 classification systems",
-      "outcomes": "Inter- and intraobserver reliability of classification systems; clinical utility in guiding clinical decisions and outcomes; ability to predict premature physeal closure and angular deformity",
-      "take_home": "The Dias-Tachdjian classification system is the most reliable for doctors to use consistently when classifying children's ankle fractures, whilst the Salter-Harris system is most commonly used and best predicts long-term complications like premature closure of the growth plate. Using both classification types together may help doctors better predict outcomes and plan treatment.",
+      "outcomes": "Interobserver and intraobserver reliability of classification systems; predictive value for premature physeal closure and angular deformity",
+      "take_home": "The Dias-Tachdjian classification system was most reliable for doctors to use consistently when classifying children's ankle fractures, whilst the Salter-Harris system was most commonly used and best at predicting whether the growth plate would close prematurely. Using both types of classification together may help doctors predict outcomes and plan treatment better.",
       "url": "https://doi.org/10.1302/2633-1462.76.BJO-2025-0250.R1"
     },
     {
@@ -115,10 +193,10 @@
       "authors": "Paraje G, Valdes N, Macaya AV, Corvalan C, Popkin B",
       "date": "2026-06-11",
       "study_type": "Cohort difference-in-differences study",
-      "population": "School children aged 4-6 years in Chilean public and publicly subsidised schools",
-      "sample_size": "321,597 students from cohorts 2012-2015",
+      "population": "School children aged 4-6 years in Chile attending public and publicly subsidised schools",
+      "sample_size": "321,597 students from cohorts entering school between 2012 and 2015",
       "outcomes": "Probability of excess weight (overweight or obesity) measured by BMI",
-      "take_home": "Chile's food labelling and advertising law, which included warning labels and marketing restrictions, led to measurable reductions in excess weight among young children, with girls and boys showing 2-3% lower probability of excess weight after 18 months of exposure. The findings suggest that comprehensive food environment policies can help reduce childhood obesity.",
+      "take_home": "Chile's 2016 food labelling and advertising law, which included black warning labels and marketing restrictions, reduced the likelihood of excess weight in young schoolchildren by about 2-3%, with larger effects seen after longer exposure. The law appears to have successfully reduced childhood obesity through changes to the food environment.",
       "url": "https://doi.org/10.1016/S0140-6736(26)00651-3"
     },
     {
@@ -127,11 +205,11 @@
       "journal": "BMJ",
       "authors": "Azuara-Blanco A, Logan NS, McConnell E, Kearney S, Kirk G, Jones S, et al.",
       "date": "2026-06-11",
-      "study_type": "Multicentre, double masked, randomised controlled trial",
+      "study_type": "Multicentre double-masked randomised controlled trial",
       "population": "Children aged 6-12 years with myopia between -0.50 and -10.0 dioptres",
-      "sample_size": "289 children (192 atropine, 97 placebo); 230 completed with primary outcome data",
-      "outcomes": "Primary: spherical equivalent refractive error after two years. Secondary: axial length change, visual acuity, reading speed, pupil diameter, adverse events, quality of life, tolerability",
-      "take_home": "Low concentration atropine (0.01%) eye drops significantly slowed myopia progression in children compared to placebo, reducing the change in eye refraction by 0.33 dioptres over two years. The treatment was well tolerated with no serious adverse events related to the drops.",
+      "sample_size": "289 children (192 atropine, 97 placebo); 230 with primary outcome data",
+      "outcomes": "Primary: spherical equivalent refractive error after two years. Secondary: axial length, visual acuity, reading speed, pupil diameter, adverse events, quality of life, tolerability",
+      "take_home": "Low concentration atropine eye drops (0.01%) significantly slowed myopia progression in children compared with placebo, reducing progression by about 0.33 dioptres over two years, and were well tolerated with no serious side effects.",
       "url": "https://doi.org/10.1136/bmj-2025-086698"
     },
     {
@@ -142,9 +220,9 @@
       "date": "2026-06-11",
       "study_type": "Phase 3 open-label single-group trials",
       "population": "Children aged 5 to 11 years with transfusion-dependent beta-thalassaemia or sickle cell disease",
-      "sample_size": "15 children with beta-thalassaemia and 11 with sickle cell disease",
-      "outcomes": "Transfusion independence for at least 12 consecutive months in beta-thalassaemia; freedom from severe vaso-occlusive crises for at least 12 consecutive months in sickle cell disease",
-      "take_home": "Of children followed for at least 16 months, all those with beta-thalassaemia became independent from blood transfusions and all those with sickle cell disease stopped having severe pain crises. However, all children experienced serious side effects, and one child with beta-thalassaemia died from liver damage related to the chemotherapy preparation.",
+      "sample_size": "15 children with beta-thalassaemia and 11 children with sickle cell disease",
+      "outcomes": "Transfusion independence for 12 consecutive months in beta-thalassaemia; freedom from severe vaso-occlusive crises for 12 consecutive months in sickle cell disease",
+      "take_home": "All children who had been followed for at least 16 months achieved the main treatment goals: those with beta-thalassaemia no longer needed blood transfusions, and those with sickle cell disease had no severe pain crises. However, all children experienced serious side effects during treatment, and one child with beta-thalassaemia died from liver complications related to the conditioning therapy.",
       "url": "https://doi.org/10.1056/NEJMoa2603387"
     },
     {
@@ -153,11 +231,11 @@
       "journal": "NEJM",
       "authors": "Gharahdaghi N, Yeh PJ, Ceron-Gutierrez L, Griffin H, Gordon H, Jayamanne C, et al.",
       "date": "2026-06-11",
-      "study_type": "Case-control study with biomarker and genetic analysis",
-      "population": "Patients with inflammatory bowel disease and controls without IBD",
-      "sample_size": "4909 IBD patients and 1006 controls",
-      "outcomes": "Presence of interleukin-10 neutralising autoantibodies and association with HLA-DRB1*01:03 genetic variant",
-      "take_home": "About 3.5% of IBD patients had autoantibodies that block interleukin-10, a protein that normally reduces inflammation, and these patients were much more likely to carry a specific genetic variant (HLA-DRB1*01:03). This finding may help explain why some IBD patients have more severe disease and could potentially guide future treatments.",
+      "study_type": "Cross-sectional association study",
+      "population": "Patients with inflammatory bowel disease and controls without IBD from Oxford and UK IBD BioResource cohorts",
+      "sample_size": "4909 patients with IBD and 1006 controls",
+      "outcomes": "Presence of neutralising autoantibodies against interleukin-10 and association with HLA-DRB1*01:03 genetic marker",
+      "take_home": "About 3.5% of patients with inflammatory bowel disease have autoantibodies that neutralise interleukin-10, a protein that normally helps reduce inflammation, and these patients almost always carry a specific genetic marker called HLA-DRB1*01:03. This finding may help identify a subgroup of IBD patients who could benefit from targeted treatments.",
       "url": "https://doi.org/10.1056/NEJMoa2513654"
     },
     {
@@ -169,8 +247,8 @@
       "study_type": "Review article",
       "population": "Autistic children and youth",
       "sample_size": "",
-      "outcomes": "Developmental and adaptive skills, co-occurring conditions, autonomy, community participation, intervention safety and effectiveness",
-      "take_home": "Research shows that supporting development in autistic children from early years onwards can help improve outcomes, but interventions must be safe and align with what autistic people themselves identify as important. Autistic people emphasise that acceptance and genuine inclusion in communities matter most for having a good life.",
+      "outcomes": "Developmental trajectories, adaptive skills, co-occurring conditions, autonomy, community participation, intervention benefits and adverse events",
+      "take_home": "Research shows that supporting developmental and adaptive skills early in childhood, monitoring for co-occurring conditions, and promoting acceptance and meaningful inclusion are important for autistic children and young people. Interventions can help, but it is important to listen to what autistic people themselves say matters for living a good life.",
       "url": "https://doi.org/10.1136/bmj-2025-086562"
     },
     {
@@ -181,9 +259,9 @@
       "date": "2026-06-08",
       "study_type": "Retrospective cohort study",
       "population": "Children under 18 years old who underwent surgical fixation for medial epicondyle fracture",
-      "sample_size": "22 patients with complete long-term follow-up (identified from 40 eligible patients)",
-      "outcomes": "Functional scores (QuickDASH, pain), range of motion, motor strength (grip and pinch), sensation, stability, complications",
-      "take_home": "Children who had surgery for medial epicondyle fractures achieved excellent long-term results with good strength, sensation and stability, but those who waited longer before surgery had some permanent loss of elbow movement range. Early surgery combined with rehabilitation offers the best outcomes.",
+      "sample_size": "22 patients with complete long-term follow-up (from 40 identified)",
+      "outcomes": "Functional scores (QuickDASH, pain), range of motion, motor strength (grip and pinch), sensation, stability, and complications",
+      "take_home": "Children who have surgery for medial epicondyle fractures have excellent long-term results overall, but delays in having surgery increase the risk of permanent stiffness in the elbow. Early surgery combined with rehabilitation gives the best chance of a good outcome.",
       "url": "https://doi.org/10.1097/BPO.0000000000003317"
     },
     {
@@ -193,10 +271,10 @@
       "authors": "Aslanturk O, Roberts C, Siddique R, Rowland J, Sheffer B, Kelly DM",
       "date": "2026-06-08",
       "study_type": "Retrospective cohort study",
-      "population": "Paediatric patients with diaphyseal femur fractures treated surgically",
+      "population": "Paediatric patients who underwent implant removal after surgical treatment of femoral shaft fractures",
       "sample_size": "Not specified in abstract",
       "outcomes": "Operative time, estimated blood loss, length of stay, wound complications, infection, hematoma, bony overgrowth, refracture",
-      "take_home": "Implant removal after paediatric femur fractures is generally safe with low complication rates. Plate removal took longer and caused more bleeding than nail removal, whilst nail removal was associated with more bony overgrowth and longer times between initial fixation and removal.",
+      "take_home": "Plate removal took longer and caused more bleeding than nail removal, whilst nail removal was associated with more complications including bony overgrowth around the implant. Overall, implant removal after paediatric femur fractures has a low complication rate with very few refractures in the short term.",
       "url": "https://doi.org/10.1097/BPO.0000000000003364"
     },
     {
@@ -205,11 +283,11 @@
       "journal": "BMJ",
       "authors": "Robaey P, Rogers MA, Schachar RJ",
       "date": "2026-06-08",
-      "study_type": "Systematic review",
+      "study_type": "Narrative review of ADHD management evidence (2019-2025)",
       "population": "Children and adolescents with ADHD",
       "sample_size": "",
-      "outcomes": "Diagnostic accuracy, effectiveness of behavioural interventions, psychosocial treatments, lifestyle changes, cognitive training, neurofeedback, and pharmacological treatments",
-      "take_home": "ADHD requires long-term, individualised care combining several approaches. Behavioural parent training, school-based interventions and talking therapies help a little, whilst medication (particularly stimulants) remains the most effective treatment, with newer approaches allowing more personalised prescribing.",
+      "outcomes": "Diagnostic accuracy, response to behavioural interventions, response to lifestyle changes, response to medication, response to cognitive training and neurofeedback",
+      "take_home": "ADHD is a chronic condition requiring ongoing personalised care. Effective treatment typically combines medication (stimulants as first line, non-stimulants as alternatives) with behavioural approaches like parent training and school interventions, alongside lifestyle measures such as physical activity and sleep, though individual results vary depending on the person and setting.",
       "url": "https://doi.org/10.1136/bmj-2024-082507"
     },
     {
@@ -218,11 +296,11 @@
       "journal": "J Child Orthop",
       "authors": "Najd Mazhar F, Zareie B, Shariatzadeh H, Hasan A, Jafari Kafiabadi M, Akhlaghi N, et al.",
       "date": "2026-06-06",
-      "study_type": "Retrospective cohort study",
+      "study_type": "Retrospective observational study",
       "population": "Children aged 3-13 years with Gartland type III supracondylar humerus fractures",
       "sample_size": "230 patients (140 closed reduction, 90 open reduction)",
       "outcomes": "Factors associated with need for open reduction versus successful closed reduction and pin fixation",
-      "take_home": "Older children, those with flexion-type fractures, and those with fractures in the lower part of the bone were more likely to need open surgery rather than closed reduction. Low-level fractures create smaller, more cartilage-based bone fragments that are harder to keep stable with closed reduction alone.",
+      "take_home": "Older children, those with flexion-type fractures, and those with fractures lower down the bone were more likely to need open surgery rather than closed reduction. Age and fracture location were the strongest predictors of needing open reduction.",
       "url": "https://doi.org/10.1177/18632521261456089"
     },
     {
@@ -231,11 +309,11 @@
       "journal": "J Pediatr Orthop",
       "authors": "Munshi MA, Siddabattula R, Najera Saltos D, Pereira D, Cornaghie M, Hosseinzadeh P",
       "date": "2026-06-05",
-      "study_type": "Retrospective cohort comparison",
-      "population": "Children and adolescents aged 18 years or under treated operatively for subtrochanteric femur fractures",
-      "sample_size": "31 subtrochanteric femur fractures",
-      "outcomes": "Radiographic healing, malalignment rates, pain and mobility scores (PROMIS), complications",
-      "take_home": "Three different surgical fixation methods (flexible nails, rigid nails, and plates) all resulted in successful bone healing and functional improvement in children with subtrochanteric femur fractures. Although flexible nails showed more early misalignment at 6 weeks, this difference was not significant by 3 months, and all methods were considered viable options.",
+      "study_type": "Retrospective comparative study",
+      "population": "Children and adolescents aged 18 years or younger treated with surgery for subtrochanteric femur fractures",
+      "sample_size": "31 patients",
+      "outcomes": "Radiographic healing, malalignment (>10 degrees angulation), pain and mobility scores (PROMIS), and complications",
+      "take_home": "Rigid nails, flexible nails and plate fixation all help paediatric subtrochanteric femur fractures heal and improve function. Although flexible nails had more alignment issues at 6 weeks, all three methods performed similarly by 3 months.",
       "url": "https://doi.org/10.1097/BPO.0000000000003363"
     },
     {
@@ -244,11 +322,11 @@
       "journal": "J Pediatr Orthop",
       "authors": "Martin H, Ellis H, Agonias K, Van Pelt R, Saper M, Niu EL, et al.",
       "date": "2026-06-05",
-      "study_type": "Prospective multicenter registry comparison study",
+      "study_type": "Prospective multicentre registry study comparing complication rates with non-prospective data",
       "population": "Children and young people aged 18 years or under undergoing anterior cruciate ligament reconstruction",
       "sample_size": "8516 cases in the prospective SCORE database (2018-2025)",
-      "outcomes": "Complication rates within 8 months after surgery, including stiffness, reoperation, infection, wound-healing delay, pain, nerve damage, readmission, and blood clots",
-      "take_home": "About 1 in 9 children had a complication within 8 months of knee ligament surgery, most commonly stiffness. Prospective tracking found higher rates of some complications like reoperation and pain compared to historical records, suggesting careful monitoring picks up more problems that might otherwise be missed.",
+      "outcomes": "Complication rates within 8 months post-operation including stiffness, reoperation, wound-healing delay, pain, infection, nerve injury, readmission and blood clots",
+      "take_home": "About 1 in 9 children having ACL reconstruction experienced a complication within 8 months, with stiffness being most common. Prospective data collection identified more complications like pain and stiffness than older non-prospective studies, suggesting better accuracy in tracking what happens after surgery.",
       "url": "https://doi.org/10.1097/BPO.0000000000003359"
     },
     {
@@ -260,8 +338,8 @@
       "study_type": "Retrospective comparative study",
       "population": "Children aged 8 to 18 years with painful flatfeet (rigid or flexible) undergoing calcaneal lengthening osteotomy",
       "sample_size": "72 children (114 feet) with minimum 6 months follow-up",
-      "outcomes": "Patient-reported pain and mobility scores (PROMIS); radiographic measurements including talo-first metatarsal angle, talonavicular uncoverage, incongruency angle, calcaneal pitch, and medial cuneiform-5th metatarsal height",
-      "take_home": "Calcaneal lengthening osteotomy significantly improved pain and radiographic measurements in children with both flexible and rigid flatfeet, with comparable results between the two groups. The procedure showed promising short-term outcomes for treating painful flatfeet that have not responded to conservative treatment.",
+      "outcomes": "Patient-reported pain and mobility scores (PROMIS); radiographic measurements including talo-first metatarsal angles, talonavicular uncoverage, incongruency angle, calcaneal pitch, and medial cuneiform-5th metatarsal height",
+      "take_home": "Calcaneal lengthening osteotomy significantly improved pain and radiographic measurements in children with both rigid and flexible flatfeet, with similar outcomes between the two groups. Children experienced meaningful pain relief averaging 7.8 to 9.3 points on pain scores after surgery.",
       "url": "https://doi.org/10.1097/BPO.0000000000003360"
     },
     {
@@ -274,7 +352,7 @@
       "population": "Children aged 1-15 years undergoing upper or lower limb surgery",
       "sample_size": "122 patients (135 limbs)",
       "outcomes": "Adequate hemostasis achieved in 95.55% of procedures; no tourniquet-related complications observed",
-      "take_home": "Using a handheld Doppler to measure limb occlusion pressure and set tourniquet pressure accordingly works well and safely in children having limb surgery, allowing lower pressures to be used compared to standard adult practice.",
+      "take_home": "Using a handheld Doppler to measure limb occlusion pressure and set tourniquet pressure accordingly was safe and effective in children's limb surgery, achieving good blood control without complications and using lower pressures than typically needed in adults.",
       "url": "https://doi.org/10.1097/BPB.0000000000001339"
     },
     {
@@ -283,11 +361,11 @@
       "journal": "J Pediatr Orthop B",
       "authors": "Oral M, Kolac UC, Aydinoglu HS, Ibik S, Morkan M, Sili MV, et al.",
       "date": "2026-03-24",
-      "study_type": "Retrospective matched cohort study",
-      "population": "Children under 16 years old with Salter-Harris types I and II distal radius fractures who lost reduction after initial closed reduction",
+      "study_type": "Retrospective propensity-matched cohort study",
+      "population": "Children under 16 years with Salter-Harris type I or II distal radius fractures who experienced loss of reduction after initial closed reduction",
       "sample_size": "96 patients (72 conservative, 24 surgical)",
-      "outcomes": "Mayo wrist score, DASH score, PRWE score, and radiographic parameters (radial height, dorsal angulation, dorsal translation, radial inclination, physeal alignment)",
-      "take_home": "In children with these fracture types who lost reduction, continuing non-surgical treatment worked just as well as surgery, with no meaningful differences in wrist function or X-ray appearance at final follow-up. This suggests surgery may not be needed routinely for these fractures in growing children.",
+      "outcomes": "Mayo wrist score, DASH score, PRWE score, and radiographic parameters (radial height, dorsal angulation, dorsal translation, radial inclination, physeal alignment) at mean follow-up of 61 months",
+      "take_home": "Children with these fractures who lost reduction had similar functional and radiographic outcomes whether treated with continued conservative care or surgical pinning, suggesting surgery may not be necessary routinely in this group.",
       "url": "https://doi.org/10.1097/BPB.0000000000001321"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T06:05:24.303Z",
+  "generated_at": "2026-06-15T20:23:14.863Z",
   "is_seed": false,
   "subspecialty": "trauma",
   "count": 32,
@@ -23,11 +23,11 @@
       "journal": "JBJS",
       "authors": "Dragosloveanu S, Nedelea DG, Scheau C",
       "date": "2026-06-12",
-      "study_type": "Review of orthopaedic healthcare systems",
-      "population": "Romanian orthopaedic patients",
+      "study_type": "System review",
+      "population": "Orthopaedic patients in Romania",
       "sample_size": "",
-      "outcomes": "Adoption of digital infrastructure and robotic-assisted surgery; hospital bed capacity; arthroplasty register modernisation",
-      "take_home": "Romania has increased its use of digital technology and robotic surgery in orthopaedic care, and has good hospital capacity for treating older patients and complex cases. The country has also updated its joint replacement register to match standards used elsewhere in Europe.",
+      "outcomes": "Digital infrastructure adoption, robotic-assisted surgery implementation, artificial intelligence applications, hospital bed capacity, arthroplasty register modernisation",
+      "take_home": "Romania is improving its orthopaedic care system by adopting new technologies like robotic surgery and artificial intelligence, whilst maintaining strong hospital capacity for elderly and complex patients. The country has modernised its joint replacement register to match standards in other European countries.",
       "url": "https://doi.org/10.2106/JBJS.26.00188"
     },
     {
@@ -36,11 +36,11 @@
       "journal": "Acta Orthopaedica",
       "authors": "Van Marle L, Peters RM, Van Steenbergen LN, Jaarsma RL, Doornberg JN, Zijlstra WP",
       "date": "2026-06-12",
-      "study_type": "Cohort study using national register data",
-      "population": "Patients treated with total hip replacement for hip fracture",
-      "sample_size": "32,960 procedures (12,486 salvage replacements after failed internal fixation; 18,450 acute replacements)",
-      "outcomes": "Revision surgery rates at 1 and 5 years; reasons for revision including infection, loosening and dislocation",
-      "take_home": "Patients needing hip replacement after a failed internal fixation repair had similar revision rates to those receiving replacement as first-line treatment for hip fracture. Both groups had broadly similar outcomes, though patients requiring salvage replacement tended to be younger, heavier and in poorer health.",
+      "study_type": "Comparative cohort study using registry data",
+      "population": "Adults who had total hip replacement for hip fracture",
+      "sample_size": "32,960 procedures (12,486 salvage replacements after failed internal fixation, 18,450 acute replacements)",
+      "outcomes": "Revision rates at 1 and 5 years; risk factors for needing further surgery",
+      "take_home": "Patients who had a hip replacement after a previous internal fixation attempt had similar revision rates to those who had replacement as a first treatment, suggesting that failed internal fixation does not make the replacement surgery less likely to succeed. However, factors like higher BMI, poorer general health, and certain implant choices increased revision risk in both groups.",
       "url": "https://doi.org/10.2340/17453674.2026.46046"
     },
     {
@@ -50,10 +50,10 @@
       "authors": "Laaksonen T, Grahn P, Ahonen M, Ahola JA, Helenius I, Nietosvaara Y",
       "date": "2026-06-12",
       "study_type": "Retrospective registry-based cohort study",
-      "population": "Children with fractures treated at a Level I trauma centre in Helsinki",
+      "population": "Children with fractures treated at a single Level I trauma centre",
       "sample_size": "10,144 fractures",
-      "outcomes": "Surgical timing, treatment methods, complication rates, unplanned reoperations, permanent nerve injuries, deep infections",
-      "take_home": "Children's fracture care at this hospital was safe and effective, with surgery performed promptly and permanent nerve injuries or infections being very rare. Most forearm fractures were successfully treated without general anaesthetic in the emergency department.",
+      "outcomes": "Surgical timing, treatment methods, complication rates, unplanned reoperations, permanent nerve injuries, and deep infections",
+      "take_home": "Most children's fractures were treated safely with very few nerve injuries or infections. Most forearm fractures were fixed in the emergency department without needing a general anaesthetic, and surgery for more serious fractures like upper arm and thigh bone breaks usually happened within 18 hours.",
       "url": "https://doi.org/10.2340/17453674.2026.46044"
     },
     {
@@ -62,11 +62,11 @@
       "journal": "Bone & Joint Open",
       "authors": "Teo LS, Xiao L, Yeo BKK, Rayapati R, Lim AKS, Hoipo Hui J, et al.",
       "date": "2026-06-11",
-      "study_type": "Systematic review",
-      "population": "Paediatric ankle fractures",
+      "study_type": "Systematic review of paediatric ankle fracture classification systems",
+      "population": "Studies evaluating reliability and clinical utility of paediatric ankle fracture classifications",
       "sample_size": "42 studies covering 11 classification systems",
-      "outcomes": "Interobserver and intraobserver reliability of classification systems, clinical utility for predicting premature physeal closure and angular deformity",
-      "take_home": "The Dias-Tachdjian classification system was most reliable for paediatric ankle fractures, whilst the Salter-Harris classification was most commonly used and best at predicting problems with growth. Using both systems together may help doctors plan treatment more accurately.",
+      "outcomes": "Interobserver and intraobserver reliability of classification systems; ability to predict premature physeal closure and angular deformity",
+      "take_home": "The Dias-Tachdjian classification was most reliable for orthopaedic surgeons to use consistently, whilst the Salter-Harris classification was most commonly used and best at predicting problems with bone growth. Using both classification types together may help doctors plan better treatment.",
       "url": "https://doi.org/10.1302/2633-1462.76.BJO-2025-0250.R1"
     },
     {
@@ -76,10 +76,10 @@
       "authors": "Cleary HL, Bernard MD, Davenport DL, Bernard AC",
       "date": "2026-06-10",
       "study_type": "Retrospective cohort study",
-      "population": "Adult trauma patients with physician diagnosis of blunt cardiac injury or sternal fracture who were haemodynamically stable",
+      "population": "Adult trauma patients with blunt cardiac injury or sternal fracture who were haemodynamically stable",
       "sample_size": "350 patients",
-      "outcomes": "Adverse cardiac events (new arrhythmia requiring treatment, cardiac surgery, or cardiac-related mortality)",
-      "take_home": "In stable patients admitted with possible blunt cardiac injury, serum troponin levels did not help predict who would have heart rhythm problems or other serious heart events. This suggests that stable patients may not need routine troponin testing, though abnormal heart tracings (ECG) were associated with increased risk.",
+      "outcomes": "Adverse cardiac events (new arrhythmia requiring treatment, cardiac surgery, or cardiac-related death)",
+      "take_home": "In stable patients admitted with suspected blunt cardiac injury, troponin levels did not help predict who would have serious heart problems, suggesting that troponin testing may not be necessary in this group of patients.",
       "url": "https://doi.org/10.1016/j.injury.2026.113448"
     },
     {
@@ -89,10 +89,10 @@
       "authors": "Dekle JK, Sisk CK, Litten RM, Alcaide DM, McIlwain RN, Wilson AL, et al.",
       "date": "2026-06-10",
       "study_type": "Retrospective cohort study",
-      "population": "Adult patients with acute long bone fractures treated with Masquelet technique at a Level I trauma centre",
+      "population": "Adult patients who underwent Masquelet reconstruction for acute long bone fractures at a Level I trauma centre",
       "sample_size": "156 patients (48 Stage I only, 108 completed Stage II)",
-      "outcomes": "Stage II completion rates, fracture-related infection, hardware removal, wound dehiscence, amputation, mortality",
-      "take_home": "About one in three patients who had the first stage of Masquelet reconstruction did not go on to have the second stage, most commonly because of amputation. Patients who completed both stages and those who had only the first stage had similar complication rates and outcomes at follow-up.",
+      "outcomes": "Stage II completion rates, fracture-related infection, hardware removal, wound dehiscence, amputation, and mortality",
+      "take_home": "About one-third of patients who had the first stage of the Masquelet technique did not go on to have the second stage, most commonly because they required amputation. Among patients followed for at least 6 months, outcomes like infection and amputation rates were similar whether or not they completed both stages.",
       "url": "https://doi.org/10.1016/j.injury.2026.113423"
     },
     {
@@ -103,9 +103,9 @@
       "date": "2026-06-10",
       "study_type": "Retrospective diagnostic accuracy study",
       "population": "Adults with suspected knee septic arthritis undergoing arthrocentesis at a tertiary referral centre",
-      "sample_size": "121 consultations (75 septic, 46 nonseptic joints)",
-      "outcomes": "Diagnostic accuracy of web-based calculator using Newman criteria as gold standard; optimal risk thresholds for surgical intervention and exclusion of septic arthritis",
-      "take_home": "A web-based calculator using six clinical and laboratory variables can accurately identify knee septic arthritis, with a calculated risk of 58% or higher suggesting surgery is needed and below 25% being reassuring that septic arthritis is unlikely. The tool performed very well in this hospital study, though further testing in other settings is still needed.",
+      "sample_size": "121 consults (75 septic, 46 nonseptic cases)",
+      "outcomes": "Diagnostic accuracy of web-based calculator using Newman criteria as gold standard; optimal risk thresholds for surgical intervention and excluding septic arthritis",
+      "take_home": "A web-based calculator using six clinical and laboratory variables accurately identified septic knee arthritis, with a probability score of 58% or higher recommending surgery and below 24.6% confidently ruling out infection. The tool correctly classified 93% of cases and may help diagnose this challenging condition more reliably in hospital settings.",
       "url": "https://doi.org/10.1097/OI9.0000000000000485"
     },
     {
@@ -115,10 +115,10 @@
       "authors": "Mosfeldt M, Jorgensen HL, Lauritzen JB, Jansson KA",
       "date": "2026-06-10",
       "study_type": "External validation study of machine learning models",
-      "population": "Patients with hip fractures from 2 hospitals in Stockholm, Sweden",
-      "sample_size": "5,055 consecutive patients between 2010 and 2020",
-      "outcomes": "Mortality at 1, 3, 6, and 12 months after hip fracture, assessed using area under the receiver operating characteristic curve, calibration metrics, and decision curve analysis",
-      "take_home": "Three previously developed machine learning models for predicting death after hip fracture were tested in a new group of patients and performed well, with the XGB model being most accurate. The models were adjusted to account for differences in death rates between groups and are now available online to help doctors make personalised predictions for individual patients.",
+      "population": "Patients with hip fractures",
+      "sample_size": "5,055 consecutive patients from 2 hospitals in Stockholm, Sweden, 2010-2020",
+      "outcomes": "Mortality at 1, 3, 6, and 12 months after hip fracture; model performance assessed by area under the receiver operating characteristic curve, calibration metrics, and decision curve analysis",
+      "take_home": "Machine learning models previously developed to predict death after hip fracture performed well when tested on a new group of patients, with the XGB model being most accurate. The models have been adjusted and made available online to help clinicians estimate individual patient survival risk and support treatment decisions.",
       "url": "https://doi.org/10.2340/17453674.2026.45871"
     },
     {
@@ -127,11 +127,11 @@
       "journal": "Acta Orthopaedica",
       "authors": "Aberg H, Hanni M, Sandberg O, Jonsson KB",
       "date": "2026-06-10",
-      "study_type": "Prospective cohort study with agreement analysis",
+      "study_type": "Prospective cohort study",
       "population": "Patients with trochanteric hip fractures treated with cephalomedullary nail",
       "sample_size": "15 patients (12 with complete imaging)",
-      "outcomes": "CT-based micromotion analysis measurement agreement for fracture displacement, surgical reduction accuracy, and postoperative fragment movement; sub-millimetric repeatability for translation and less than 1 degree for rotation",
-      "take_home": "A new CT scanning method can precisely measure how hip fracture fragments move in three dimensions, with excellent repeatability. After surgery, fractures remained stable during healing with small predictable movements of bone fragments.",
+      "outcomes": "Measurement agreement and repeatability of CT-based micromotion analysis for quantifying fracture displacement, surgical reduction, and postoperative fragment movement",
+      "take_home": "CT-based micromotion analysis can accurately measure hip fracture displacement in three dimensions with excellent repeatability, showing that surgery significantly improved fracture alignment and fragments remained stable during healing.",
       "url": "https://doi.org/10.2340/17453674.2026.45785"
     },
     {
@@ -141,10 +141,10 @@
       "authors": "Hadley SM Jr, Peabody JJ, Durudogan EH, Westvold SJ, Bergman R, Chang S, et al.",
       "date": "2026-06-09",
       "study_type": "Retrospective cohort study",
-      "population": "Patients who underwent operative repair of ankle fractures",
+      "population": "Patients who underwent operative ankle fracture repair at a single academic medical centre between 2016 and 2021",
       "sample_size": "182 patients",
-      "outcomes": "Association between fear of reinjury and failure to return to preinjury activity level",
-      "take_home": "All patients who experienced fear of reinjury failed to return to their activity level before injury, compared with only 12% of patients without fear. Fear of reinjury appears to be a significant barrier to recovery after ankle fracture surgery, particularly for people who were more active before injury.",
+      "outcomes": "Association between fear of reinjury and failure to return to preinjury level of activity",
+      "take_home": "All patients who experienced fear of reinjury after ankle fracture surgery failed to return to their preinjury activity level, compared with only 12% of those without fear. Fear of reinjury appears to be a significant barrier to recovery after ankle fracture surgery, particularly for those who were more active before their injury.",
       "url": "https://doi.org/10.1097/OI9.0000000000000488"
     },
     {
@@ -155,9 +155,9 @@
       "date": "2026-06-08",
       "study_type": "Retrospective imaging review",
       "population": "Patients with distal tibial shaft fractures and associated posterior distal articular fractures",
-      "sample_size": "56 posterior distal articular fractures in 74 patients with distal tibial fractures",
-      "outcomes": "Optimal screw trajectory angles and starting points for percutaneous fixation of posterior distal articular fractures",
-      "take_home": "A standardised screw angle and starting point would only work correctly in about half of cases when viewed from one angle and three quarters when viewed from another, so surgeons should use CT scans to plan each patient's screw position individually rather than using one standard approach for all cases.",
+      "sample_size": "56 posterior distal articular fractures in 74 patients",
+      "outcomes": "Optimal screw trajectory angles (axial and sagittal) for perpendicular fixation and centre engagement of posterior fracture fragments",
+      "take_home": "There is no single standard screw angle that works well for all patients with this type of fracture. Surgeons should use computed tomography scans before surgery to plan the best screw pathway for each individual patient.",
       "url": "https://doi.org/10.1097/OI9.0000000000000487"
     },
     {
@@ -167,10 +167,10 @@
       "authors": "Valderrama J, Narvaez F, Cancino J, Raffo JF, Bosselin R, Zamora F, et al.",
       "date": "2026-06-06",
       "study_type": "Retrospective cohort study",
-      "population": "Patients with surgically treated tibial plateau fractures at a level I trauma centre",
-      "sample_size": "539 patients (164 underwent CTA)",
+      "population": "Patients with surgically treated tibial plateau fractures",
+      "sample_size": "539 patients (6 with arterial injury)",
       "outcomes": "Incidence of arterial injury detected on CTA; fracture patterns associated with arterial injury",
-      "take_home": "Arterial injury was found in 1.11% of surgically treated tibial plateau fractures. Whilst certain fracture patterns appeared more common in cases with arterial injury, the small number of events means these findings should be treated as preliminary observations only.",
+      "take_home": "Arterial injury was found in 1.11% of surgically treated tibial plateau fractures. Certain fracture patterns appeared more common in cases with arterial injury, but these findings are based on very few cases and need further research to confirm.",
       "url": "https://doi.org/10.1016/j.injury.2026.113403"
     },
     {
@@ -180,10 +180,10 @@
       "authors": "Fan S, Wagner RK, Lehle CH, Musick AN, Gregg AT, Janssen SJ, et al.",
       "date": "2026-06-06",
       "study_type": "Retrospective cohort study",
-      "population": "Adults aged 18 years or older with a broken tibia that failed to heal (diaphyseal tibial nonunion) treated with surgery",
+      "population": "Adults aged 18 or over who had surgery to repair a broken tibia bone that had failed to heal",
       "sample_size": "108 patients",
-      "outcomes": "Need for additional surgery to achieve bone healing; radiographic evidence of bone healing (mRUST score of 11 or above)",
-      "take_home": "About 1 in 4 patients needed another operation to help their bone heal, though 9 in 10 eventually achieved healing on X-ray. Smoking, an initial open fracture, and bone defects increased the risk of needing more surgery, whilst a surgical technique called decortication reduced this risk.",
+      "outcomes": "Need for additional surgery to fix persistent nonunion, and whether the bone healed on X-rays. One quarter of patients needed further surgery, and 5 patients had amputation. Smoking, initial open fracture, and bone defects increased the risk of needing more surgery.",
+      "take_home": "About 1 in 4 patients needed another operation because their tibia still would not heal after initial repair surgery. However, 9 in 10 patients eventually achieved bone healing on X-rays, and smoking cessation before surgery may improve outcomes.",
       "url": "https://doi.org/10.1016/j.injury.2026.113421"
     },
     {
@@ -193,10 +193,10 @@
       "authors": "Cawley WCF, Hwang P, Mittal R, Zochowski Y, Darwish I, O'Keefe R, et al.",
       "date": "2026-06-06",
       "study_type": "Development and validation of a new classification system using retrospective case series data",
-      "population": "Patients with indirect Lisfranc injuries (midfoot injuries between the foot bones and bases of the toe bones)",
-      "sample_size": "176 indirect Lisfranc injuries with CT scans available",
-      "outcomes": "Inter-rater reliability (agreement between different doctors classifying the same injury) and intra-rater reliability (consistency of one doctor's classifications)",
-      "take_home": "A new classification system called Suthersan showed much better agreement between doctors (0.95 versus 0.65) compared to the existing standard system, suggesting it may be more reliable for categorising these injuries and planning treatment.",
+      "population": "Patients with indirect Lisfranc injuries (midfoot injuries between the cuneiforms and metatarsals)",
+      "sample_size": "176 indirect Lisfranc injuries reviewed by three surgeons",
+      "outcomes": "Inter-observer and intra-observer reliability of the new Suthersan classification compared to the existing Myerson-Hardcastle classification, measured using Cohen's Kappa statistic",
+      "take_home": "The new Suthersan classification system for midfoot injuries shows much better agreement between different doctors (0.95 versus 0.65) and stronger consistency when the same doctor reviews cases again (97.7% versus 87.9%) compared to the older classification system. This new system may help doctors predict outcomes and standardise treatment once it is tested in prospective studies.",
       "url": "https://doi.org/10.1016/j.injury.2026.113422"
     },
     {
@@ -205,11 +205,11 @@
       "journal": "Injury",
       "authors": "Phan HT, Nguyen BT, Zhao T, Phung LT, Keakabetse TR, Dinh TTN, et al.",
       "date": "2026-06-06",
-      "study_type": "Scoping review of costs and cost-effectiveness",
+      "study_type": "Scoping review",
       "population": "Injury and trauma care training programmes across low-, middle- and high-income countries",
-      "sample_size": "28 studies included",
-      "outcomes": "Implementation costs (ranging from USD 3.70 to USD 1433.50), cost-effectiveness of training programmes, cost drivers including foreign instructor involvement, and impact of training-of-trainers models on costs",
-      "take_home": "Most trauma care training programmes were found to be cost-effective, and using trainer-of-trainers and cascading models can reduce costs by up to 28% per participant without reducing training quality. However, the evidence on costs and cost-effectiveness remains inconsistent and needs more rigorous research, especially in regions with high injury burdens.",
+      "sample_size": "28 studies",
+      "outcomes": "Implementation costs and cost-effectiveness of trauma care training programs",
+      "take_home": "Trauma care training programmes were generally cost-effective, with costs ranging from USD 3.70 to USD 1433.50 per participant depending on the programme type. Using local trainers rather than foreign instructors and training-of-trainers models reduced costs by up to 28% without reducing training quality.",
       "url": "https://doi.org/10.1016/j.injury.2026.113433"
     },
     {
@@ -218,11 +218,11 @@
       "journal": "Injury",
       "authors": "Egbe S, Marks D, Christiano AV, Erdman MK, Wolf JM, Strelzow J",
       "date": "2026-06-06",
-      "study_type": "Retrospective review",
-      "population": "Skeletally mature patients with tibial fractures treated at a level 1 trauma centre",
+      "study_type": "Retrospective cohort review",
+      "population": "Skeletally mature patients with tibial fractures treated at a single level 1 trauma centre",
       "sample_size": "281 patients (187 blunt injuries, 94 ballistic injuries)",
-      "outcomes": "Incidence of acute compartment syndrome (ACS); associations between injury mechanism, fracture location, morphology, patient characteristics and ACS development",
-      "take_home": "Acute compartment syndrome occurred in only 2.1% of tibial fractures overall, and the type of injury (blunt versus gunshot) did not increase the risk. Patients with blood vessel injury were significantly more likely to develop compartment syndrome regardless of how the fracture occurred.",
+      "outcomes": "Incidence of acute compartment syndrome (ACS) and associations with injury mechanism, fracture location, morphology and patient characteristics",
+      "take_home": "Acute compartment syndrome occurred in 2.1% of tibial fractures overall, with similar rates between blunt (2.7%) and ballistic (1%) injuries, meaning the type of injury mechanism did not predict ACS risk. However, patients with associated blood vessel injuries had significantly higher ACS rates regardless of how the injury occurred.",
       "url": "https://doi.org/10.1016/j.injury.2026.113424"
     },
     {
@@ -231,11 +231,11 @@
       "journal": "Injury",
       "authors": "Salphale YS, Saodekar H, Kimmatkar N, Shinde G, Kothari P, Salphale AY",
       "date": "2026-06-06",
-      "study_type": "Narrative review",
-      "population": "Adults with orthopaedic trauma",
+      "study_type": "Narrative review of observational and interventional studies",
+      "population": "Adults with orthopaedic trauma, with emphasis on low- and middle-income countries including India",
       "sample_size": "",
-      "outcomes": "Pain, disability, functional recovery, quality of life, psychological distress (depression, anxiety, post-traumatic stress)",
-      "take_home": "About one-quarter to one-half of orthopaedic trauma patients experience significant psychological distress, which worsens pain and disability regardless of injury severity. Adding simple psychological screening and culturally appropriate support to routine trauma care could improve recovery, especially in low-resource settings.",
+      "outcomes": "Pain, disability, functional recovery, quality of life, rehabilitation adherence, and psychological distress (depression, anxiety, post-traumatic stress)",
+      "take_home": "Psychological factors like catastrophising and fear-avoidance worsen recovery after bone and joint injuries, while optimism and social support improve outcomes. Adding simple psychological screening and culturally appropriate support to trauma care could help patients recover better in low-resource settings.",
       "url": "https://doi.org/10.1016/j.injury.2026.113389"
     },
     {
@@ -246,9 +246,9 @@
       "date": "2026-06-06",
       "study_type": "Cross-sectional reliability study",
       "population": "Paediatric orthopaedic surgeons and orthopaedic residents",
-      "sample_size": "100 radiographs classified by 10 observers (5 experts and 5 residents)",
+      "sample_size": "100 radiographs reviewed by 10 clinicians",
       "outcomes": "Intraobserver and interobserver agreement for Salter-Harris versus Peterson physeal fracture classification systems",
-      "take_home": "Both the Salter-Harris and Peterson classification systems showed similar and moderate-to-substantial reliability for classifying physeal fractures in children, with no significant difference between them. This suggests either system could be used clinically, though both require consistent training for best results.",
+      "take_home": "Both classification systems showed similar reliability with moderate-to-substantial agreement. There were no significant differences between the Salter-Harris and Peterson classifications in how consistently doctors could classify growth plate fractures from radiographs.",
       "url": "https://doi.org/10.1016/j.injury.2026.113416"
     },
     {
@@ -257,11 +257,11 @@
       "journal": "Injury",
       "authors": "Ozkaya M",
       "date": "2026-06-05",
-      "study_type": "Finite element analysis biomechanical study",
-      "population": "High tibial osteotomy fixation models",
-      "sample_size": "3 fixation models",
-      "outcomes": "Stiffness, deformation, tibial plateau displacement, stress levels, fatigue life under various loading conditions",
-      "take_home": "Using two screws instead of three in the upper part of the plate provides similar stability and deformation under normal loading, though it may have a shorter lifespan under backward-directed forces. Two screws could be a reasonable option to preserve more bone in younger patients, though the plate design may need further improvement.",
+      "study_type": "Biomechanical finite element analysis study",
+      "population": "Medial opening wedge high tibial osteotomy fixation models",
+      "sample_size": "Three fixation models (one standard, two modified)",
+      "outcomes": "Stiffness, deformation, tibial plateau displacement, stress levels, and fatigue life under centric, anterior and posterior loading",
+      "take_home": "Using two screws instead of three in high tibial osteotomy plates showed similar stability and strength under most loading conditions, though fatigue life was slightly reduced under backwards loading. Two screws may be a viable option that preserves more bone and reduces surgery time, though further refinement is needed.",
       "url": "https://doi.org/10.1016/j.injury.2026.113430"
     },
     {
@@ -271,10 +271,10 @@
       "authors": "Cherchiglia ML, Mougin V, Gray A, Wool EE, Malta DC, Melo APS, et al.",
       "date": "2026-06-05",
       "study_type": "Retrospective cohort study using record-linkage methodology",
-      "population": "Patients hospitalised for road traffic injuries in Brazil from 2000 to 2015, aged 15 and over, compared with those hospitalised for other reasons",
-      "sample_size": "",
-      "outcomes": "All-cause and cause-specific mortality risk over 3 months to 10 years follow-up",
-      "take_home": "People hospitalised after road traffic injuries had more than three times higher risk of death over the following 10 years compared to people hospitalised for other reasons. Men aged 15-59 with motorcycle, vehicle or pedestrian injuries were at particularly high risk, and those with previous road traffic injuries also had increased risks of death from substance use, violence and suicide.",
+      "population": "People hospitalised for road traffic injuries in Brazil, aged 15 years and over, compared with those hospitalised for other reasons",
+      "sample_size": "Not specified in abstract",
+      "outcomes": "All-cause and cause-specific mortality risk over 3 months to 10 years; relative risk of death for RTI patients versus other inpatients",
+      "take_home": "People who were hospitalised for road traffic injuries had significantly higher death rates over the following years compared to those hospitalised for other reasons, with particularly high risks in young and middle-aged men. Those with prior road traffic injuries also had increased risks of dying from causes including substance use, violence and suicide.",
       "url": "https://doi.org/10.1016/j.injury.2026.113378"
     },
     {
@@ -284,10 +284,10 @@
       "authors": "Hus A, Brown A, Bundschu I, Prashar S, Kumar S, Indorewala Y, et al.",
       "date": "2026-06-05",
       "study_type": "Retrospective cohort study",
-      "population": "Adult trauma patients (18+ years) in hemorrhagic shock with moderate-to-severe penetrating abdominal injuries requiring massive transfusion protocol",
+      "population": "Adults aged 18 years and over with moderate-to-severe penetrating abdominal injuries in hemorrhagic shock requiring massive transfusion protocol",
       "sample_size": "Not stated in abstract",
-      "outcomes": "Primary: 24-hour and in-hospital mortality. Secondary: transfusion requirements, intervention rate, and complications",
-      "take_home": "Ground ambulance transport was associated with higher 24-hour mortality than helicopter transport, but when scene time was less than 10 minutes, outcomes were similar between the two transport methods. This suggests helicopter emergency services may be overused for some patients who could be safely transported by ground ambulance if transport time is short.",
+      "outcomes": "Primary outcome: mortality at 24 hours and in-hospital. Secondary outcomes: transfusion requirements, intervention rate, and complications.",
+      "take_home": "Ground transport was associated with higher 24-hour mortality than helicopter transport, but when scene time was under 10 minutes, outcomes were similar between the two transport methods. This suggests helicopter transport may not always be necessary for fast ground transport situations.",
       "url": "https://doi.org/10.1016/j.injury.2026.113437"
     },
     {
@@ -298,9 +298,9 @@
       "date": "2026-06-05",
       "study_type": "Retrospective cohort study",
       "population": "Adults aged over 55 years with hip fracture treated with surgery",
-      "sample_size": "304 patients for physical function analysis, 285 for pain interference analysis",
-      "outcomes": "Achievement of clinically important improvement in physical function and pain interference within one year after surgery",
-      "take_home": "Patients with higher anxiety levels in the first month after hip fracture surgery were less likely to achieve meaningful improvements in physical function and pain relief during the first year. Early postoperative anxiety may be an important marker to identify patients at risk of poorer recovery.",
+      "sample_size": "304 patients for physical function outcome, 285 patients for pain interference outcome",
+      "outcomes": "Achievement of minimal clinically important difference in physical function and pain interference within one year after surgery",
+      "take_home": "Patients with higher anxiety levels in the early weeks after hip fracture surgery were less likely to achieve meaningful improvements in physical function and pain during the first year of recovery. Early anxiety appears to be a marker of recovery risk and targeting anxiety may help improve outcomes.",
       "url": "https://doi.org/10.1016/j.injury.2026.113440"
     },
     {
@@ -309,11 +309,11 @@
       "journal": "Injury",
       "authors": "Monroy A, Tan JM, Arbogast H, Spurrier R, Nager A, Chaudhari PP",
       "date": "2026-06-05",
-      "study_type": "Retrospective cross-sectional study",
+      "study_type": "Multicenter retrospective cross-sectional study",
       "population": "Children under 18 years old with home zip codes in Los Angeles County",
       "sample_size": "28,034 patients",
-      "outcomes": "Trauma activations per 100,000 children; injury mechanisms, severity and disposition by neighbourhood opportunity level; mortality rate",
-      "take_home": "Children living in neighbourhoods with fewer opportunities had higher rates of traumatic injury, particularly from being hit as a pedestrian or cyclist, firearm injuries and assaults, whereas children in better-resourced neighbourhoods had more falls and sports injuries. This suggests injury prevention programmes should be tailored to the specific risks facing different neighbourhoods.",
+      "outcomes": "Trauma activations per 100,000 children; injury mechanisms, severity and disposition by neighbourhood opportunity score",
+      "take_home": "Children living in neighbourhoods with fewer resources had higher rates of serious injuries like being hit as pedestrians or cyclists, firearm injuries and assaults, whilst children in better-resourced areas had more falls and sports injuries. This suggests injury prevention programmes should be tailored to the specific risks facing each neighbourhood.",
       "url": "https://doi.org/10.1016/j.injury.2026.113426"
     },
     {
@@ -322,11 +322,11 @@
       "journal": "Injury",
       "authors": "Al-Ghabeesh S, Alnaeem M, Qaddoura N, Ali BA, Al-Masalha HA",
       "date": "2026-06-05",
-      "study_type": "Cross-sectional descriptive study",
-      "population": "Adult burn patients admitted to a burn intensive care unit in Jordan for at least 48 hours",
+      "study_type": "Cross-sectional survey",
+      "population": "Adult burn patients admitted to a burn intensive care unit in Jordan",
       "sample_size": "146 patients",
-      "outcomes": "Patient satisfaction with nursing care measured using the Arabic version of the Patient Satisfaction with Nursing Care Quality Questionnaire",
-      "take_home": "Burn patients in intensive care reported moderate satisfaction with nursing care. Patients with higher income were more satisfied, whilst those with facial deformity were less satisfied, suggesting that tailored support addressing both practical and emotional needs could help improve patient experience.",
+      "outcomes": "Patient satisfaction with nursing care measured using the Arabic Patient Satisfaction with Nursing Care Quality Questionnaire",
+      "take_home": "Burn patients in intensive care reported moderate satisfaction with nursing care. Higher income and younger age were associated with greater satisfaction, whilst patients with facial deformity reported lower satisfaction.",
       "url": "https://doi.org/10.1016/j.injury.2026.113429"
     },
     {
@@ -338,8 +338,8 @@
       "study_type": "Retrospective cohort study",
       "population": "Children with forearm fractures treated with flexible intramedullary nailing",
       "sample_size": "268 patients (212 pre-COVID, 56 post-COVID)",
-      "outcomes": "Secondary surgery rates, indications for surgery, time to implant removal, patient and parent satisfaction, cost analysis",
-      "take_home": "Leaving the metal nails in place after a child's forearm fracture heals is safe and does not lead to more unplanned operations than removing them. Keeping the nails in also saves the NHS money.",
+      "outcomes": "Incidence of secondary surgery, reasons for surgery, time to implant removal, patient and parent satisfaction, cost-effectiveness",
+      "take_home": "Leaving the metal nails in place after children's forearm fractures heal is safe and does not increase the need for further surgery compared with removing them. Keeping the nails in is also more cost-effective for the NHS.",
       "url": "https://doi.org/10.1016/j.injury.2026.113432"
     },
     {
@@ -350,9 +350,9 @@
       "date": "2026-06-05",
       "study_type": "Prospective before-and-after study",
       "population": "Patients with isolated traumatic brain injury at two provincial hospitals in Vietnam",
-      "sample_size": "1388 patients (712 pre-intervention, 676 post-intervention)",
+      "sample_size": "1388 patients (712 before intervention, 676 after intervention)",
       "outcomes": "24-hour and 30-day mortality rates",
-      "take_home": "After Primary Trauma Care training, mortality from isolated head injury fell from 6.7% to 1.8% at 24 hours and from 10.8% to 4.1% at 30 days, suggesting that early airway and breathing support may protect the brain in resource-limited settings. However, a high loss to follow-up rate (38.7%) means these results should be interpreted with caution.",
+      "take_home": "Primary Trauma Care training was associated with a significant reduction in early deaths from isolated brain injury, with 24-hour mortality falling from 6.7% to 1.8% and 30-day mortality from 10.8% to 4.1%. The training appeared to help most in severe cases, where early 24-hour death rates dropped from 48.1% to 17.5%.",
       "url": "https://doi.org/10.1016/j.injury.2026.113438"
     },
     {
@@ -363,9 +363,9 @@
       "date": "2026-06-05",
       "study_type": "Systematic review and meta-analysis of randomised controlled trials",
       "population": "Elderly patients with displaced femoral neck fractures undergoing hip arthroplasty",
-      "sample_size": "3776 patients across 16 randomised controlled trials",
+      "sample_size": "16 trials involving 3776 patients",
       "outcomes": "Mortality, periprosthetic fracture, dislocation, and wound infection",
-      "take_home": "Cemented hip replacements were associated with lower death rates and substantially fewer broken bones around the implant compared with uncemented replacements, with no increase in hip dislocations or infections. Cemented fixation appears to be a safer and more reliable approach for elderly patients with femoral neck fractures.",
+      "take_home": "Cemented femoral stems were associated with lower mortality and substantially lower risk of fracture around the implant compared with uncemented stems, with no increase in dislocation or infection rates. Cemented fixation appears to be the safer option for elderly patients with femoral neck fractures.",
       "url": "https://doi.org/10.1016/j.injury.2026.113428"
     },
     {
@@ -375,10 +375,10 @@
       "authors": "Aerden LKP, Brouwers X, Sermon A, Ghijselings S, Vles G, Herteleer M, et al.",
       "date": "2026-06-05",
       "study_type": "Retrospective cohort study",
-      "population": "Patients with periprosthetic hip fractures treated surgically at a university trauma centre, compared with a published native hip fracture cohort",
-      "sample_size": "217 periprosthetic hip fracture patients",
-      "outcomes": "Time to surgery, reasons for surgical delay, complication rates, length of stay, and mortality at 30, 60, 90 days and six months",
-      "take_home": "Periprosthetic hip fracture patients waited significantly longer for surgery than native hip fracture patients, mainly due to surgeon availability and logistical factors rather than patient-related issues. However, the surgical delay did not lead to more complications or worse overall survival, and periprosthetic hip fracture patients actually had better survival rates than native hip fracture patients.",
+      "population": "Patients who had surgery for periprosthetic hip fractures (fractures around hip replacements), compared with a benchmark group of patients with native hip fractures",
+      "sample_size": "217 periprosthetic hip fracture patients surgically treated at a university trauma centre",
+      "outcomes": "Time to surgery, reasons for surgical delay, complication rates, length of hospital stay, and mortality at 30, 60, 90 days and six months",
+      "take_home": "Periprosthetic hip fracture patients waited much longer for surgery than native hip fracture patients (median 43.6 hours versus 16.8 hours), mainly due to surgeon availability and logistical issues rather than patient factors. However, delayed surgery did not increase complications or reduce overall survival in periprosthetic fracture patients.",
       "url": "https://doi.org/10.1016/j.injury.2026.113436"
     },
     {
@@ -387,11 +387,11 @@
       "journal": "Injury",
       "authors": "Khoraki J, Payne C, Lust D, Mangino MJ, Liebrecht LK",
       "date": "2026-05-29",
-      "study_type": "Animal model study (rats with polytrauma and hemorrhagic shock)",
+      "study_type": "Animal laboratory study (rats)",
       "population": "Adult male Sprague-Dawley rats weighing 250-400 grams",
-      "sample_size": "4 rats per group (3 groups total)",
-      "outcomes": "Survival time, blood pressure (MAP), blood lactate levels, and amount of bleeding",
-      "take_home": "A new type of fluid called PEG-20k helped rats survive much longer after severe trauma and blood loss compared to standard fluids, with better blood pressure and metabolic recovery. This shelf-stable fluid might be useful for treating trauma patients in remote areas or during long waits for hospitals where blood transfusions are not available.",
+      "sample_size": "4 rats per group (3 groups total, n=12)",
+      "outcomes": "Survival time, blood pressure (mean arterial pressure), blood lactate levels, and amount of blood loss",
+      "take_home": "A new type of intravenous fluid called PEG-20k helped rats survive much longer after severe bleeding and injury compared to standard fluids, whilst maintaining better blood pressure and clearing acid from the blood more effectively. This shelf-stable fluid could potentially be useful for treating major trauma in settings where blood transfusions are not available.",
       "url": "https://doi.org/10.1016/j.injury.2026.113379"
     },
     {
@@ -401,10 +401,10 @@
       "authors": "George A, Paull TZ, Winter JD, Levine J, Cole PA",
       "date": "2026-05-29",
       "study_type": "Retrospective cohort study",
-      "population": "Patients with two or more rib fractures and ipsilateral shoulder girdle injury",
-      "sample_size": "354 consecutive patients from a Level 1 trauma centre between 2018-2022",
-      "outcomes": "ICU admission, pneumothorax, pulmonary contusion, mechanical ventilation, spinal or other orthopaedic fractures, Injury Severity Score, 30-day mortality, and classification system reliability",
-      "take_home": "More severe chest wall injuries were linked to worse outcomes including higher ICU admission and death rates, but injuries affecting multiple shoulder structures together were associated with better outcomes than single scapula or upper arm fractures, possibly because the shoulder absorbs the impact force more effectively.",
+      "population": "Patients with two or more rib fractures and shoulder girdle injury from trauma",
+      "sample_size": "354 consecutive patients from 2018-2022",
+      "outcomes": "ICU admission, pneumothorax, pulmonary contusion, mechanical ventilation, spinal or orthopaedic fractures, Injury Severity Score, 30-day mortality",
+      "take_home": "A new classification system (Ch-Sh) can help predict how severely patients with combined chest wall and shoulder injuries will be affected. More extensive chest wall injuries were linked with worse outcomes, but surprisingly, shoulder injuries that affect multiple structures may have better outcomes because the force is spread across more areas rather than concentrating damage to vital organs.",
       "url": "https://doi.org/10.1016/j.injury.2026.113373"
     },
     {
@@ -414,10 +414,10 @@
       "authors": "Knight C, Burke JR, Hind S, Smith SR",
       "date": "2026-05-22",
       "study_type": "Prospective observational study",
-      "population": "Major trauma patients aged over 16 years admitted to a UK Major Trauma Centre",
+      "population": "Major trauma patients aged over 16 years with Injury Severity Score of 9 or more, admitted to a UK Major Trauma Centre",
       "sample_size": "293 patients",
-      "outcomes": "Incidence of unrecognised injuries identified at tertiary trauma survey, sensitivity and specificity of the survey, risk factors for unrecognised injuries",
-      "take_home": "Nearly one in five trauma patients had injuries that were not spotted in initial assessments but were found at a later detailed examination, particularly injuries to the face, head and eyes. This detailed examination was very good at finding these injuries and should be part of routine trauma care.",
+      "outcomes": "Incidence of unrecognised injuries identified at tertiary trauma survey; sensitivity and specificity of the survey; risk factors for unrecognised injuries",
+      "take_home": "Nearly one in five major trauma patients had injuries that were not spotted during initial assessments but found at a later detailed examination. This thorough third-stage survey was very good at finding these missed injuries, especially to the head and eyes, even in patients with less severe injuries.",
       "url": "https://doi.org/10.1016/j.injury.2026.113370"
     },
     {
@@ -427,10 +427,10 @@
       "authors": "Klaassen AD, Willigenburg NW, Musters JWQ, Jager J, Poolman RW",
       "date": "2026-02-19",
       "study_type": "Before-and-after study",
-      "population": "Patients undergoing total hip arthroplasty between January 2015 and March 2020",
+      "population": "Patients who underwent total hip arthroplasty between January 2015 and March 2020",
       "sample_size": "10,357 patients (7,666 with strict restrictions, 2,691 with minimal restrictions)",
-      "outcomes": "Incidence of hip dislocation within 90 days after surgery. Strict restrictions group: 1.46% (112 dislocations). Minimal restrictions group: 1.93% (52 dislocations). Difference was not statistically significant (p = 0.093).",
-      "take_home": "Patients who had minimal movement restrictions after hip replacement surgery did not have more hip dislocations than those with strict restrictions. This suggests that reducing movement restrictions after hip replacement may be safe and could help patients return to normal activities faster.",
+      "outcomes": "Hip dislocation within 90 days after surgery",
+      "take_home": "Patients who followed a protocol with minimal movement restrictions after hip replacement did not have more hip dislocations than those with strict movement restrictions. This suggests that looser restrictions may be safe and could help patients return to normal activities more quickly.",
       "url": "https://doi.org/10.2106/JBJS.25.00121"
     }
   ]

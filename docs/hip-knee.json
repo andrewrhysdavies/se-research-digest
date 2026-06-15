@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-15T06:03:05.800Z",
+  "generated_at": "2026-06-15T20:21:18.391Z",
   "is_seed": false,
   "subspecialty": "hip-knee",
-  "count": 44,
+  "count": 52,
   "window_days": 7,
   "journals": [
     "J Arthroplasty",
@@ -19,16 +19,107 @@
   ],
   "articles": [
     {
+      "id": "pmid-42294536",
+      "title": "Joint-specific measures improve risk adjustment in total knee arthroplasty: A machine learning approach.",
+      "journal": "KSSTA",
+      "authors": "Muller D, Gillani A, Hirschmann MT, Lazic I, Hinterwimmer F, Arber A, et al.",
+      "date": "2026-06-15",
+      "study_type": "Retrospective cohort study using machine learning",
+      "population": "Patients undergoing primary total knee arthroplasty",
+      "sample_size": "1207 procedures at a single academic centre between 2018 and 2022",
+      "outcomes": "Postoperative complications and residual pain at 1 year following total knee arthroplasty",
+      "take_home": "Adding information about the knee joint itself, such as bone defects and how much it can bend, improved doctors' ability to predict which patients would have complications after knee replacement surgery. However, this extra information did not help predict which patients would still have pain after surgery.",
+      "url": "https://doi.org/10.1002/ksa.70480"
+    },
+    {
+      "id": "pmid-42294531",
+      "title": "Slope reducing osteotomy: The emerging gap between indication, safety and proportionality.",
+      "journal": "KSSTA",
+      "authors": "Pineda T, Seil R, Sonnery-Cottet B, Dejour DH, Hirschmann MT, Ollivier M",
+      "date": "2026-06-15",
+      "study_type": "Editorial",
+      "population": "Patients with anterior cruciate ligament injuries, particularly high-risk patients and those needing revision surgery",
+      "sample_size": "",
+      "outcomes": "Appropriate use and safety of slope-reducing osteotomy based on risk stratification and patient selection",
+      "take_home": "Slope-reducing osteotomy is becoming popular for ACL injuries but is being used before there is enough evidence to guide when and how to use it. Doctors should base decisions on individual patient risk factors rather than simple numerical thresholds, and surgical experience remains important for safe use.",
+      "url": "https://doi.org/10.1002/ksa.70488"
+    },
+    {
+      "id": "pmid-42290642",
+      "title": "No clinical and functional benefit after medial congruent compared to ultra congruent total knee arthroplasty at 1 year: A prospective randomized controlled study.",
+      "journal": "KSSTA",
+      "authors": "Schrednitzki D, Sina J, Lamarche A, Meissner N, Halder AM",
+      "date": "2026-06-15",
+      "study_type": "Prospective randomised controlled trial",
+      "population": "Patients with advanced varus knee osteoarthritis undergoing primary total knee arthroplasty",
+      "sample_size": "80 patients randomised; 76 completed 12-month follow-up (38 in each group)",
+      "outcomes": "Primary: Knee Society Score. Secondary: range of motion, Oxford Knee Score, Forgotten Joint Score, High-Activity Arthroplasty Score, patient satisfaction and willingness to repeat procedure",
+      "take_home": "Both types of knee replacement insert (medial congruent and ultra congruent) produced excellent results at one year with high patient satisfaction, and there were no meaningful differences between them. Either design can be used based on surgeon preference.",
+      "url": "https://doi.org/10.1002/ksa.70482"
+    },
+    {
+      "id": "pmid-42290641",
+      "title": "Knee arthroplasty in patients under 50 years demonstrates durable survivorship despite substantially higher lifetime revision risk than in older patients.",
+      "journal": "KSSTA",
+      "authors": "Morrison SR, Hall AJ, Lim B, Akhtar A, Walmsley P",
+      "date": "2026-06-15",
+      "study_type": "Retrospective analysis of prospectively collected registry data",
+      "population": "Patients aged 16-49 years undergoing primary knee replacement, compared with patients aged 50 years and older",
+      "sample_size": "3069 patients aged under 50 years (58.6% female, mean age 44); date-matched comparison cohort aged 50 and over",
+      "outcomes": "Revision rate, time to revision, mortality, cumulative incidence of revision, estimated lifetime revision risk",
+      "take_home": "Knee replacements in patients under 50 years of age work well in the long term, but around 30% may eventually need revision surgery compared with only 15% in older patients. Patients under 50 should be counselled about this higher lifetime risk of needing further surgery.",
+      "url": "https://doi.org/10.1002/ksa.70486"
+    },
+    {
+      "id": "pmid-42290543",
+      "title": "Moderate to high levels of spin in studies comparing open and arthroscopic Latarjet procedures for anterior shoulder instability: A systematic review from the LaTour Group.",
+      "journal": "KSSTA",
+      "authors": "Akrivos VS, Claizergues B, Collin P, Levy G, Valencia GV, van Rooij F, et al.",
+      "date": "2026-06-15",
+      "study_type": "Systematic review of comparative studies",
+      "population": "Studies comparing open and arthroscopic Latarjet procedures for anterior shoulder instability",
+      "sample_size": "25 studies included",
+      "outcomes": "Prevalence, type and level of spin (misleading reporting, misleading interpretation, inadequate extrapolation) in comparative studies",
+      "take_home": "80% of studies comparing open and arthroscopic Latarjet procedures contained at least one type of misleading reporting or interpretation, with selective reporting of results being the most common problem. Readers should be cautious when interpreting these studies and look for transparent reporting and discussion of limitations.",
+      "url": "https://doi.org/10.1002/ksa.70476"
+    },
+    {
+      "id": "pmid-42290534",
+      "title": "Highly variable proximal tibia anatomy causes controversies for proper tibial component rotational alignment in total knee arthroplasty: A current concept review.",
+      "journal": "KSSTA",
+      "authors": "Hofmann S, Tecame A, Hirschmann M, Lustig S, Seitlinger G, Innocenti B",
+      "date": "2026-06-15",
+      "study_type": "Narrative literature review",
+      "population": "Patients undergoing total knee arthroplasty for osteoarthritis",
+      "sample_size": "95 key articles reviewed",
+      "outcomes": "Tibial component rotational alignment methods, patellar tracking, functional outcome, anterior knee pain",
+      "take_home": "Surgeons have many different approaches to positioning the tibial component during knee replacement, but no single method has been proven better than others. The key is identifying the 30% of patients with abnormal tibia positioning and correcting it during surgery.",
+      "url": "https://doi.org/10.1002/ksa.70485"
+    },
+    {
+      "id": "pmid-42288315",
+      "title": "Comparative Analysis of Clinically Meaningful Recovery Trajectories Following Unicompartmental Arthroplasty and Patello-Femoral Arthroplasty.",
+      "journal": "J Arthroplasty",
+      "authors": "Singh R, Williams DL, Alexander J, Marrache M, Bedair HS, Melnic CM",
+      "date": "2026-06-13",
+      "study_type": "Retrospective comparative cohort study",
+      "population": "Patients with isolated compartmental knee osteoarthritis treated with medial unicompartmental arthroplasty, lateral unicompartmental arthroplasty, or patello-femoral arthroplasty",
+      "sample_size": "2,487 patients (1,938 medial UKA, 283 lateral UKA, 256 PFA)",
+      "outcomes": "Time to minimal clinically important difference in patient-reported outcome measures (KOOS-PS, PROMIS Global Physical Health, PROMIS PF-10a); conversion to total knee arthroplasty; non-conversion reoperation rates",
+      "take_home": "All three types of partial knee replacement surgery showed similar speed of functional recovery in the early period, with patients reaching meaningful improvement within 1 to 2 months. Patello-femoral arthroplasty had higher rates of non-conversion reoperations at two years, which may be important when choosing between procedures.",
+      "url": "https://doi.org/10.1016/j.arth.2026.06.020"
+    },
+    {
       "id": "pmid-42285326",
       "title": "Propensity Score-Matched Comparison of Patient-Reported Outcomes Between Crowe I Developmental Dysplasia of the Hip and Primary Osteoarthritis Following Total Hip Arthroplasty.",
       "journal": "J Arthroplasty",
       "authors": "Saluja A, Eschert J, Ren R, Wong Z, Su E",
       "date": "2026-06-12",
-      "study_type": "Retrospective propensity-matched comparison study",
+      "study_type": "Retrospective propensity-score matched comparison",
       "population": "Patients undergoing total hip arthroplasty for either Crowe I developmental dysplasia of the hip or primary osteoarthritis",
-      "sample_size": "210 hips (105 with developmental dysplasia of the hip, 105 with osteoarthritis)",
-      "outcomes": "Modified Harris Hip Score, Hip disability and Osteoarthritis Outcome Score - Joint Replacement, pain scores, activity levels, revision rates, and implant survivorship",
-      "take_home": "Patients with Crowe I developmental dysplasia of the hip achieved similar improvements in pain, function and activity after hip replacement compared to those with osteoarthritis, with comparable implant survival rates and revision rates. A patient's functional ability before surgery, rather than their diagnosis, was the main factor determining how much they benefited from the operation.",
+      "sample_size": "210 hips (105 with developmental dysplasia, 105 with osteoarthritis)",
+      "outcomes": "Modified Harris Hip Score, Hip disability and Osteoarthritis Outcome Score - Joint Replacement, pain on Visual Analog Scale, activity level on UCLA Activity Scale, revision rates, and implant survivorship",
+      "take_home": "Patients with Crowe I developmental dysplasia of the hip achieved similar pain relief, function, and implant survival to those with osteoarthritis after hip replacement surgery. The quality of life before surgery, rather than the underlying hip condition, was the main factor determining how much patients benefited.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.023"
     },
     {
@@ -37,11 +128,11 @@
       "journal": "J Arthroplasty",
       "authors": "Murphy MP, Forti CR, Ho H, Hopper RH Jr, Hamilton WG",
       "date": "2026-06-12",
-      "study_type": "Retrospective cohort study with matched case-control analysis",
+      "study_type": "Retrospective cohort analysis with matched case-control comparison",
       "population": "Patients undergoing primary total hip arthroplasty via direct anterior approach",
-      "sample_size": "8,658 THAs (45 dislocations and matched controls)",
-      "outcomes": "Dislocation rate and associated risk factors including patient demographics, implant characteristics, and radiographic parameters such as cup orientation, offset, and limb length changes",
-      "take_home": "Hip dislocation after direct anterior approach surgery is uncommon at 0.5%, but women with smaller femoral head implants (28mm or 32mm) have significantly higher risk. Precise positioning of the cup during surgery is important to reduce dislocation risk.",
+      "sample_size": "8,658 primary THAs (45 dislocations, with matched controls for radiographic analysis)",
+      "outcomes": "Dislocation rate and associated risk factors including patient demographics, implant characteristics, and cup positioning parameters",
+      "take_home": "Women having hip replacement via the direct anterior approach face higher dislocation risk, particularly those receiving smaller implant heads (28 mm or 32 mm). Surgeons should pay particular attention to precise cup positioning during surgery to minimise this risk.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.017"
     },
     {
@@ -50,11 +141,11 @@
       "journal": "J Arthroplasty",
       "authors": "Kayani B, Enson J, Donaldson J, Miles J, Newman S, Jayadev C, et al.",
       "date": "2026-06-12",
-      "study_type": "Retrospective case series",
-      "population": "Patients with atypical hip anatomy undergoing robotic total hip arthroplasty, including developmental dysplasia, Perthes disease, slipped capital femoral epiphysis, previous acetabular fracture, and skeletal dysplasia",
+      "study_type": "Case series",
+      "population": "Patients with atypical hip anatomy undergoing robotic total hip replacement, including developmental dysplasia of the hip, Leg-Calve-Perthes disease, slipped capital femoral epiphysis, previous acetabular fracture, and skeletal dysplasia",
       "sample_size": "192 robotic hip replacements in 182 patients",
-      "outcomes": "Component positioning accuracy, patient satisfaction, functional scores (UCLA activity, WOMAC, Oxford Hip Score, Forgotten Joint Score), component survivorship, and complications",
-      "take_home": "Robotic-assisted hip replacement achieved highly accurate component positioning in patients with complex hip anatomy, with 98.8% implants surviving to five years and patients reporting high satisfaction and good functional outcomes. This suggests robotic assistance may help achieve better results in this challenging patient group.",
+      "outcomes": "Component positioning accuracy, patient satisfaction, hip function scores (UCLA, WOMAC, Oxford Hip Score, Forgotten Joint Score), component survivorship at 5 years, and complications",
+      "take_home": "Robotic hip replacement was very accurate at positioning components in patients with complex hip anatomy, achieving target positions within 1-3 mm and resulting in 98.8% of implants surviving 5 years without revision. Patients reported high satisfaction and significant improvements in hip function and activity levels.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.014"
     },
     {
@@ -66,8 +157,8 @@
       "study_type": "Retrospective cohort study",
       "population": "Patients undergoing elective total hip arthroplasty between 2017 and 2022",
       "sample_size": "3,392 cases",
-      "outcomes": "Compliance with patient-reported outcome measures at two years after surgery; overall survey completion rate was 25.8%",
-      "take_home": "Only about one quarter of hip replacement patients completed outcome questionnaires at two years after surgery. Patients with social disadvantage codes, those who did not speak English, and men were less likely to complete questionnaires, whilst married or employed patients were more likely to do so.",
+      "outcomes": "Compliance rates with patient-reported outcome measures (PROMs) at two years after surgery, assessed against social determinants of health codes, mental health codes, and demographic factors",
+      "take_home": "Only 25.8% of patients completed patient-reported outcome questionnaires after hip replacement surgery. Patients with social risk factors, non-English speakers, and men were less likely to complete these questionnaires, whilst employed and married patients were more likely to fill them out.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.022"
     },
     {
@@ -77,10 +168,10 @@
       "authors": "Patel SV, Pasqualini I, Khan ST, Elmenawi KA, Zhang C, Piuzzi NS",
       "date": "2026-06-12",
       "study_type": "Retrospective analysis of prospectively collected data",
-      "population": "Medicare beneficiaries aged 65 and over who underwent primary elective total knee replacement",
+      "population": "Medicare beneficiaries aged 65 years and over who had primary elective total knee replacement",
       "sample_size": "7,926 patients (2,812 inpatient, 5,114 outpatient)",
-      "outcomes": "Knee injury and Osteoarthritis Outcome Score for Joint Replacement (KOOS-JR) substantial clinical benefit thresholds",
-      "take_home": "Inpatients needed a 29.3-point improvement on the KOOS-JR score to show meaningful benefit, whilst outpatients needed only a 21.5-point improvement. This suggests that using different success thresholds for hospital and outpatient surgery settings may be fairer than applying a single benchmark to both groups.",
+      "outcomes": "Knee injury and Osteoarthritis Outcome Score for Joint Replacement (KOOS-JR) substantial clinical benefit thresholds at 29.3 points for inpatient and 21.5 points for outpatient settings",
+      "take_home": "The study found that inpatients need to improve by nearly 8 more points on the KOOS-JR scale than outpatients to show meaningful benefit after knee replacement, which may reflect differences in how ill patients are when they start treatment. Using different improvement targets for inpatient versus outpatient surgery could provide fairer performance assessment.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.019"
     },
     {
@@ -91,9 +182,9 @@
       "date": "2026-06-12",
       "study_type": "Retrospective cohort study using national claims database",
       "population": "Patients undergoing primary total knee arthroplasty who received direct oral anticoagulants for blood clot prevention",
-      "sample_size": "12,733 patients receiving NSAIDs plus DOAC; 37,127 receiving DOAC alone",
-      "outcomes": "Wound complications, surgical site infection, periprosthetic joint infection, revision surgery, arthrofibrosis, and bleeding events at 90 days and 2 years",
-      "take_home": "Taking NSAIDs together with blood-thinning medications after knee replacement increases the risk of wound problems, infection, and needing revision surgery, although it does reduce stiffness. Doctors need to carefully consider each patient's individual risks when deciding whether to use NSAIDs with these blood thinners.",
+      "sample_size": "49,860 patients (12,733 receiving NSAIDs plus anticoagulant, 37,127 receiving anticoagulant alone)",
+      "outcomes": "90-day wound complications, surgical site infection, periprosthetic joint infection, bleeding events, two-year revision rates, arthrofibrosis and manipulation under anaesthesia",
+      "take_home": "Taking NSAIDs together with anticoagulant drugs after knee replacement was linked to higher rates of wound problems, infections and need for revision surgery, but did reduce stiffness. The choice of which NSAID matters, with some types carrying higher infection risks than others.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.016"
     },
     {
@@ -102,11 +193,11 @@
       "journal": "J Arthroplasty",
       "authors": "Lee DH, Park JW, Jung WH, Kim TY, Ha YC, Koo KH, et al.",
       "date": "2026-06-12",
-      "study_type": "Prospective multicentre cohort study",
+      "study_type": "Prospective multicenter cohort study",
       "population": "Patients undergoing cementless total hip replacement with ceramic-on-ceramic bearings",
       "sample_size": "178 patients (201 hips) followed for minimum 10 years",
-      "outcomes": "Ceramic fracture, dislocation, Harris Hip Score, osteolysis, articular noise, revision and reoperation rates",
-      "take_home": "Large ceramic hip replacements did not fracture and had excellent survival rates at 10+ years follow-up, but a small number of patients experienced late dislocation due to spine problems and some reported noise from the joint.",
+      "outcomes": "Ceramic fracture, dislocation, clinical hip scores, bone loss (osteolysis), implant noise, revision surgery rates",
+      "take_home": "Large ceramic hip replacements did not fracture and had very low revision rates (99.1% survival) over 10 years, but late dislocation and implant noise remained occasional concerns, particularly in patients with spine problems.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.015"
     },
     {
@@ -117,10 +208,23 @@
       "date": "2026-06-12",
       "study_type": "Retrospective cohort analysis",
       "population": "Patients undergoing total hip or knee replacement with BMI of 30 or above",
-      "sample_size": "6,128 patients (4,953 with socioeconomic data) from 44,764 joint replacements",
-      "outcomes": "Preoperative obesity treatment utilization (weight loss medications, nutrition services, bariatric surgery) and weight loss success; disparities by socioeconomic status and sex",
-      "take_home": "Very few patients received obesity treatment before joint replacement surgery, with less than 3% receiving any intervention. Women and patients from more deprived areas were more likely to have higher BMI before surgery but were less likely to achieve weight loss.",
+      "sample_size": "6,128 patients (4,953 with socioeconomic data)",
+      "outcomes": "Preoperative obesity treatment use, weight loss achievement, and disparities by socioeconomic status and sex",
+      "take_home": "Very few patients received obesity treatment before joint replacement surgery, with only 0.2% receiving weight loss medications and 1.6% receiving nutrition services. Women and patients from more deprived areas were more likely to have higher BMI before surgery but were less likely to lose weight, highlighting unfair effects of BMI-based surgery cutoffs.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.021"
+    },
+    {
+      "id": "pmid-42288055",
+      "title": "Risk factors for asseptic loosening after revision total knee replacement (rTKR): a component-specific analysis of femoral and tibial reconstruction.",
+      "journal": "The Knee",
+      "authors": "Souto CS, Pereira F, Carvalho A, Sousa R",
+      "date": "2026-06-12",
+      "study_type": "Retrospective cohort analysis",
+      "population": "Patients undergoing revision total knee replacement for aseptic loosening",
+      "sample_size": "215 revision total knee replacements with 2-year minimum follow-up",
+      "outcomes": "Re-revision rate (primary); radiographic fixation assessed using D'Amato scoring system; association between reconstruction methods (augments and metaphyseal sleeves) and re-revision",
+      "take_home": "Tibial augments were associated with higher rates of re-revision (5.6% overall), whilst metaphyseal sleeves showed lower failure rates. The study suggests that achieving adequate reconstruction and stable fixation is important in revision knee replacement.",
+      "url": "https://doi.org/10.1016/j.knee.2026.104528"
     },
     {
       "id": "pmid-42284855",
@@ -131,8 +235,8 @@
       "study_type": "Prediction model development study using machine learning",
       "population": "Patients undergoing total knee arthroplasty",
       "sample_size": "590 patients",
-      "outcomes": "Incidence of isolated distal deep vein thrombosis (IDDVT) within three days after surgery; predictive model performance measured by AUC scores",
-      "take_home": "About 15 out of every 100 patients developed blood clots in the deep veins of the leg after knee replacement surgery. Researchers created a prediction tool using seven key factors that can help identify which patients are at higher risk of developing these clots, so they can receive preventive treatment earlier.",
+      "outcomes": "Incidence of isolated distal deep vein thrombosis within three days after total knee arthroplasty; prediction model performance measured by AUC",
+      "take_home": "About 15 in 100 patients developed blood clots in the lower leg veins within three days of knee replacement surgery. Researchers created a computer model using seven patient characteristics that can predict which patients are at higher risk of developing these clots, which could help doctors identify and treat at-risk patients earlier.",
       "url": "https://doi.org/10.1016/j.knee.2026.104511"
     },
     {
@@ -141,11 +245,11 @@
       "journal": "The Knee",
       "authors": "Mirza Y, Sari F, Arslan S",
       "date": "2026-06-12",
-      "study_type": "Comparative evaluation study",
-      "population": "Large language models (DeepSeek-R1, Gemini 2.5 Flash, ChatGPT-5)",
-      "sample_size": "8 EULAR 2023 recommendations converted into open-ended questions",
-      "outcomes": "Informational quality, reliability, usability, readability, semantic and lexical similarity to EULAR guidelines",
-      "take_home": "DeepSeek-R1 performed better than other models at answering questions about hip and knee osteoarthritis management, but all three models produced generally acceptable information. However, these artificial intelligence tools are not yet ready for patients to use independently and should only be used as supportive tools under healthcare professional supervision.",
+      "study_type": "Comparative analysis of large language models against clinical guidelines",
+      "population": "Not applicable; study evaluated artificial intelligence systems rather than patients",
+      "sample_size": "Three large language models tested (DeepSeek-R1, Gemini 2.5 Flash, ChatGPT-5) against eight EULAR recommendations",
+      "outcomes": "Informational quality, reliability, usability, readability, semantic similarity and lexical similarity to EULAR 2023 recommendations for hip and knee osteoarthritis management",
+      "take_home": "DeepSeek-R1 performed better than other AI systems at answering questions about osteoarthritis management based on expert guidelines, but all three systems need improvement in readability and should only be used as tools supervised by healthcare professionals, not by patients independently.",
       "url": "https://doi.org/10.1016/j.knee.2026.104524"
     },
     {
@@ -157,8 +261,8 @@
       "study_type": "Health systems review",
       "population": "Romanian orthopaedic patients",
       "sample_size": "",
-      "outcomes": "Digital infrastructure adoption, robotic-assisted surgery use, artificial intelligence applications, hospital bed capacity, arthroplasty register modernisation",
-      "take_home": "Romania's orthopaedic care is advancing through increased use of digital tools and robotic surgery, whilst maintaining high hospital bed capacity for elderly and complex patients. The country has relaunched its joint replacement register to match standards across Europe.",
+      "outcomes": "Digital infrastructure adoption, robotic-assisted surgery implementation, artificial intelligence applications, hospital bed capacity, arthroplasty registry modernisation",
+      "take_home": "Romania has increased its use of digital tools and robotic surgery in orthopaedic care, and has high hospital bed capacity to support treatment of elderly and complex patients. The country has modernised its arthroplasty register to match standards in other European countries.",
       "url": "https://doi.org/10.2106/JBJS.26.00188"
     },
     {
@@ -167,11 +271,11 @@
       "journal": "Acta Orthopaedica",
       "authors": "Van Marle L, Peters RM, Van Steenbergen LN, Jaarsma RL, Doornberg JN, Zijlstra WP",
       "date": "2026-06-12",
-      "study_type": "Cohort study using national register data",
-      "population": "Patients who had total hip replacement for proximal femur fracture, either as initial treatment or after failed internal fixation",
-      "sample_size": "32,960 procedures (12,486 salvage after failed fixation, 18,450 acute fracture replacements)",
-      "outcomes": "Need for revision hip replacement surgery within 1 and 5 years, and reasons for revision",
-      "take_home": "Patients who needed hip replacement after failed internal fixation had similar revision rates to those who had hip replacement straight away for their fracture. Both groups had revision rates around 4.5% at 5 years, suggesting that previous internal fixation does not make the later hip replacement less successful.",
+      "study_type": "Retrospective cohort study",
+      "population": "Patients who had total hip replacement for hip fracture, either as an immediate procedure or after failed internal fixation",
+      "sample_size": "32,960 procedures (12,486 salvage procedures after failed fixation; 18,450 acute procedures)",
+      "outcomes": "Rates of revision hip replacement surgery needed within 1 and 5 years; reasons for revision including infection, loosening and dislocation",
+      "take_home": "Hip replacements done after failed internal fixation had similar revision rates to hip replacements done immediately after fracture, suggesting that previous fixation attempts do not make the outcome worse. Both groups had about 4 to 5 per cent needing revision surgery within 5 years.",
       "url": "https://doi.org/10.2340/17453674.2026.46046"
     },
     {
@@ -183,8 +287,8 @@
       "study_type": "Observational cohort study with internal validation",
       "population": "Patients with medial knee pain and medial meniscal displacement on MRI",
       "sample_size": "200 patients",
-      "outcomes": "Treatment failure defined as major subsequent surgery, clinically relevant meniscal reintervention, or meaningful deterioration in patient-reported outcomes at mean follow-up of 32.4 months",
-      "take_home": "A new MRI-based risk model that combines measurements of meniscal displacement with other structural factors like root injury, knee alignment and cartilage damage can accurately predict which patients will need further surgery or experience poor outcomes. The model identified low, intermediate and high-risk groups with treatment failure rates of 12%, 34% and 64% respectively, helping doctors make better decisions about meniscus preservation surgery.",
+      "outcomes": "Treatment failure (major subsequent surgery, meniscal reintervention, or meaningful deterioration in patient-reported outcomes) at mean follow-up of 32 months",
+      "take_home": "Researchers developed a new MRI-based model that combines measurements of meniscus displacement with other knee factors to predict which patients will need further surgery or experience worsening symptoms. The model identified low-risk (12% failure), intermediate-risk (34% failure), and high-risk (64% failure) groups, helping doctors make better treatment decisions.",
       "url": "https://doi.org/10.1016/j.knee.2026.104533"
     },
     {
@@ -193,11 +297,11 @@
       "journal": "The Knee",
       "authors": "Schlangen E, Wenzlaff S, Swetkovich R, Arenz A, Miller B, Murphy R, et al.",
       "date": "2026-06-11",
-      "study_type": "Retrospective comparative study",
-      "population": "Patients aged 16-35 years undergoing primary ACL reconstruction",
-      "sample_size": "262 participants (hamstring tendon 134, quadriceps tendon 67, bone-patellar tendon-bone 27, allograft 34)",
+      "study_type": "Retrospective cohort study",
+      "population": "Patients aged 16-35 undergoing primary ACL reconstruction",
+      "sample_size": "262 participants (134 hamstring tendon, 67 quadriceps tendon, 27 bone-patellar tendon-bone, 34 allograft)",
       "outcomes": "Isokinetic quadriceps and hamstring muscle strength measured at 3, 6, 9, and 12 months after surgery",
-      "take_home": "Different graft types used in ACL reconstruction show different patterns of strength recovery. Hamstring and allograft grafts restored quadriceps strength better than quadriceps tendon and bone-patellar tendon-bone grafts, but hamstring grafts led to greater weakness of the hamstring muscles because of damage at the donor site.",
+      "take_home": "The type of graft used in ACL reconstruction affects how quickly different muscles recover their strength. Hamstring and allograft grafts helped the thigh muscle recover faster, but hamstring grafts led to weaker hamstring muscles afterwards due to where the graft was taken from.",
       "url": "https://doi.org/10.1016/j.knee.2026.104510"
     },
     {
@@ -208,9 +312,9 @@
       "date": "2026-06-11",
       "study_type": "Comparative clinical and radiological study",
       "population": "Patients undergoing total knee arthroplasty",
-      "sample_size": "203 patients (99 in lateral patellar facetectomy group, 104 in comparison group)",
-      "outcomes": "Knee Society Score, Oxford score, Kujala score, patellar displacement, lateral displacement, congruence angle, and tilt angle on X-rays",
-      "take_home": "Patients who had a lateral patellar facetectomy (removal of part of the kneecap's outer edge) during knee replacement had better pain scores and better alignment of the kneecap on X-rays compared to those who had only bone spur removal. This technique may reduce kneecap-related problems after knee replacement.",
+      "sample_size": "203 patients (99 lateral patellar facetectomy group, 104 non-facetectomy group)",
+      "outcomes": "Knee Society Score, Oxford score, Kujala score, patellar displacement, lateral displacement, congruence angle, tilt angle",
+      "take_home": "Patients who had a new technique called lateral patellar facetectomy during knee replacement surgery had better alignment of the kneecap on X-rays and scored higher on pain and function tests compared to patients who had standard techniques. This suggests the new technique may help improve satisfaction after knee replacement surgery.",
       "url": "https://doi.org/10.1016/j.knee.2026.104521"
     },
     {
@@ -222,8 +326,8 @@
       "study_type": "Retrospective cohort study",
       "population": "Patients undergoing robot-assisted total knee arthroplasty for osteoarthritis",
       "sample_size": "386 robot-assisted total knee arthroplasties",
-      "outcomes": "Mediolateral imbalance classification using REAL framework; distribution of imbalance measurements; patient-reported outcomes across imbalance categories",
-      "take_home": "The study confirmed that the REAL classification system can reliably categorise knee imbalance during robot-assisted knee replacement surgery, and showed that surgical balancing during the procedure significantly reduced mediolateral imbalance. However, patient-reported outcomes did not differ based on initial imbalance category.",
+      "outcomes": "Distribution of mediolateral imbalance using REAL classification; medial and lateral extension and flexion gaps; patient-reported outcomes",
+      "take_home": "The REAL classification system for measuring knee balance during robotic knee replacement surgery was successfully replicated in this independent patient group, and intraoperative balancing procedures significantly improved the alignment of the knee joint. Patient-reported outcomes were similar regardless of initial balance category.",
       "url": "https://doi.org/10.1016/j.knee.2026.104531"
     },
     {
@@ -233,10 +337,10 @@
       "authors": "Benyamini B, Khan ST, Elmenawi KA, Patel SV, Deren ME, Piuzzi NS",
       "date": "2026-06-11",
       "study_type": "Retrospective cohort study",
-      "population": "Patients undergoing primary total hip replacement",
-      "sample_size": "12,749 patients (145 with GLP-1 agonist prescription history)",
-      "outcomes": "1-year patient-reported outcomes using HOOS Pain, Physical Function and Joint Replacement scores; patient satisfaction; 90-day readmission and medical complications; length of stay; 2-year implant complications",
-      "take_home": "Patients taking GLP-1 agonists before hip replacement had similar satisfaction and pain relief at 1 year compared to those not taking these drugs, but experienced more medical complications in the first 90 days and fewer hospital readmissions. The study was limited by its small number of patients taking GLP-1 agonists.",
+      "population": "Patients undergoing primary total hip arthroplasty, with and without GLP-1 agonist prescription history",
+      "sample_size": "12,749 patients (145 with GLP-1 agonist use)",
+      "outcomes": "1-year patient-reported outcome measures (HOOS Pain, Physical Function, Joint Replacement subscales), patient satisfaction, complication rates, hospital readmission, length of stay",
+      "take_home": "GLP-1 agonist use before hip replacement did not affect patient satisfaction or symptom improvement at 1 year. Patients using GLP-1 agonists had fewer 90-day hospital readmissions but more medical complications within 90 days, though the small number of patients taking GLP-1 agonists limits the strength of these findings.",
       "url": "https://doi.org/10.1177/11207000261450078"
     },
     {
@@ -245,11 +349,11 @@
       "journal": "JBJS",
       "authors": "Li Y, Wang F, Li Y, Mu W, Ji B, Zhang X, et al.",
       "date": "2026-06-11",
-      "study_type": "Comparative observational study using transcriptomic analysis",
-      "population": "Patients with failed hip or knee replacements: 135 with periprosthetic joint infection and 50 with aseptic failure",
+      "study_type": "Comparative laboratory study using transcriptomic analysis",
+      "population": "Patients with failed joint replacements: 135 with periprosthetic joint infection and 50 with aseptic failure",
       "sample_size": "185 periprosthetic tissue samples",
-      "outcomes": "Immune cell type abundances in infected versus aseptic failed joint tissues; recurrence rates of infection based on CD8+ T cell to regulatory T cell ratio",
-      "take_home": "Different types of immune cells are present in higher numbers in infected joint replacements compared with non-infected failures, and patients with a higher ratio of CD8+ T cells to regulatory T cells had lower rates of infection coming back. This new laboratory method could help identify which patients with infected joint replacements are at higher risk of treatment failure.",
+      "outcomes": "Immune cell profiles in infected versus non-infected failed joint replacements; association between CD8+ to regulatory T cell ratio and infection recurrence",
+      "take_home": "Infected joint replacements show different patterns of immune cells compared to non-infected failures, with higher levels of certain T cells and inflammatory macrophages in infections. Patients with infected joints who had higher levels of CD8+ cells relative to regulatory T cells had better outcomes with lower rates of infection returning.",
       "url": "https://doi.org/10.2106/JBJS.25.01505"
     },
     {
@@ -258,11 +362,11 @@
       "journal": "J Arthroplasty",
       "authors": "Lyman S, Chin A, Alschuler DM, Brill CO, Fontana M, MacLean C, et al.",
       "date": "2026-06-10",
-      "study_type": "Statistical analysis of sampling methodology",
-      "population": "Hospitals performing total hip and knee arthroplasty",
-      "sample_size": "Analysis of hospitals with 5, 50, 500, and 5,000 eligible cases annually",
-      "outcomes": "Minimum sample size needed to achieve statistically valid patient-reported outcome performance measure estimates with 95% confidence interval",
-      "take_home": "The current CMS requirement for matching pre- and post-operative questionnaires from at least 50% of patients creates problems at both ends: small hospitals get unreliable results whilst large hospitals face excessive reporting burden. A random sampling approach would reduce the number of questionnaires needed, particularly for larger hospitals, whilst maintaining statistical accuracy.",
+      "study_type": "Statistical modelling study",
+      "population": "Hospitals performing total hip and knee replacements reporting to Centers for Medicare & Medicaid Services",
+      "sample_size": "Modelled hospitals with 5, 50, 500 and 5,000 eligible cases annually",
+      "outcomes": "Minimum sample size of patient-reported outcome measures needed to produce statistically valid performance estimates with 95% confidence interval",
+      "take_home": "A random sampling strategy could reduce the number of patient questionnaires hospitals need to collect compared to current rules, particularly for larger hospitals, whilst still producing reliable results. This approach could reduce burden on hospitals without compromising the quality of performance measurement.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.003"
     },
     {
@@ -272,10 +376,10 @@
       "authors": "Yapp LZ, Howard LC, Greidanus NV, Garbuz DS, Masri BA, Neufeld ME",
       "date": "2026-06-10",
       "study_type": "Retrospective cohort study",
-      "population": "Patients undergoing first revision total hip arthroplasty for instability",
+      "population": "Patients undergoing first revision total hip replacement for instability",
       "sample_size": "284 patients (mean age 65 years, 63.2% women)",
-      "outcomes": "10-year survivorship free from instability-related re-revision (82.2%) and all-cause re-revision (73.6%). Risk factors for failure included younger age, higher BMI, abductor deficiency, and constrained liner use.",
-      "take_home": "About one in five patients who have revision hip surgery for instability will experience the hip becoming unstable again within 10 years. Dual mobility components and larger femoral heads performed better than constrained liners in preventing recurrent instability.",
+      "outcomes": "10-year survival free from instability-related re-revision (82.2%) and all-cause re-revision (73.6%); risk factors for re-revision identified including implant type, patient age, BMI and abductor muscle deficiency",
+      "take_home": "About one in five patients having revision hip replacement for instability will experience recurrent instability within 10 years, and about one in three will need further surgery for any reason. Using dual mobility components or large femoral heads appears to reduce instability, whereas constrained liners carry higher revision risk.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.002"
     },
     {
@@ -285,10 +389,10 @@
       "authors": "Kim BI, Cheng R, Grabov E, Debbi EM, Vigdorchik JM, Mayman DJ, et al.",
       "date": "2026-06-10",
       "study_type": "Retrospective cohort study",
-      "population": "Patients undergoing primary total hip replacement",
-      "sample_size": "6,413 procedures (5,897 with 36 mm heads, 516 with 40 or 44 mm heads)",
-      "outcomes": "Hip dislocation rates, periprosthetic joint infection, fracture complications",
-      "take_home": "Jumbo femoral heads (40 or 44 mm) showed a small reduction in hip dislocation risk during the first year after surgery compared to standard large heads (36 mm), but this benefit did not last long-term. There were no increased rates of infection or fracture with the larger heads.",
+      "population": "Patients undergoing primary total hip arthroplasty",
+      "sample_size": "6,413 hip replacements (5,897 with 36 mm heads; 516 with 40 or 44 mm heads)",
+      "outcomes": "Prosthetic hip dislocation, periprosthetic joint infection, periprosthetic fracture",
+      "take_home": "Jumbo femoral heads (40 or 44 mm) reduced dislocation risk slightly during the first year after surgery compared with standard large heads (36 mm), but this benefit did not last long-term. There was no increase in infection or fracture rates with jumbo heads.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.007"
     },
     {
@@ -297,11 +401,11 @@
       "journal": "J Arthroplasty",
       "authors": "Padgett BM, Terhune EB, Chalmers BP, Pagnano MW, Hannon CP",
       "date": "2026-06-10",
-      "study_type": "Symposium review of contemporary evidence",
+      "study_type": "Symposium review manuscript",
       "population": "Patients undergoing primary total knee arthroplasty",
       "sample_size": "",
-      "outcomes": "Patient satisfaction, implant survivorship, pain relief, functional improvement",
-      "take_home": "Although knee replacements are very successful overall, about 10 to 20% of patients remain unhappy after surgery even without technical problems. Moving away from rigid surgical approaches towards personalised strategies based on individual patient factors may help improve satisfaction.",
+      "outcomes": "Patient satisfaction, pain relief, functional improvement, implant survivorship",
+      "take_home": "Although knee replacement is successful for most patients, about 10 to 20% remain dissatisfied even when the implant works well. Moving away from one-size-fits-all approaches towards personalised treatment decisions, including choices about alignment, fixation, bearing surfaces and kneecap treatment, may help improve patient satisfaction.",
       "url": "https://doi.org/10.1016/j.arth.2026.05.077"
     },
     {
@@ -312,9 +416,9 @@
       "date": "2026-06-10",
       "study_type": "Retrospective case series",
       "population": "Patients undergoing aseptic revision total joint arthroplasty at an ambulatory surgery centre",
-      "sample_size": "153 patients (181 enrolled, 28 excluded due to insufficient follow-up)",
-      "outcomes": "Complications within 90 days postoperatively, re-revision rates at final follow-up (mean 3.4 years), survivorship free from re-revision at 2 and 5 years",
-      "take_home": "Revision joint replacement can be safely performed at ambulatory surgery centres in carefully selected patients, with low complication rates (11% within 90 days) and good long-term outcomes (94% free from further revision at 5 years).",
+      "sample_size": "153 patients (181 enrolled, 28 excluded for inadequate follow-up)",
+      "outcomes": "Complications within 90 days postoperatively, re-revision rates at final follow-up (mean 3.4 years), survival free from re-revision at 2 and 5 years",
+      "take_home": "Revision joint replacement surgery performed in an outpatient setting had low complication rates (11% within 90 days) and low re-revision rates (94-97% of patients did not need further surgery at 2-5 years). This suggests that with careful selection of suitable patients and procedures, revision joint replacement can be safely done outside hospital.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.009"
     },
     {
@@ -323,11 +427,11 @@
       "journal": "J Arthroplasty",
       "authors": "Chalmers BP, Afzal S, Bhatti P, Anatone AJ, Blevins JL, Debbi EM, et al.",
       "date": "2026-06-10",
-      "study_type": "Retrospective case series",
+      "study_type": "Retrospective cohort study",
       "population": "Patients undergoing revision total knee replacement for severe distal femoral bone loss",
-      "sample_size": "20 patients (mean age 69 years, 65% men)",
-      "outcomes": "Survivorship free from revision for loosening (100% at one and two years); survivorship free from any re-revision (85.1% at one and two years); survivorship free from any reoperation (85.1% at one and two years)",
-      "take_home": "Using bone-preserving cones with a hinged knee replacement for severe femoral bone loss achieved good results, with no cases needing revision for loosening in the first two years, though three patients needed further surgery. This technique may be a useful alternative to distal femoral replacement in selected patients.",
+      "sample_size": "20 patients, mean follow-up 14.5 months",
+      "outcomes": "Survivorship free from revision for aseptic loosening 100% at one and two years; survivorship free from any re-revision 85.1% at one and two years; three knees required reoperation (periprosthetic fracture, infection, patellar button exchange)",
+      "take_home": "A bone-preserving surgical technique using femoral cones and a hinge design achieved good results in patients with severe femoral bone loss during revision knee replacement, avoiding the need for more extensive bone replacement surgery in most cases. Three out of twenty patients needed further surgery during the follow-up period.",
       "url": "https://doi.org/10.1016/j.arth.2026.05.076"
     },
     {
@@ -337,10 +441,10 @@
       "authors": "Kalaai S, Schotanus MGM, van Dun B, Most J, Tilman PBJ, Van Haaren EH, et al.",
       "date": "2026-06-10",
       "study_type": "Retrospective single-centre cohort study",
-      "population": "Patients undergoing cemented cruciate-retaining total knee replacement",
+      "population": "Patients undergoing cemented cruciate-retaining total knee arthroplasty",
       "sample_size": "288 patients (301 knee replacements)",
-      "outcomes": "Implant survival rate, patient-reported outcome measures, radiographic signs, revision surgery rates",
-      "take_home": "At nearly 14 years follow-up, 95.4% of knee replacements were still in place without revision surgery, and patients reported continued improvement in function and outcomes. The Vanguard knee replacement system showed good safety and longevity.",
+      "outcomes": "Implant survival rate, patient-reported outcome measures, radiographic findings, revision surgery rates",
+      "take_home": "The cemented knee replacement system studied showed excellent long-term results, with 95.4% of implants surviving without needing revision surgery at nearly 14 years follow-up and patients continuing to report improved function over time.",
       "url": "https://doi.org/10.1016/j.knee.2026.104522"
     },
     {
@@ -352,8 +456,8 @@
       "study_type": "Laboratory biomechanics study",
       "population": "Healthy recreationally active males",
       "sample_size": "12",
-      "outcomes": "Peak external knee abduction moment, ground reaction force, frontal-plane moment arm during different deceleration tasks",
-      "take_home": "Decelerating whilst moving in a curved path places significantly greater stress on the knee joint compared to stopping in a straight line, even when approaching at the same speed. This may help explain why ACL injuries often happen during rapid changes of direction in sports.",
+      "outcomes": "Peak knee abduction moment, ground reaction force, frontal-plane moment arm during different deceleration tasks",
+      "take_home": "Decelerating whilst moving in a curved path places greater stress on the knee joint than straight-line deceleration, which may help explain why ACL injuries happen during sport-specific movements. This suggests that curved deceleration drills should be included in injury prevention programmes for athletes.",
       "url": "https://doi.org/10.1016/j.knee.2026.104534"
     },
     {
@@ -365,8 +469,8 @@
       "study_type": "Machine learning model development and validation study",
       "population": "Adults aged 60 years and over with radiographically confirmed knee osteoarthritis",
       "sample_size": "429 participants (81.8% women; mean age 69.0 years)",
-      "outcomes": "Development of a clinical scoring tool to identify factors associated with symptomatic knee osteoarthritis; model discriminative performance measured by area under the receiver operating characteristic curve",
-      "take_home": "Researchers created a scoring tool that can help identify which modifiable factors are most important in determining whether someone with knee osteoarthritis has symptoms, including factors like low back pain, depression, muscle strength and movement range. The tool showed moderate accuracy in distinguishing between people with and without symptoms.",
+      "outcomes": "Accuracy of a machine learning-based clinical tool for identifying factors associated with symptomatic knee osteoarthritis, measured by area under the receiver operating characteristic curve",
+      "take_home": "Researchers developed a clinical scoring tool using machine learning that identifies eight key modifiable factors linked to symptomatic knee osteoarthritis, including low back pain, disease severity, mood, knee movement and strength, and muscle quality. The tool showed moderate accuracy in predicting which patients with knee osteoarthritis would have symptoms.",
       "url": "https://doi.org/10.1016/j.knee.2026.104525"
     },
     {
@@ -375,11 +479,11 @@
       "journal": "Hip Int",
       "authors": "Graif N, Abdel Latif A, Warschawski Y, Elbaz E, Ben-Tov T, Snir N, et al.",
       "date": "2026-06-10",
-      "study_type": "Retrospective cohort study with propensity score matching",
-      "population": "Hip fracture patients treated at a tertiary centre",
-      "sample_size": "1935 patients (768 in each matched group)",
-      "outcomes": "Preoperative haemoglobin decline of 2 g/dL or more; transfusion rates; hospital length of stay",
-      "take_home": "About half of hip fracture patients lose a significant amount of blood before surgery, particularly those with extracapsular fractures, those over 85 years old, and those waiting more than 24 hours for surgery. Patients with substantial preoperative blood loss needed more transfusions and stayed in hospital longer.",
+      "study_type": "Retrospective observational study with propensity score matching",
+      "population": "Adults with hip fractures treated at a tertiary centre",
+      "sample_size": "1935 patients (768 in each propensity-matched group)",
+      "outcomes": "Preoperative haemoglobin decline of 2 g/dL or more, blood transfusion rates, hospital length of stay",
+      "take_home": "Nearly half of hip fracture patients had significant blood loss before surgery. Patients with extracapsular fractures, those over 85 years old, and those waiting more than 24 hours for surgery were more likely to lose blood before the operation, and these patients needed more transfusions and stayed in hospital longer.",
       "url": "https://doi.org/10.1177/11207000261453342"
     },
     {
@@ -391,8 +495,8 @@
       "study_type": "Prospective cohort study using radiostereometric analysis",
       "population": "Patients undergoing revision total knee replacement with tibial metaphyseal cones",
       "sample_size": "25 patients",
-      "outcomes": "Tibial component movement (translation and rotation) measured at 2 years; pain, satisfaction, Oxford Knee Score, Knee Society Score, KOOS-PS; adverse events including re-revision",
-      "take_home": "Most tibial cones remained stable with very small movement at 2 years, but there was considerable variation between patients with some showing more movement than others. Two patients needed further surgery within 2 years.",
+      "outcomes": "Tibial component migration measured by total translation and total rotation at 2 years; clinical pain, satisfaction and function scores; adverse events including re-revision",
+      "take_home": "Most tibial cones showed stable fixation with minimal movement at 2 years, but some patients had more migration than expected. One patient needed further revision surgery for loosening within the 2-year period.",
       "url": "https://doi.org/10.2340/17453674.2026.45964"
     },
     {
@@ -402,10 +506,10 @@
       "authors": "Biemans H, De Vries AJ, Brouwer RW",
       "date": "2026-06-10",
       "study_type": "Randomised controlled trial",
-      "population": "Adults undergoing unicompartmental knee arthroplasty",
+      "population": "Adults scheduled for unicompartmental knee arthroplasty",
       "sample_size": "Not stated in abstract",
       "outcomes": "Pain at rest and during loading, oxycodone consumption, knee function scores, quality of life, physical tests",
-      "take_home": "Six weeks of cryo-compression therapy after knee replacement did not reduce pain compared to standard care, although patients using cryo-compression took about 46% less opioid painkillers. Other measures of recovery and quality of life were similar between groups.",
+      "take_home": "Six weeks of cryo-compression therapy after partial knee replacement did not reduce pain compared with standard care, although patients using cryo-compression took 46% less opioid painkillers overall. Quality of life improved slightly more with cryo-compression but not by clinically meaningful amounts.",
       "url": "https://doi.org/10.2340/17453674.2026.45963"
     },
     {
@@ -414,11 +518,11 @@
       "journal": "Acta Orthopaedica",
       "authors": "Mossige M, Lutro O, Fenstad AM, Leta TH, Bruun T, Furnes O, et al.",
       "date": "2026-06-10",
-      "study_type": "Cohort study with validation analysis",
-      "population": "Patients who had reoperation after total knee replacement in Western Norway",
-      "sample_size": "423 reoperations (170 reported as infection-related)",
-      "outcomes": "Sensitivity 92%, specificity 96%, and accuracy 94% for periprosthetic joint infection reporting; 94% of reported infections confirmed; 5% of non-infection cases validated as infections",
-      "take_home": "Norwegian surgeons are accurately reporting which knee replacement reoperations are due to infection, with 9 in 10 cases correctly identified. This means data from the Norwegian registry can be reliably used to track and study knee replacement infections.",
+      "study_type": "Validation study",
+      "population": "Patients who had reoperation after total knee arthroplasty in Western Norway",
+      "sample_size": "423 reoperations (170 reported as periprosthetic joint infection)",
+      "outcomes": "Sensitivity, specificity, negative and positive predictive values, and accuracy of reporting periprosthetic joint infection using the Musculoskeletal Infection Society definition",
+      "take_home": "Surgeons' reports of joint infections after knee replacement in the Norwegian register are accurate 94% of the time, meaning the register data can be reliably used for quality monitoring and research.",
       "url": "https://doi.org/10.2340/17453674.2026.46073"
     },
     {
@@ -428,10 +532,10 @@
       "authors": "Mosfeldt M, Jorgensen HL, Lauritzen JB, Jansson KA",
       "date": "2026-06-10",
       "study_type": "External validation study of machine learning models",
-      "population": "Patients with hip fractures treated at two hospitals in Stockholm, Sweden",
-      "sample_size": "5,055 consecutive patients",
+      "population": "Consecutive patients with hip fractures treated at 2 hospitals in Stockholm, Sweden",
+      "sample_size": "5,055 patients",
       "outcomes": "Mortality at 1, 3, 6, and 12 months after hip fracture",
-      "take_home": "Three types of computer models were tested to predict how many hip fracture patients would die within a year. The eXtreme Gradient Boosting model performed best and showed acceptable accuracy. After adjusting for differences between patient groups, the models worked well and are now available online to help doctors predict individual patient outcomes.",
+      "take_home": "Machine learning models, particularly eXtreme Gradient Boosting, can reliably predict mortality after hip fracture in an independent patient group. After adjusting the models for differences between populations, they performed well and are now available online to help clinicians give patients personalised mortality risk estimates.",
       "url": "https://doi.org/10.2340/17453674.2026.45871"
     },
     {
@@ -440,11 +544,11 @@
       "journal": "Acta Orthopaedica",
       "authors": "Aberg H, Hanni M, Sandberg O, Jonsson KB",
       "date": "2026-06-10",
-      "study_type": "Prospective cohort agreement study",
+      "study_type": "Prospective cohort study with agreement analysis",
       "population": "Patients with trochanteric hip fractures treated with cephalomedullary nail",
-      "sample_size": "15 patients enrolled, 12 with complete imaging",
-      "outcomes": "Measurement agreement of CT-based micromotion analysis for quantifying fracture displacement, surgical reduction quality, and postoperative fragment movement; repeatability assessed using repositioned follow-up scans",
-      "take_home": "CT-based micromotion analysis can precisely measure hip fracture displacement and healing with sub-millimetric accuracy, showing that fractures improved significantly after surgery and remained stable during healing. The technique reliably tracks small movements of bone fragments in three dimensions.",
+      "sample_size": "15 patients enrolled; 12 with complete imaging",
+      "outcomes": "Measurement agreement and repeatability of CT-based micromotion analysis for quantifying fracture displacement, surgical reduction, and postoperative fragment movement",
+      "take_home": "CT-based micromotion analysis can precisely measure hip fracture position and movement in three dimensions with excellent repeatability. After surgery, fractures remained stable during healing with small amounts of expected movement such as shortening and inward shift of the bone.",
       "url": "https://doi.org/10.2340/17453674.2026.45785"
     },
     {
@@ -454,10 +558,10 @@
       "authors": "Ruff G, Di Pauli von Treuheim T, Sarfraz A, Metko K, Rozell JC, Schwarzkopf R, et al.",
       "date": "2026-06-09",
       "study_type": "Retrospective comparative analysis",
-      "population": "Patients undergoing primary, unilateral, elective total hip arthroplasty",
+      "population": "Patients undergoing primary unilateral elective total hip arthroplasty",
       "sample_size": "8,120 procedures (4,670 posterior approach, 3,450 anterior approach)",
-      "outcomes": "Operating room timings including patient positioning, device implantation, wound closure, and total operating room time between anterior and posterior approaches",
-      "take_home": "Anterior approach hip replacement surgery takes about 10 minutes less total operating room time than posterior approach, mainly due to faster set-up, closure and take-down. However, if cement is used to fix the implant, the anterior approach takes considerably longer than the posterior approach.",
+      "outcomes": "Operating room timings including positioning, implantation, closure, and total OR time between anterior and posterior approaches",
+      "take_home": "Anterior approach hip replacement takes about 10 minutes less total operating room time than the posterior approach, mainly due to faster setup and closure. However, cement use adds more time to anterior approach procedures than posterior approach ones.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.012"
     },
     {
@@ -466,11 +570,11 @@
       "journal": "J Arthroplasty",
       "authors": "Smitterberg CW, Ando W, Chen AF, Garvin KL, Hamilton WG, Lee GC, et al.",
       "date": "2026-06-09",
-      "study_type": "Review article",
+      "study_type": "Literature review of Factor XI and XIa inhibitors",
       "population": "Patients undergoing total knee arthroplasty",
       "sample_size": "",
       "outcomes": "Venous thromboembolism prevention, bleeding risk, wound complications, infection risk",
-      "take_home": "Factor XI and FXIa inhibitors show promise as alternatives to current blood-thinning medicines after knee replacement, potentially reducing blood clots whilst causing less bleeding. Two large Phase III trials are underway to test whether these new treatments work better than existing options.",
+      "take_home": "Factor XI and XIa inhibitor drugs may reduce blood clots after knee replacement surgery while causing less bleeding than current treatments, with several new drugs being tested in large trials to confirm whether they work better than existing options.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.008"
     },
     {
@@ -479,11 +583,11 @@
       "journal": "J Arthroplasty",
       "authors": "Huang J, Abdullah Ezzi SH, Wu S, Ali Alshabi MM, Zhang W, Adil MM, et al.",
       "date": "2026-06-09",
-      "study_type": "Randomised controlled trial",
+      "study_type": "Randomised controlled open-label trial",
       "population": "Patients undergoing total knee replacement, mean age 75 years",
       "sample_size": "110 patients",
-      "outcomes": "Pain levels at rest and during walking, analgesia requirements, walking distance, and knee bending and movement at days 1 and 3 after surgery",
-      "take_home": "Adding intraosseous sustained-release anesthetic injection into the bone during knee replacement surgery reduced pain and increased the distance patients could walk and how much they could bend their knee in the first three days after surgery compared to standard local anesthetic infiltration alone.",
+      "outcomes": "Pain levels (VAS), pain relief medication use (PCEA time), walking distance, and knee movement range",
+      "take_home": "Injecting sustained-release anesthetic into the bone during knee replacement surgery, in addition to standard local anaesthetic infiltration, reduced pain and helped patients walk further and move their knee better in the first few days after surgery.",
       "url": "https://doi.org/10.1016/j.arth.2025.11.019"
     },
     {
@@ -495,8 +599,8 @@
       "study_type": "Retrospective comparative study with propensity score matching",
       "population": "Patients undergoing total hip arthroplasty with CT-based navigation",
       "sample_size": "132 hips (66 in each group after matching)",
-      "outcomes": "Clinical outcomes using JOA and JHEQ scores; radiological outcomes including cup orientation, migration, loosening, and radiolucent lines at two-year follow-up",
-      "take_home": "Three-dimensional printed highly porous cups and traditional hydroxyapatite-coated cups performed similarly after two years, with comparable clinical results and good long-term stability. Highly porous cups had more initial gaps between cup and bone, but these did not affect outcomes.",
+      "outcomes": "Clinical outcomes using JOA and JHEQ scores at 6, 12 and 24 months; radiological outcomes including cup orientation, migration, loosening and radiolucent lines",
+      "take_home": "Three-dimensional printed highly-porous cups and hydroxyapatite-coated cups performed similarly well after two years, with comparable pain relief and function. The highly-porous cups had more initial gaps around them but these improved over time, and both types showed no signs of loosening.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.011"
     },
     {
@@ -506,10 +610,10 @@
       "authors": "Paul BR, Verhey JT, Tarabichi S, Van Schuyver PR, Christopher ZK, Bingham JS, et al.",
       "date": "2026-06-09",
       "study_type": "Retrospective cohort study using national administrative database",
-      "population": "Patients with prior hematologic malignancy who underwent total hip arthroplasty",
-      "sample_size": "1,043 patients receiving aspirin matched to 1,484 patients receiving non-aspirin anticoagulation",
-      "outcomes": "Primary: 90-day venous thromboembolism (blood clots). Secondary: emergency department visits, hospital readmissions, blood transfusions, pneumonia, and mortality",
-      "take_home": "Aspirin was associated with lower rates of blood clots in the legs and fewer hospital readmissions compared with stronger anticoagulants in patients with previous blood cancer undergoing hip replacement. Aspirin patients also needed fewer blood transfusions and had lower rates of pneumonia.",
+      "population": "Patients with prior hematologic malignancy undergoing total hip arthroplasty",
+      "sample_size": "1,043 patients receiving aspirin matched to 1,484 receiving non-aspirin anticoagulation",
+      "outcomes": "Primary outcome: 90-day venous thromboembolism (blood clots in veins). Secondary outcomes: deep vein thrombosis, pulmonary embolism, emergency department visits, readmissions, blood transfusions, pneumonia, and mortality",
+      "take_home": "Patients with previous blood cancers who took aspirin after hip replacement had fewer blood clots and fewer other complications like needing blood transfusions or developing pneumonia compared with those taking stronger anticoagulant medicines. Aspirin appeared to be a safe and effective option for preventing blood clots in this high-risk group.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.006"
     },
     {
@@ -519,10 +623,10 @@
       "authors": "Shao PW, Lin YC, Chu CT, Chang CH, Hu CC, Lu TW, et al.",
       "date": "2026-06-09",
       "study_type": "Retrospective cohort study",
-      "population": "Patients undergoing revision total knee replacement with minor bone defects, hybrid fixation and follow-up of at least 24 months",
+      "population": "Patients undergoing revision total knee replacement with minor bone defects using hybrid fixation",
       "sample_size": "79 patients",
-      "outcomes": "Radiographic loosening of the prosthesis, defined using the modified Knee Society scoring system",
-      "take_home": "The study found that using extension stems with adequate fill of the knee canal and sufficient length reduced the risk of prosthesis loosening after revision knee replacement. Surgeons should aim for femoral stem measurements of at least 0.83 fill ratio and 20.7mm length, and tibial stem measurements of at least 0.77 fill ratio and 18.7mm length.",
+      "outcomes": "Radiographic loosening of the knee implant at 24 months or longer follow-up",
+      "take_home": "Using extension stems that fill at least 83% of the thighbone canal (with length over 20.7 mm) and 77% of the shinbone canal (with length over 18.7 mm) reduces the risk of implant loosening after revision knee replacement surgery. Implants loosened in about 27% of cases overall, but better canal filling and longer stems were protective.",
       "url": "https://doi.org/10.1016/j.knee.2026.104508"
     },
     {
@@ -533,9 +637,9 @@
       "date": "2026-06-09",
       "study_type": "Retrospective cohort study",
       "population": "Patients undergoing primary total hip arthroplasty",
-      "sample_size": "394 patients (394 procedures)",
+      "sample_size": "394 patients",
       "outcomes": "30-day and 90-day readmissions, postoperative length of stay, reoperation within 90 days",
-      "take_home": "Low blood pressure during hip replacement surgery (defined as a fixed threshold) was not linked to worse short-term outcomes like hospital readmission or longer stays. However, a relative drop in blood pressure during surgery was associated with higher rates of reoperation within 90 days, and greater blood loss during surgery was linked to longer hospital stays.",
+      "take_home": "Low blood pressure during hip replacement surgery was not linked to readmission or longer hospital stays, but a relative drop in blood pressure of 20% or more was associated with higher rates of needing another operation within 90 days. Blood loss during surgery was more important than blood pressure in predicting how long patients stayed in hospital.",
       "url": "https://doi.org/10.1302/2633-1462.76.BJO-2026-0009.R1"
     },
     {
@@ -545,10 +649,10 @@
       "authors": "Katanbaf R, Misch M, Aflatooni JO, Smitterberg CW, Griffin D, Nace J, et al.",
       "date": "2026-06-08",
       "study_type": "Retrospective cohort study using national all-payer database",
-      "population": "Patients undergoing primary total hip replacement between 2010 and 2021",
-      "sample_size": "457,372 patients",
-      "outcomes": "Hip dislocation, aseptic loosening, periprosthetic fracture, periprosthetic joint infection, surgical site infection, aseptic revision, and venous thromboembolism up to two years after surgery",
-      "take_home": "Surgeons who had specialised hip and knee fellowship training and performed high numbers of hip replacements had better results, particularly lower dislocation and infection rates. Even non-specialist surgeons with high case volumes did not achieve the same outcomes as specialist surgeons.",
+      "population": "Patients undergoing primary total hip arthroplasty",
+      "sample_size": "457,372 patients between 2010 and 2021",
+      "outcomes": "Hip dislocation, aseptic revision, periprosthetic joint infection, aseptic loosening, periprosthetic fracture, surgical site infection, and venous thromboembolism up to two years after surgery",
+      "take_home": "Surgeons with specialised hip replacement training and high caseloads had lower rates of hip dislocation and need for revision surgery compared to surgeons without this training. However, outcomes for other complications like fracture and blood clots were similar regardless of surgeon training or experience.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.004"
     },
     {
@@ -558,10 +662,10 @@
       "authors": "Diaz Dilernia F, Vasarhelyi E, Lanting B, Naudie D, McCalden R, MacDonald S, et al.",
       "date": "2026-06-08",
       "study_type": "Retrospective cohort study",
-      "population": "Patients undergoing elective simultaneous bilateral total hip arthroplasty for end-stage bilateral hip disease",
+      "population": "Patients undergoing simultaneous bilateral total hip arthroplasty for end-stage bilateral hip disease",
       "sample_size": "92 patients (184 hips), median age 60 years",
-      "outcomes": "Functional scores, pain, complications, readmissions, implant survivorship. Overall complication rate 6.5%, transfusion required in 6.5% of patients, implant survivorship 95.7% at median 4.6 years follow-up",
-      "take_home": "Simultaneous bilateral hip replacement provides significant improvement in function and pain with good implant survival rates and acceptable complication rates when patients are carefully selected and modern surgical protocols are used.",
+      "outcomes": "Functional scores, pain evaluation, complication rates, readmissions, implant survivorship, transfusion requirements",
+      "take_home": "Having both hip replacements done at the same time improved patients' function and pain significantly, with 95.7% of implants still working well after a median of 4.6 years and only 6.5% experiencing complications.",
       "url": "https://doi.org/10.1016/j.arth.2026.06.001"
     },
     {
@@ -570,11 +674,11 @@
       "journal": "Bone & Joint Open",
       "authors": "Kiyomatsu H, Fujibuchi T, Kutsuna T, Kinoshita T, Tsuda T, Hayashi M, et al.",
       "date": "2026-06-08",
-      "study_type": "Computational simulation study with retrospective outcomes review",
-      "population": "Asian female patients with small glenoid anatomy undergoing reverse shoulder arthroplasty, mean age 75.5 years",
-      "sample_size": "n = 11 for postoperative outcomes; unclear total number for simulations",
-      "outcomes": "Impingement-free range of motion in extension-flexion, abduction-adduction, and external-internal rotation with different glenosphere sizes (32 mm, 36 mm, 39 mm) and inferior overhangs (1.5 mm, 3.0 mm, 4.5 mm)",
-      "take_home": "In patients with small shoulder sockets, using a smaller 32 mm glenosphere with adequate inferior overhang of 3 mm or more predicted better movement without bone rubbing compared to larger sizes. The study used computer modelling and needs real-world clinical testing to confirm these findings account for soft tissues and implant stability.",
+      "study_type": "Simulation study using 3D CT planning",
+      "population": "Asian female patients with small glenoid anatomy undergoing reverse shoulder arthroplasty",
+      "sample_size": "11 patients for postoperative outcomes; all patients underwent nine simulations each",
+      "outcomes": "Impingement-free range of motion in extension-flexion, abduction-adduction, and external-internal rotation across different glenosphere diameters (32 mm, 36 mm, 39 mm) and inferior overhangs (1.5 mm, 3.0 mm, 4.5 mm)",
+      "take_home": "In patients with small shoulder bone anatomy, using a smaller 32 mm glenosphere with adequate overhang may provide better movement than larger glenospheres. The study was a computer simulation and needs clinical testing to confirm whether this approach works in real patients.",
       "url": "https://doi.org/10.1302/2633-1462.76.BJO-2025-0355.R1"
     },
     {
@@ -583,11 +687,11 @@
       "journal": "JBJS",
       "authors": "Klaassen AD, Willigenburg NW, Musters JWQ, Jager J, Poolman RW",
       "date": "2026-02-19",
-      "study_type": "Before-and-after comparative study",
-      "population": "Patients undergoing total hip arthroplasty between January 2015 and March 2020",
+      "study_type": "Before-and-after study",
+      "population": "Patients undergoing total hip arthroplasty",
       "sample_size": "10,357 patients (7,666 with strict restrictions, 2,691 with minimal restrictions)",
       "outcomes": "Hip dislocation within 90 days after surgery",
-      "take_home": "Patients who followed a protocol with minimal movement restrictions after hip replacement did not have more hip dislocations than those with strict restrictions. This suggests that limiting restrictions after hip replacement surgery may be safe and could help patients return to normal activities more quickly.",
+      "take_home": "Patients given minimal movement restrictions after hip replacement had similar dislocation rates to those with strict restrictions, suggesting that restricting movements less may be safe and could help patients return to normal activities sooner.",
       "url": "https://doi.org/10.2106/JBJS.25.00121"
     }
   ]
