@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-03T10:39:04.620Z",
+  "generated_at": "2026-08-10T08:25:05.918Z",
   "is_seed": false,
   "subspecialty": "foot-ankle",
-  "count": 7,
+  "count": 1,
   "window_days": 7,
   "journals": [
     "Foot & Ankle Int",
@@ -17,95 +17,17 @@
   ],
   "articles": [
     {
-      "id": "pmid-42538004",
-      "title": "Preoperative predictors of patient-reported outcomes after joint-preserving forefoot surgery for rheumatoid arthritis : a case series.",
-      "journal": "BJJ",
-      "authors": "Etani Y, Noguchi T, Hirao M, Okamura G, Sugimoto A, Okada S, et al.",
-      "date": "2026-08-01",
-      "study_type": "Multicentre retrospective case series",
-      "population": "Patients with rheumatoid arthritis undergoing joint-preserving forefoot surgery",
-      "sample_size": "101 feet in 80 patients (79 female; mean age 65.8 years)",
-      "outcomes": "Patient-reported outcome measures using Self-Administered Foot Evaluation Questionnaire (SAFE-Q) scores pre- and post-surgery; postoperative median SAFE-Q score 84.8 compared to preoperative 48.9",
-      "take_home": "Forefoot surgery for rheumatoid arthritis significantly improved patient-reported foot function, with better outcomes in younger patients and those with higher preoperative SAFE-Q scores. Whilst predictive accuracy is limited, preoperative SAFE-Q score of 54 or above and age under 70 years were associated with achieving the best postoperative outcomes.",
-      "url": "https://doi.org/10.1302/0301-620X.108B8.BJJ-2025-1801.R1"
-    },
-    {
-      "id": "pmid-42532698",
-      "title": "Decompressive first metatarsal osteotomy for the treatment of Hallux rigidus: A systematic review.",
+      "id": "pmid-42567729",
+      "title": "Radiographic and clinical outcomes following modified L-reverse joint-preserving osteotomy for grade II hallux rigidus: A minimum 5-year follow-up.",
       "journal": "Foot Ankle Surg",
-      "authors": "Lewis TL, Dellis S, Matheron G, Akinfala M, Nouri A, Lam P, et al.",
-      "date": "2026-07-29",
-      "study_type": "Systematic review",
-      "population": "Patients with hallux rigidus (stiff big toe joint)",
-      "sample_size": "1293 feet across 30 studies",
-      "outcomes": "Pain reduction (VAS 5 points), function improvement (AOFAS 41 points), joint motion increase (26 degrees)",
-      "take_home": "Decompressive first metatarsal osteotomy combined with cheilectomy may help selected patients with early to moderate hallux rigidus, though the evidence quality is mostly low and it is unclear how much benefit comes from the osteotomy alone versus the cheilectomy. Benefits appear greatest in patients with specific foot structures and moderate disease.",
-      "url": "https://doi.org/10.1016/j.fas.2026.07.014"
-    },
-    {
-      "id": "pmid-42522326",
-      "title": "Minimal Clinically Important Difference for the FAAM-ADL Following Total Ankle Arthroplasty: Initial Estimates and Predictors of Achievement.",
-      "journal": "Foot & Ankle Int",
-      "authors": "Thomas GM, Green WA, Sommi C, West T, Simonson H, Hsu A, et al.",
-      "date": "2026-07-28",
-      "study_type": "Retrospective cohort study",
-      "population": "Patients who underwent primary total ankle arthroplasty for end-stage ankle osteoarthritis",
-      "sample_size": "164 primary total ankle arthroplasties",
-      "outcomes": "Minimal clinically important difference for the Foot and Ankle Ability Measure activities of daily living subscale (FAAM-ADL); predictors of achieving clinically meaningful improvement",
-      "take_home": "After ankle replacement, a meaningful improvement in daily function measures between 12.5 and 32.3 points on the FAAM-ADL scale depending on the measurement method used. Patients who started with lower function before surgery were more likely to achieve this meaningful improvement.",
-      "url": "https://doi.org/10.1177/10711007261454966"
-    },
-    {
-      "id": "pmid-42527204",
-      "title": "Enhancing orthopaedic resident competency in calcaneal fracture evaluation with Sanders classification: A comparative study of computed tomography, 3D printing and virtual reality.",
-      "journal": "Foot Ankle Surg",
-      "authors": "Ozer M, Davutluoglu E, Deniz Y, Karaismailoglu B, Aydingoz O",
-      "date": "2026-07-28",
-      "study_type": "Comparative diagnostic study",
-      "population": "Orthopaedic residents assessing calcaneal fractures",
-      "sample_size": "25 residents evaluating 33 calcaneal fractures",
-      "outcomes": "Interobserver agreement, classification accuracy, and resident preference for three imaging modalities (CT, 3D printing, virtual reality)",
-      "take_home": "CT scans were most accurate for classifying calcaneal fractures, whilst 3D printed models and virtual reality improved agreement between doctors and were preferred by residents. Using 3D methods alongside CT scans may help doctors better understand these complex fractures.",
-      "url": "https://doi.org/10.1016/j.fas.2026.07.013"
-    },
-    {
-      "id": "pmid-42520131",
-      "title": "An International Expert Consensus Statement Defining the Best Practices and Areas of Uncertainty Concerning the Use of Orthobiologics.",
-      "journal": "JBJS",
-      "authors": "Kunze KN, Morgan JT, Gerhold C, Nishioka T, Piuzzi NS, Chahla J",
-      "date": "2026-07-28",
-      "study_type": "Expert consensus study using Delphi method",
-      "population": "International panel of 24 orthopaedic experts",
-      "sample_size": "24 experts reviewing 77 statements across 3 rounds",
-      "outcomes": "Consensus statements on appropriate use of orthobiologics including platelet-rich plasma, bone marrow aspirate concentrate, amniotic derivatives, gene therapy and exosomes for musculoskeletal conditions",
-      "take_home": "International experts reached agreement on when various orthobiologic treatments should be used for conditions like osteoarthritis, tendon injuries and meniscus repair. However, experts agreed that how these treatments are prepared, what doses should be used and how to ensure quality remain unclear and need standardisation.",
-      "url": "https://doi.org/10.2106/JBJS.26.00723"
-    },
-    {
-      "id": "pmid-42504678",
-      "title": "Hybrid, Suture Button, and Screw Fixation for Syndesmotic Stabilization in Isolated Danis Weber Type B and C Fibular Fractures.",
-      "journal": "Foot & Ankle Int",
-      "authors": "Mercan N, Catal T",
-      "date": "2026-07-27",
-      "study_type": "Retrospective cohort study",
-      "population": "Patients with isolated Danis Weber type B or C fibular fractures requiring syndesmotic stabilisation",
-      "sample_size": "90 patients (28 hybrid, 31 suture button, 31 screw fixation)",
-      "outcomes": "Primary: 6-month Olerud Molander Ankle Score. Secondary: pain scores, ankle movement range, X-ray measurements, complications",
-      "take_home": "All three fixation methods (hybrid, suture button, and screw) produced similar ankle function scores at 6 months, with no clear winner. The study suggests hybrid fixation is a reasonable option, but more research is needed to determine if combining methods offers real benefits.",
-      "url": "https://doi.org/10.1177/10711007261462530"
-    },
-    {
-      "id": "pmid-42521545",
-      "title": "Sex differences in osteochondral lesions of the talus: Lesion size reflects patients dimensions, whereas morphology differs between sexes.",
-      "journal": "Foot Ankle Surg",
-      "authors": "Gianakos AL, Pijnacker JHM, Sierevelt IN, Geurts EJ, Dahmen J, Hemke R, et al.",
-      "date": "2026-07-26",
-      "study_type": "Cross-sectional cohort study",
-      "population": "Patients with symptomatic primary osteochondral lesions of the talus",
-      "sample_size": "250 patients (94 female, 156 male)",
-      "outcomes": "Lesion size, location and morphology assessed on computed tomography; sex differences in lesion characteristics",
-      "take_home": "Men had larger ankle lesions than women, but this difference was explained by men having larger ankles rather than any difference in the condition itself. Women were more likely to have crater-shaped lesions compared with men, which may affect treatment choices.",
-      "url": "https://doi.org/10.1016/j.fas.2026.07.012"
+      "authors": "Poggio D, Fontanellas A, Ledermann G, Vega R, Torner P, Segur JM, et al.",
+      "date": "2026-07-24",
+      "study_type": "Retrospective cohort study with prospective data collection",
+      "population": "Patients with grade II hallux rigidus (stiffness of the big toe joint)",
+      "sample_size": "51 patients",
+      "outcomes": "Radiographic measures (metatarsal length, joint angle, joint space width) and patient-reported function using Manchester-Oxford Foot Questionnaire",
+      "take_home": "A joint-preserving surgical technique using a modified L-reverse osteotomy improved symptoms and pain scores in patients with moderate hallux rigidus, with stable radiographic improvements lasting at least 5 years. Three patients needed further surgery.",
+      "url": "https://doi.org/10.1016/j.fas.2026.07.010"
     }
   ]
 }
