@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T14:52:12.531Z",
+  "generated_at": "2026-10-05T15:29:45.515Z",
   "is_seed": false,
   "subspecialty": "foot-ankle",
-  "count": 3,
+  "count": 4,
   "window_days": 7,
   "journals": [
     "Foot & Ankle Int",
@@ -17,43 +17,56 @@
   ],
   "articles": [
     {
-      "id": "pmid-42779084",
-      "title": "Diagnostic Validity of Ultrasound Imaging After Injection Into the Peroneal Tendon Sheath for Detecting Pseudo-Pouch Formation in Recurrent Peroneal Tendon Dislocation.",
-      "journal": "Foot & Ankle Int",
-      "authors": "Nishimura A, Nakazora S, Senga Y, Ito N, Hasegawa M",
-      "date": "2026-09-23",
-      "study_type": "Retrospective diagnostic case-control study",
-      "population": "Patients with surgically confirmed recurrent peroneal tendon dislocation and symptomatic controls without dislocation",
-      "sample_size": "23 ankles with recurrent peroneal tendon dislocation and 11 control ankles",
-      "outcomes": "Sensitivity, specificity and interobserver agreement for detecting pseudo-pouch formation using ultrasound-guided fluid injection compared with MRI, with intraoperative findings as reference standard",
-      "take_home": "Ultrasound imaging with fluid injection into the tendon sheath detected pseudo-pouches in all 21 cases where they were found at surgery, whilst MRI only detected them in 38% of cases. This technique may help diagnose recurrent peroneal tendon dislocation when the tendon dislocation cannot be reproduced during physical examination.",
-      "url": "https://doi.org/10.1177/10711007261481166"
+      "id": "pmid-42812010",
+      "title": "Nonoperative treatment of Achilles tendon rupture with 6- versus 8-week protocol: a single-center cohort study from Finland.",
+      "journal": "Acta Orthopaedica",
+      "authors": "Happonen V, Koivisto A, Harkonen A, Kroger H",
+      "date": "2026-09-30",
+      "study_type": "Single-centre cohort study comparing two treatment protocols",
+      "population": "Patients with Achilles tendon rupture treated at a university hospital in Finland",
+      "sample_size": "479 Achilles tendon ruptures, 429 treated nonoperatively (251 with 8-week protocol, 228 with 6-week protocol)",
+      "outcomes": "Re-rupture rates, need for surgery, treatment failure, postoperative complications",
+      "take_home": "A shorter 6-week nonoperative treatment protocol for Achilles tendon rupture had similar re-rupture rates and treatment failure compared to the traditional 8-week protocol. The authors suggest the shorter protocol may be effective, though larger studies in different populations are needed to confirm this finding.",
+      "url": "https://doi.org/10.2340/17453674.2026.46872"
     },
     {
-      "id": "pmid-42779081",
-      "title": "Hindfoot Varus Is Not Universally Present in Muller-Weiss Disease: A Clinical and Radiographic Analysis.",
+      "id": "pmid-42808558",
+      "title": "Plate-Based Operative Management of Medial Malleolar Stress Fractures in High-Level Basketball Players: A Short Report.",
       "journal": "Foot & Ankle Int",
-      "authors": "Bai W, Cheng C, Zheng H, Li Y, Zhu Y, Shen G",
-      "date": "2026-09-23",
+      "authors": "O'Malley E, Kim J, O'Malley M",
+      "date": "2026-09-29",
+      "study_type": "Retrospective case series",
+      "population": "High-level basketball players with medial malleolar stress fractures",
+      "sample_size": "10 players (8 professional, 2 collegiate)",
+      "outcomes": "Radiographic union, return to play, need for additional surgery",
+      "take_home": "All 10 basketball players achieved bone healing with plate-based surgery. Nine returned to competitive play within 4 months, though one player needed revision surgery after a re-injury.",
+      "url": "https://doi.org/10.1177/10711007261484949"
+    },
+    {
+      "id": "pmid-42803123",
+      "title": "Tibiotalocalcaneal Arthrodesis: Deformity Correction in Medically Comorbid Patients.",
+      "journal": "Foot & Ankle Int",
+      "authors": "Alecxih AG, Klouda CB, Duff JR, Parker RP, Wilson AW, Doty JF",
+      "date": "2026-09-28",
       "study_type": "Retrospective cohort study",
-      "population": "Patients diagnosed with Muller-Weiss disease",
-      "sample_size": "103 patients (160 feet), mean age 58.3 years, 92.2% women",
-      "outcomes": "Hindfoot alignment measured using Saltzman view, clinical hindfoot alignment angle, Kite angle, and lateral Meary-Tomeno angle",
-      "take_home": "Hindfoot varus is not a universal feature of Muller-Weiss disease, with 52.5% of patients showing non-varus alignment. Clinical hindfoot appearance and Kite angle measurements help predict hindfoot alignment and should guide individualised treatment planning.",
-      "url": "https://doi.org/10.1177/10711007261484951"
+      "population": "High-risk patients with end-stage ankle and hindfoot pathologies undergoing tibiotalocalcaneal arthrodesis, including those with diabetes and severe deformities",
+      "sample_size": "73 ankles in 69 patients",
+      "outcomes": "Postoperative complications, revision surgery rates, amputation rates, union rates, and hardware removal requirements",
+      "take_home": "Intramedullary nail surgery had a lower revision rate (4%) compared with open plating (28%), suggesting it may be more reliable in high-risk patients with diabetes and severe deformities. Both techniques had similar overall complication rates (29% versus 39%), though open plating required more revision procedures.",
+      "url": "https://doi.org/10.1177/10711007261484160"
     },
     {
-      "id": "pmid-42791182",
-      "title": "Gracilis tendon harvesting using the posterior approach for anatomical ankle ligament reconstruction: A rapid and reliable technique with minimal neurological complications.",
+      "id": "pmid-42805843",
+      "title": "The effect of restoring the native ankle on clinical outcome and range of motion in total ankle arthroplasty.",
       "journal": "Foot Ankle Surg",
-      "authors": "Khvesyuk M, Nogier A, van Rooij F, Beaudet P",
-      "date": "2026-09-10",
-      "study_type": "Case series",
-      "population": "Adults with chronic ankle instability undergoing anatomic ankle ligament reconstruction",
-      "sample_size": "31 patients",
-      "outcomes": "Donor site morbidity, neurological complications, and patient-reported discomfort at follow-up",
-      "take_home": "Gracilis tendon harvesting using a posterior approach for ankle ligament reconstruction is safe, with only one patient experiencing nerve-related symptoms and five experiencing temporary donor-site discomfort. Most patients had no complications from the harvesting procedure.",
-      "url": "https://doi.org/10.1016/j.fas.2026.09.006"
+      "authors": "Hintermann B, Susdorf R, Chelli S, Peterhans US, Ruiz R",
+      "date": "2026-09-23",
+      "study_type": "Retrospective review of prospectively collected data",
+      "population": "Patients who had primary total ankle replacement surgery",
+      "sample_size": "178 patients selected from 471 (89 best outcomes, 89 worst outcomes)",
+      "outcomes": "Range of motion, clinical outcomes, implant positioning measurements (talar height, talar radius, tibiotalar joint line level, anteroposterior talus position, lateral tibial surface angle)",
+      "take_home": "Patients with better outcomes after ankle replacement had greater increase in talar height and better range of motion, but implant positioning alone did not explain the differences between good and poor outcomes, suggesting other factors like soft tissue condition also matter.",
+      "url": "https://doi.org/10.1016/j.fas.2026.09.012"
     }
   ]
 }
