@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T14:15:48.059Z",
+  "generated_at": "2026-10-26T13:48:39.017Z",
   "is_seed": false,
   "subspecialty": "foot-ankle",
-  "count": 1,
+  "count": 4,
   "window_days": 7,
   "journals": [
     "Foot & Ankle Int",
@@ -17,17 +17,56 @@
   ],
   "articles": [
     {
-      "id": "pmid-42869684",
-      "title": "Impact of preoperative osteoporosis on short- and long-term complications following ankle ORIF: A multi-institutional propensity-matched analysis.",
+      "id": "pmid-42924624",
+      "title": "Joint-Preserving Percutaneous Kirschner-Wire Arthrorisis for Chronic Lesser Toe Metatarsophalangeal Dislocation.",
+      "journal": "Foot & Ankle Int",
+      "authors": "Piclet-Legre B, Frey-Ollivier S, Amsellem-Avines D, Helix-Giordanino M, Chausse T, Micicoi L",
+      "date": "2026-10-23",
+      "study_type": "Retrospective case series",
+      "population": "Patients with chronic lesser toe metatarsophalangeal joint dislocation (grades 3-4)",
+      "sample_size": "48 patients, 57 feet",
+      "outcomes": "European Foot and Ankle Society score, Simple Foot and Ankle Value score, patient satisfaction, footwear accommodation, radiographic consolidation, residual deformity, complications",
+      "take_home": "A minimally invasive surgical technique using Kirschner wires successfully stabilised chronic toe joint dislocations in 57 feet, with 94% of patients satisfied and 77% able to return to normal shoes, though postoperative stiffness occurred in about 40% of cases.",
+      "url": "https://doi.org/10.1177/10711007261491650"
+    },
+    {
+      "id": "pmid-42919750",
+      "title": "Functional surgery plus rehabilitation versus physical exercise alone for Charcot-Marie-Tooth cavovarus foot deformity: a retrospective cohort study.",
       "journal": "Foot Ankle Surg",
-      "authors": "Horani K, Lawand J, Wang J, Cione N, Ghali A, Ruelos VCB, et al.",
-      "date": "2026-10-05",
-      "study_type": "Multi-institutional propensity-matched cohort study",
-      "population": "Patients undergoing ankle ORIF with at least 2 years follow-up",
-      "sample_size": "4190 matched patients (with and without preoperative osteoporosis)",
-      "outcomes": "Device infection, DVT, transfusion requirement at 90 days; device infection and hardware removal at 2 years",
-      "take_home": "Patients with osteoporosis who have ankle fracture surgery experience more complications in the short term, including infections and blood clots, and are more likely to need their hardware removed within 2 years. The study suggests optimising bone health and using appropriate fixation methods for osteoporotic bone after surgery may help reduce these problems.",
-      "url": "https://doi.org/10.1016/j.fas.2026.10.004"
+      "authors": "Wei Z, Cui Z, Cao Y, Li X, Fu Y, Bai L, et al.",
+      "date": "2026-10-21",
+      "study_type": "Retrospective matched cohort study",
+      "population": "Patients with Charcot-Marie-Tooth cavovarus foot deformity",
+      "sample_size": "109 patients (55 functional surgery plus rehabilitation, 54 physical exercise alone)",
+      "outcomes": "10-Meter Walk Test, 6-Minute Walk Test, walking disability (Walk-12, FADI), quality of life (SF-12), ankle mobility, falls, callus formation, and mobility aid use",
+      "take_home": "Both surgery with rehabilitation and exercise alone improved walking ability in the short term. At 2 years, surgery with rehabilitation reduced falls, calluses, and need for mobility aids, whilst exercise alone did not produce these sustained improvements.",
+      "url": "https://doi.org/10.1016/j.fas.2026.10.012"
+    },
+    {
+      "id": "pmid-42919749",
+      "title": "Hallux valgus: The multidimensional perspective.",
+      "journal": "Foot Ankle Surg",
+      "authors": "Micicoi L, Bernasconi A, Welck M, Grun W, Vermorel PH, Luo E, et al.",
+      "date": "2026-10-20",
+      "study_type": "Retrospective case-control study",
+      "population": "People with symptomatic hallux valgus (bunions) and control participants without the condition",
+      "sample_size": "61 symptomatic hallux valgus feet and 60 control feet",
+      "outcomes": "Diagnostic accuracy of a new multidimensional metric (MDHV) combining three measurements of bunion deformity, compared with individual measurements",
+      "take_home": "A new combined measurement method that uses three different angles to assess bunions was more accurate at identifying the condition than any single measurement alone. However, this measurement tool helps assess how severe a bunion is but does not determine whether someone needs surgery, which remains a clinical decision.",
+      "url": "https://doi.org/10.1016/j.fas.2026.10.011"
+    },
+    {
+      "id": "pmid-42918634",
+      "title": "Ultrasound-guided hyaluronic acid injection for ankle osteoarthritis and osteochondral lesions of the talus: A retrospective clinical series.",
+      "journal": "Foot Ankle Surg",
+      "authors": "Benegas I, Vargas E, de Albert M, Altayo M, Duarri G, Maled I, et al.",
+      "date": "2026-10-18",
+      "study_type": "Retrospective clinical series",
+      "population": "Patients with ankle osteoarthritis and osteochondral lesions of the talus",
+      "sample_size": "44 ankles",
+      "outcomes": "Pain relief measured by visual analogue scale at 3 and 6 months; proportion of patients achieving meaningful pain improvement; time before needing further treatment",
+      "take_home": "Ultrasound-guided hyaluronic acid injections reduced ankle pain in the short term, with about two-thirds of patients experiencing meaningful improvement at 3 months. Most patients were able to delay further treatment for around 2 years.",
+      "url": "https://doi.org/10.1016/j.fas.2026.10.006"
     }
   ]
 }
